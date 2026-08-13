@@ -1,0 +1,53 @@
+---
+name: 提交插件
+description: 向目录提交一个新的 DeepSeek Harness 插件
+title: "[新增插件] 插件名"
+labels: ["new-plugin"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 插件名
+      placeholder: 例如 dsh-agent-teams
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub 仓库地址
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: npm
+    attributes:
+      label: npm 包名（可选）
+      placeholder: 例如 dsh-agent-teams
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - 🛠️ 工具类 Tools
+        - 🧩 技能类 Skills
+        - 🔌 MCP 接入
+        - 🎨 Web UI / 皮肤 / 主题
+        - 🖥️ 桌面端 / TUI / 移动端
+        - 🤖 Agent 编排 / 多 Agent
+        - 🧠 上下文 / 记忆
+        - 👁️ 多模态 / 视觉
+        - 🔁 工作流 / 自动化
+        - 📡 通知 / 渠道 / 远程
+        - 🌐 浏览器 / 搜索
+        - 🏗️ 基础设施 / 插件管理 / 开发工具
+        - 🎮 娱乐 / 其他
+        - 🏛️ 官方核心与元项目
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 一句话描述
+      placeholder: 这个插件解决什么问题？
+    validations:
+      required: true
