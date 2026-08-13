@@ -25,7 +25,7 @@
 - [插件名](https://github.com/owner/repo) — 一句话描述
 ```
 
-可选附加信息（星标 ⭐、打包形态 `plugin/bundle/profile/skill/mcp/channel/infra/desktop/tui/skin`、两代协议 `static(.dsh-plugin)/dynamic(dsh.plugin.json)`）。
+可选附加信息（星标 ⭐、安装命令 `` `dsh plugin add <pkg>` ``、状态标记 `⚠️ 公开性待核实` / `（已归档）` / `（弃用）`、打包形态 `plugin/bundle/profile/skill/mcp/channel/infra/desktop/tui/skin`、两代协议 `static(.dsh-plugin)/dynamic(dsh.plugin.json)`）。
 
 ## 与机器可读数据的关系
 

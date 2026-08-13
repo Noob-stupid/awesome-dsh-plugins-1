@@ -1,0 +1,45 @@
+name: sync-data
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'   # 每 12 小时
+  workflow_dispatch:          # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch upstream seed data
+        run: |
+          curl -fsSL -o /tmp/upstream.json \
+            https://raw.githubusercontent.com/awesome-dsh-plugin/awesome-dsh-plugin/main/data/plugins.json || exit 0
+          node -e "JSON.parse(require('fs').readFileSync('/tmp/upstream.json','utf8'))"
+
+      - name: Update data/plugins.json if changed
+        run: |
+          if ! cmp -s /tmp/upstream.json data/plugins.json; then
+            cp /tmp/upstream.json data/plugins.json
+            echo "changed=true" >> "$GITHUB_ENV"
+          else
+            echo "changed=false" >> "$GITHUB_ENV"
+          fi
+
+      - name: Rebuild enriched category files
+        if: env.changed == 'true'
+        run: |
+          node scripts/enrich.mjs
+          node scripts/gen-index.mjs
+
+      - name: Commit and push
+        if: env.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/plugins.json plugins/ INDEX.md
+          git commit -m "chore: sync seed data from upstream" || exit 0
+          git push

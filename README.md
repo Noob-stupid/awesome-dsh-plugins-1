@@ -2,96 +2,91 @@
 
 ![plugins](https://img.shields.io/badge/plugins-280+-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
-> DeepSeek Harness（`dsh`）开源插件精选目录 —— 一个「**直接在仓库里看、点链接就能跳转**」的插件索引，收录可安装的社区插件，按功能分类组织。
->
-> *A curated directory of community plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — browse in-repo, one click to jump.*
+**English** · [中文版](README.zh.md)
 
-[快速开始](#快速开始) · [热门插件](#热门插件) · [分类目录](#分类目录) · [数据](data/README.md) · [贡献](CONTRIBUTING.md) · [分类定义](docs/taxonomy.md) · [English](#english)
+> A curated, community-maintained directory of plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) — browse in-repo, one click to jump to each plugin's repository.
+>
+> 中文说明见 [README.zh.md](README.zh.md)。
+
+[Quick Start](#quick-start) · [Hot Plugins](#hot-plugins) · [Categories](#categories) · [Data](data/README.md) · [Contributing](CONTRIBUTING.md) · [Taxonomy](docs/taxonomy.md)
 
 ---
 
-## 这是什么
+## What is this
 
-[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 是 DeepSeek 开源的 agent harness——既是可直接运行的 Coding Agent，底层又是一套「**一切皆插件**」的框架：模型、工具、沙箱、会话存储、UI、乃至 Agent Loop 本身都是插件。
+[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) is DeepSeek's open-source agent harness — a ready-to-run coding agent whose core is an "**everything is a plugin**" framework: models, tools, sandboxes, session storage, the UI, and even the agent loop itself are plugins.
 
-本仓库是一个**社区维护的插件索引**，只做一件事：**把散落在 GitHub 上的 DSH 插件按分类整理好，让你直接在仓库里浏览、点击跳转到对应仓库**。不做站点、不做运行时，纯粹是一份可读、可跳转、可贡献的目录。
+This repository is a **community-maintained plugin index**. It does one thing: organizes DSH plugins scattered across GitHub into browsable categories. No website, no runtime — just a readable, clickable, contributable directory.
 
-- 官方安装：`dsh plugin --profile <name> add <pkg>`（转发 pnpm，支持 npm / git / tarball）
-- 官方发现渠道：npm + GitHub [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic（**无官方内置市场**）
+- Official install: `dsh plugin --profile <name> add <pkg>` (forwards to pnpm; supports npm / git / tarball)
+- Official discovery: npm + the GitHub [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic (there is **no built-in marketplace**)
 
-## 快速开始
+## Quick Start
 
-三种用法，任选其一：
+Three ways to use this directory:
 
-1. **浏览**：看下面的[分类目录](#分类目录)，点进任意分类文件，每条插件点链接直达 GitHub 仓库。
-2. **搜索**：在仓库页按 `t`（或 `Ctrl+F`）搜关键词，如 `mcp`、`记忆`、`TUI`、`飞书`、`多Agent`。
-3. **机器消费**：直接读 [`data/plugins.json`](data/plugins.json)（334 条结构化数据，字段说明见 [data/README.md](data/README.md)）。
+1. **Browse** — jump into any category below; each entry links straight to its GitHub repo.
+2. **Search** — press `t` (or `Ctrl+F`) on the repo page and search keywords like `mcp`, `memory`, `TUI`, `multi-agent`.
+3. **Consume programmatically** — read [`data/plugins.json`](data/plugins.json) (334 structured entries; field docs in [data/README.md](data/README.md)).
 
-## 热门插件
+## Hot Plugins
 
-按 GitHub star 排序的社区热门（数据快照 2026-08）：
+Top community plugins by GitHub stars (snapshot 2026-08):
 
-1. [modlens](https://github.com/liustack/modlens) — DSH 首个视觉插件，粘贴图片返回结构化 JSON 证据 ⭐696
-2. [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui) — Claude Code 风格全屏终端 TUI ⭐192
-3. [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — 纯文本模型的视觉工具箱 ⭐144
-4. [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — 侧边栏完整工作台（文件/终端/Git/子代理）⭐123
-5. [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — 2005 风格整活广告皮肤 ⭐103
-6. [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — 终端 TUI（天枢）⭐73
-7. [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) — 多智能体团队协作 ⭐68
-8. [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) — 社区发行版（TUI/桌面/Web 三形态）⭐62
-9. [dsh_workflow](https://github.com/icetomoyo/dsh_workflow) — 多 Agent 调度 Workflow 层 ⭐35
-10. [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) — 设计预览与编辑 ⭐33
+1. [modlens](https://github.com/liustack/modlens) — the first vision plugin for DSH; paste an image, get structured JSON evidence ⭐696
+2. [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui) — Claude Code-style full-screen terminal TUI ⭐192
+3. [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — vision toolkit for text-only models ⭐144
+4. [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — a full sidebar workbench (files / terminal / git / subagents) ⭐123
+5. [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — 2005-style gag ad skins ⭐103
+6. [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — terminal TUI ⭐73
+7. [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) — multi-agent team collaboration ⭐68
+8. [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) — community distro (TUI / desktop / web) ⭐62
+9. [dsh_workflow](https://github.com/icetomoyo/dsh_workflow) — multi-agent workflow layer ⭐35
+10. [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) — design preview & editing ⭐33
 
-## 统计
+## Stats
 
-| 指标 | 数值 |
+| Metric | Value |
 |---|---|
-| 收录插件条目 | **280+** 条（去重后 250+ 个插件） |
-| 分类 | **14** 个一级分类 |
-| 生态规模参考 | topic `dsh-plugin` 约 505 仓库 · 本仓库种子数据 334 · 兼容雷达追踪 286+ |
+| Plugins listed | **280+** entries (250+ unique) |
+| Categories | **14** top-level |
+| Ecosystem reference | `dsh-plugin` topic ~505 repos · seed data 334 · compat radar 286+ |
 
-## 分类目录
+## Categories
 
-| # | 分类 | 说明 | 文件 |
+| # | Category | Description | File |
 |---|---|---|---|
-| 1 | 🛠️ [工具类 Tools](plugins/tools.md) | 确定性工具集、git、测试、安全删除等 | `plugins/tools.md` |
-| 2 | 🧩 [技能类 Skills](plugins/skills.md) | 工程纪律、技能迁移、书转技能等 | `plugins/skills.md` |
-| 3 | 🔌 [MCP 接入](plugins/mcp.md) | MCP 服务器管理、webfetch、视觉 MCP 等 | `plugins/mcp.md` |
-| 4 | 🎨 [Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 皮肤、主题、生成式 UI、输入增强等 | `plugins/ui-themes.md` |
-| 5 | 🖥️ [桌面端 / TUI / 移动端](plugins/desktop-tui-mobile.md) | 桌面壳、终端 TUI、移动端、桌宠等 | `plugins/desktop-tui-mobile.md` |
-| 6 | 🤖 [Agent 编排 / 多 Agent](plugins/agent-orchestration.md) | 多 Agent 团队、工作流、跨会话消息等 | `plugins/agent-orchestration.md` |
-| 7 | 🧠 [上下文 / 记忆](plugins/context-memory.md) | 长期记忆、上下文压缩/审计、蒸馏等 | `plugins/context-memory.md` |
-| 8 | 👁️ [多模态 / 视觉](plugins/multimodal.md) | 视觉工具箱、OCR、截图对比、电脑控制等 | `plugins/multimodal.md` |
-| 9 | 🔁 [工作流 / 自动化](plugins/workflow-automation.md) | 深度研究、定时任务、条件唤醒等 | `plugins/workflow-automation.md` |
-| 10 | 📡 [通知 / 渠道 / 远程](plugins/notifications-channels.md) | Telegram/微信/飞书机器人、SSH 等 | `plugins/notifications-channels.md` |
-| 11 | 🌐 [浏览器 / 搜索](plugins/browser-search.md) | 浏览器操控、网页抓取、搜索提供方等 | `plugins/browser-search.md` |
-| 12 | 🏗️ [基础设施 / 插件管理 / 开发工具](plugins/infrastructure-dev.md) | 插件管理器、健康检查、沙箱、遥测等 | `plugins/infrastructure-dev.md` |
-| 13 | 🎮 [娱乐 / 其他](plugins/fun-other.md) | 小游戏、桌宠、股票、教学、设计等 | `plugins/fun-other.md` |
-| 14 | 🏛️ [官方核心与元项目](plugins/official-meta.md) | 核心仓库、awesome 列表、兼容雷达、hub | `plugins/official-meta.md` |
+| 1 | 🛠️ [Tools](plugins/tools.md) | deterministic tools, git, test runners, safe delete | `plugins/tools.md` |
+| 2 | 🧩 [Skills](plugins/skills.md) | engineering discipline, skill migration, book-to-skill | `plugins/skills.md` |
+| 3 | 🔌 [MCP](plugins/mcp.md) | MCP server management, webfetch, vision MCP | `plugins/mcp.md` |
+| 4 | 🎨 [UI / Skins / Themes](plugins/ui-themes.md) | skins, themes, generative UI, input enhancements | `plugins/ui-themes.md` |
+| 5 | 🖥️ [Desktop / TUI / Mobile](plugins/desktop-tui-mobile.md) | desktop shells, terminal TUI, mobile, companions | `plugins/desktop-tui-mobile.md` |
+| 6 | 🤖 [Agent Orchestration / Multi-Agent](plugins/agent-orchestration.md) | agent teams, plan/execute, A2A, cross-session messaging | `plugins/agent-orchestration.md` |
+| 7 | 🧠 [Context / Memory](plugins/context-memory.md) | long-term memory, context compression/audit, session control | `plugins/context-memory.md` |
+| 8 | 👁️ [Multimodal / Vision](plugins/multimodal.md) | image Q&A, OCR, screenshots, computer use | `plugins/multimodal.md` |
+| 9 | 🔁 [Workflow / Automation](plugins/workflow-automation.md) | deep research, cron, condition wakeup, review loops | `plugins/workflow-automation.md` |
+| 10 | 📡 [Notifications / Channels / Remote](plugins/notifications-channels.md) | Telegram/WeChat/Feishu bots, SSH, desktop notify | `plugins/notifications-channels.md` |
+| 11 | 🌐 [Browser / Search](plugins/browser-search.md) | browser control, scraping, search providers | `plugins/browser-search.md` |
+| 12 | 🏗️ [Infra / Plugin Mgmt / Dev Tools](plugins/infrastructure-dev.md) | plugin managers, health checks, sandboxes, telemetry | `plugins/infrastructure-dev.md` |
+| 13 | 🎮 [Fun / Other](plugins/fun-other.md) | games, pets, stickers, learning, design | `plugins/fun-other.md` |
+| 14 | 🏛️ [Official & Meta](plugins/official-meta.md) | core repo, awesome lists, compat radar, community hub | `plugins/official-meta.md` |
 
-> 每个分类文件里，条目统一为 `[插件名](仓库链接) — 一句话描述`，点击即跳转到 GitHub 仓库。
+> Every entry in a category file is `[name](repo-link) — one-line description`; click to jump to the GitHub repo. See the full flat index in [INDEX.md](INDEX.md).
 
-## 数据
+## Data
 
-机器可读的插件数据在 [`data/plugins.json`](data/plugins.json)（334 条种子数据，含 name / repo / npm / star / license / 分类），字段说明与消费示例见 [`data/README.md`](data/README.md)。分类定义见 [`docs/taxonomy.md`](docs/taxonomy.md)。
+Machine-readable data lives in [`data/plugins.json`](data/plugins.json) (334 seed entries with name / repo / npm / star / license / category); field docs and consumption examples in [`data/README.md`](data/README.md). Category definitions in [`docs/taxonomy.md`](docs/taxonomy.md).
 
-## 贡献
+## Contributing
 
-欢迎提交你的插件，或修正分类/描述。详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+Contributions welcome — add your plugin, fix a category or a description. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-请为你的插件仓库添加 [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic，方便大家发现。
+Please add the [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic to your plugin repo so others can find it.
 
-## 免责声明
+## Disclaimer
 
-本仓库是社区维护的索引，**收录不代表安全性、质量或兼容性背书**。插件由各自作者开发维护；安装插件即在你的机器上运行第三方代码，请自行审阅源码、风险自担。本仓库与 DeepSeek 无隶属关系。
+This is a community-maintained index. **Listing does not imply safety, quality, or compatibility endorsement.** Plugins are developed and maintained by their authors; installing a plugin means running third-party code on your machine — review the source and proceed at your own risk. This repository is not affiliated with DeepSeek.
 
 ## License
 
-代码 [MIT](LICENSE)；内容 [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。
-
----
-
-<a name="english"></a>
-## English
-
-A community-maintained directory of open-source plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`). Browse by category in the table above — each entry links directly to its GitHub repository. No website, no runtime: just a readable, clickable, contributable index. 100+ plugins across 14 categories.
+Code [MIT](LICENSE); content [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

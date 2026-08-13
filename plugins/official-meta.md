@@ -37,4 +37,10 @@
 - [dsh-plugin-guide](https://github.com/dsh-external/dsh-plugin-guide) — DSH 插件开发指南：从零到精通 ⚠️ 公开性待核实
 - [dsh-cordis-rocks](https://github.com/dsh-external/dsh-cordis-rocks) — 16 章可逆 Cordis 配套教程 ⚠️ 公开性待核实
 - [dsh-cordis-examples](https://github.com/dsh-external/dsh-cordis-examples) — 最小原生 DSH/Cordis 扩展示例 ⚠️ 公开性待核实
-- [plugin-template](https://github.com/omdsh-dev/plugin-template) — 插件模板仓库（基于 turtle-ui）
+- [plugin-template](https://github.com/omdsh-dev/plugin-template) — 插件模板仓库（基于 turtle-ui） ⭐4 · `dsh plugin add @your-scope/dsh-plugin-template`
+
+
+<!-- nav:start -->
+---
+← [上一类: 🎮 娱乐 / 其他](fun-other.md) · [返回目录](../README.md) · [下一类: 🛠️ 工具类 Tools](tools.md) →
+<!-- nav:end -->
