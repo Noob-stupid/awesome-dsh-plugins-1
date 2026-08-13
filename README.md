@@ -1,10 +1,12 @@
 # Awesome DeepSeek Harness Plugins
 
+![plugins](https://img.shields.io/badge/plugins-280+-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+
 > DeepSeek Harness（`dsh`）开源插件精选目录 —— 一个「**直接在仓库里看、点链接就能跳转**」的插件索引，收录可安装的社区插件，按功能分类组织。
 >
 > *A curated directory of community plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — browse in-repo, one click to jump.*
 
-[English abstract](#english) · [分类目录](#分类目录) · [贡献](CONTRIBUTING.md) · [分类定义](docs/taxonomy.md)
+[快速开始](#快速开始) · [热门插件](#热门插件) · [分类目录](#分类目录) · [数据](data/README.md) · [贡献](CONTRIBUTING.md) · [分类定义](docs/taxonomy.md) · [English](#english)
 
 ---
 
@@ -16,6 +18,29 @@
 
 - 官方安装：`dsh plugin --profile <name> add <pkg>`（转发 pnpm，支持 npm / git / tarball）
 - 官方发现渠道：npm + GitHub [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic（**无官方内置市场**）
+
+## 快速开始
+
+三种用法，任选其一：
+
+1. **浏览**：看下面的[分类目录](#分类目录)，点进任意分类文件，每条插件点链接直达 GitHub 仓库。
+2. **搜索**：在仓库页按 `t`（或 `Ctrl+F`）搜关键词，如 `mcp`、`记忆`、`TUI`、`飞书`、`多Agent`。
+3. **机器消费**：直接读 [`data/plugins.json`](data/plugins.json)（334 条结构化数据，字段说明见 [data/README.md](data/README.md)）。
+
+## 热门插件
+
+按 GitHub star 排序的社区热门（数据快照 2026-08）：
+
+1. [modlens](https://github.com/liustack/modlens) — DSH 首个视觉插件，粘贴图片返回结构化 JSON 证据 ⭐696
+2. [dsh-cc-tui](https://github.com/ccch1mneyyy/dsh-cc-tui) — Claude Code 风格全屏终端 TUI ⭐192
+3. [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — 纯文本模型的视觉工具箱 ⭐144
+4. [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — 侧边栏完整工作台（文件/终端/Git/子代理）⭐123
+5. [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — 2005 风格整活广告皮肤 ⭐103
+6. [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — 终端 TUI（天枢）⭐73
+7. [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) — 多智能体团队协作 ⭐68
+8. [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) — 社区发行版（TUI/桌面/Web 三形态）⭐62
+9. [dsh_workflow](https://github.com/icetomoyo/dsh_workflow) — 多 Agent 调度 Workflow 层 ⭐35
+10. [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) — 设计预览与编辑 ⭐33
 
 ## 统计
 
@@ -48,7 +73,7 @@
 
 ## 数据
 
-机器可读的插件数据在 [`data/plugins.json`](data/plugins.json)（334 条种子数据，含 name / repo / npm / star / license / 分类）。分类定义见 [`docs/taxonomy.md`](docs/taxonomy.md)。
+机器可读的插件数据在 [`data/plugins.json`](data/plugins.json)（334 条种子数据，含 name / repo / npm / star / license / 分类），字段说明与消费示例见 [`data/README.md`](data/README.md)。分类定义见 [`docs/taxonomy.md`](docs/taxonomy.md)。
 
 ## 贡献
 

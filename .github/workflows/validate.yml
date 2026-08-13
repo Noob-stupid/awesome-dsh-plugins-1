@@ -1,0 +1,25 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate data/plugins.json
+        run: |
+          node -e "
+            const d = require('./data/plugins.json');
+            if (!Array.isArray(d.plugins)) throw new Error('plugins must be an array');
+            const missing = d.plugins.filter(p => !p.fullName || !p.url).length;
+            if (missing) throw new Error(missing + ' entries missing fullName/url');
+            console.log('OK: plugins =', d.plugins.length);
+          "
