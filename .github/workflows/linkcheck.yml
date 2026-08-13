@@ -1,0 +1,35 @@
+name: linkcheck
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'   # 每周一 03:00 UTC
+  workflow_dispatch:        # 支持手动触发
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --accept 200,201,204,301,302,304,307,308 --timeout 20 --max-redirects 3 --exclude 'img\.shields\.io' '**/*.md'
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open issue on dead links
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "🔗 死链检测报告（自动）"
+          content-filepath: ./lychee/out.md
+          labels: |
+            report
+            automated

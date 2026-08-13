@@ -23,6 +23,16 @@
 - ✅ 官方安装：`dsh plugin --profile <name> add <pkg>`（转发 pnpm，支持 npm / git / tarball）
 - ✅ 官方发现渠道：npm + GitHub [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic（**无官方内置市场**）
 
+## ✨ 为什么选这个目录
+
+已经有多个 `awesome-dsh-*` 列表，本目录的不同在于：
+
+- **14 个手选自研分类**，边界清晰（见 [分类定义](docs/taxonomy.md)），不是一锅乱炖
+- **每条附 star + 安装命令**，一眼判断热度、一键安装
+- **双语**（英文主 + 中文），一键切换
+- **README 内折叠浏览**，不用跳转就能看完全部分类
+- **机器可读数据**（[data/plugins.json](data/plugins.json)）+ 生成脚本 + 自动同步 CI
+
 ## ⚡ 快速开始
 
 三种用法，任选其一：
@@ -463,6 +473,22 @@ dsh plugin add dsh-cc-tui
 ```
 
 上方每条已收录插件都附有安装命令，形如 `` `dsh plugin add <npm包名>` ``。
+
+## 🛠️ 给插件开发者
+
+想自己写插件？一个最小的 DSH 插件就是一个导出 `name` + `apply` 的模块：
+
+```ts
+import type { Context } from '@deepseek-ai/cordis'
+export const name = 'hello-plugin'
+export function apply(ctx: Context) {
+  // 注册工具、命令、UI 节点……
+}
+```
+
+- 📖 官方文档：[第一个插件](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/index.zh.md) · [Cordis 入门](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/cordis-primer.zh.md)
+- 📦 发布：在 `package.json` 声明 `dsh.bundle`，然后 `dsh plugin add <你的包>`
+- 🔍 被发现：加 [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic，再按 [CONTRIBUTING](CONTRIBUTING.md) 提交到这里
 
 ## 💾 数据
 

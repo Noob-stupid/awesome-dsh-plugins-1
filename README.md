@@ -23,6 +23,16 @@ This repository is a **community-maintained plugin index**: it organizes DSH plu
 - ✅ Official install: `dsh plugin --profile <name> add <pkg>` (forwards to pnpm; npm / git / tarball)
 - ✅ Official discovery: npm + the GitHub [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic (**no built-in marketplace**)
 
+## ✨ Why this directory
+
+Several `awesome-dsh-*` lists already exist. This one is different:
+
+- **14 hand-curated categories** with clear boundaries ([taxonomy](docs/taxonomy.md)) — not a flat name dump
+- **Star counts + install commands** on every entry — judge popularity and install in one glance
+- **Bilingual** (English primary + 中文) with a one-click toggle
+- **Inline collapsible browsing** — expand every category right here in the README
+- **Machine-readable data** ([data/plugins.json](data/plugins.json)) + generation scripts + auto-sync CI
+
 ## ⚡ Quick Start
 
 Three ways to use this directory:
@@ -463,6 +473,22 @@ dsh plugin add dsh-cc-tui
 ```
 
 Each enriched entry above shows its install command, e.g. `` `dsh plugin add <npm-package>` ``.
+
+## 🛠️ For plugin developers
+
+Want to build your own plugin? A minimal DSH plugin is just a module exporting `name` + `apply`:
+
+```ts
+import type { Context } from '@deepseek-ai/cordis'
+export const name = 'hello-plugin'
+export function apply(ctx: Context) {
+  // register a tool, a command, a UI node, ...
+}
+```
+
+- 📖 Official docs: [first plugin](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/index.zh.md) · [Cordis primer](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/cordis-primer.zh.md)
+- 📦 Publish: declare `dsh.bundle` in `package.json`, then `dsh plugin add <your-package>`
+- 🔍 Get discovered: add the [`dsh-plugin`](https://github.com/topics/dsh-plugin) topic, then submit it here (see [CONTRIBUTING](CONTRIBUTING.md))
 
 ## 💾 Data
 
