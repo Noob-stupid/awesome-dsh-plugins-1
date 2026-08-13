@@ -2,7 +2,7 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）开源插件精选目录 —— 社区维护、按功能分类、点链接直达仓库。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 280+ 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
 ![plugins](https://img.shields.io/badge/plugins-280+-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
@@ -492,7 +492,7 @@ export function apply(ctx: Context) {
 
 ## 💾 数据
 
-机器可读的插件数据在 [`data/plugins.json`](data/plugins.json)（334 条种子数据，含 name / repo / npm / star / license / 分类），字段说明与消费示例见 [`data/README.md`](data/README.md)。分类定义见 [`docs/taxonomy.md`](docs/taxonomy.md)。
+机器可读的插件数据在 [`data/plugins.json`](data/plugins.json)（334 条种子数据，含 name / repo / npm / star / license / 分类），字段说明与消费示例见 [`data/README.md`](data/README.md)。分类定义见 [`docs/taxonomy.md`](docs/taxonomy.md)。AI / LLM 可读入口见 [llms.txt](llms.txt)。
 
 ## 🤝 贡献
 

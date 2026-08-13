@@ -2,7 +2,7 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**The curated, community-maintained directory of plugins for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`).**
+**A curated directory of 280+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
 
 ![plugins](https://img.shields.io/badge/plugins-280+-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
@@ -492,7 +492,7 @@ export function apply(ctx: Context) {
 
 ## 💾 Data
 
-Machine-readable data lives in [`data/plugins.json`](data/plugins.json) (334 seed entries with name / repo / npm / star / license / category); field docs and consumption examples in [`data/README.md`](data/README.md). Category definitions in [`docs/taxonomy.md`](docs/taxonomy.md).
+Machine-readable data lives in [`data/plugins.json`](data/plugins.json) (334 seed entries with name / repo / npm / star / license / category); field docs and consumption examples in [`data/README.md`](data/README.md). Category definitions in [`docs/taxonomy.md`](docs/taxonomy.md). For AI agents / LLMs, see [llms.txt](llms.txt).
 
 ## 🤝 Contributing
 
