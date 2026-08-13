@@ -8,22 +8,8 @@ import { fileURLToPath } from 'node:url'
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const PLUGINS_DIR = join(ROOT, 'plugins')
 
-const CATEGORIES = [
-  { file: 'tools.md', en: '🛠️ Tools', zh: '🛠️ 工具类 Tools' },
-  { file: 'skills.md', en: '🧩 Skills', zh: '🧩 技能类 Skills' },
-  { file: 'mcp.md', en: '🔌 MCP', zh: '🔌 MCP 接入' },
-  { file: 'ui-themes.md', en: '🎨 UI / Skins / Themes', zh: '🎨 Web UI / 皮肤 / 主题' },
-  { file: 'desktop-tui-mobile.md', en: '🖥️ Desktop / TUI / Mobile', zh: '🖥️ 桌面端 / TUI / 移动端' },
-  { file: 'agent-orchestration.md', en: '🤖 Agent Orchestration', zh: '🤖 Agent 编排 / 多 Agent' },
-  { file: 'context-memory.md', en: '🧠 Context / Memory', zh: '🧠 上下文 / 记忆' },
-  { file: 'multimodal.md', en: '👁️ Multimodal / Vision', zh: '👁️ 多模态 / 视觉' },
-  { file: 'workflow-automation.md', en: '🔁 Workflow / Automation', zh: '🔁 工作流 / 自动化' },
-  { file: 'notifications-channels.md', en: '📡 Notifications / Channels', zh: '📡 通知 / 渠道 / 远程' },
-  { file: 'browser-search.md', en: '🌐 Browser / Search', zh: '🌐 浏览器 / 搜索' },
-  { file: 'infrastructure-dev.md', en: '🏗️ Infra / Plugin Mgmt', zh: '🏗️ 基础设施 / 插件管理 / 开发工具' },
-  { file: 'fun-other.md', en: '🎮 Fun / Other', zh: '🎮 娱乐 / 其他' },
-  { file: 'official-meta.md', en: '🏛️ Official & Meta', zh: '🏛️ 官方核心与元项目' },
-]
+const taxonomy = JSON.parse(readFileSync(join(ROOT, 'data', 'taxonomy.json'), 'utf8'))
+const CATEGORIES = taxonomy.categories.map((c) => ({ file: c.file, en: c.en, zh: c.zh }))
 
 const ENTRY_RE = /^-\s*\[[^\]]+\]\(https:\/\/github\.com\/[^)]+\)\s*—\s*.*$/
 
@@ -44,14 +30,18 @@ function buildBlocks(lang) {
 }
 
 function inject(readmePath, lang) {
-  let content = readFileSync(readmePath, 'utf8')
+  const content = readFileSync(readmePath, 'utf8')
   const { html, total } = buildBlocks(lang)
-  const replacement = `<!-- categories:start -->\n\n${html}\n\n<!-- categories:end -->`
-  const next = content.replace(/<!-- categories:start -->[\s\S]*?<!-- categories:end -->/, replacement)
-  if (next === content) {
+  const startMarker = '<!-- categories:start -->'
+  const endMarker = '<!-- categories:end -->'
+  const start = content.indexOf(startMarker)
+  const end = content.indexOf(endMarker)
+  if (start === -1 || end === -1 || end < start) {
     throw new Error(`未在 ${readmePath} 找到 categories 标记`)
   }
-  writeFileSync(readmePath, next)
+  const head = content.slice(0, start + startMarker.length)
+  const tail = content.slice(end)
+  writeFileSync(readmePath, head + '\n\n' + html + '\n\n' + tail)
   return total
 }
 

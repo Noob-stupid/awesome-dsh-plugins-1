@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "categories": [
+    { "id": "tools", "file": "tools.md", "zh": "🛠️ 工具类 Tools", "en": "🛠️ Tools", "zh_desc": "确定性工具集、git、测试、安全删除等", "en_desc": "deterministic tools, git, test runners, safe delete" },
+    { "id": "skills", "file": "skills.md", "zh": "🧩 技能类 Skills", "en": "🧩 Skills", "zh_desc": "工程纪律、技能迁移、书转技能等", "en_desc": "engineering discipline, skill migration, book-to-skill" },
+    { "id": "mcp", "file": "mcp.md", "zh": "🔌 MCP 接入", "en": "🔌 MCP", "zh_desc": "MCP 服务器管理、webfetch、视觉 MCP 等", "en_desc": "MCP server management, webfetch, vision MCP" },
+    { "id": "ui-themes", "file": "ui-themes.md", "zh": "🎨 Web UI / 皮肤 / 主题", "en": "🎨 UI / Skins / Themes", "zh_desc": "皮肤、主题、生成式 UI、输入增强等", "en_desc": "skins, themes, generative UI, input enhancements" },
+    { "id": "desktop-tui-mobile", "file": "desktop-tui-mobile.md", "zh": "🖥️ 桌面端 / TUI / 移动端", "en": "🖥️ Desktop / TUI / Mobile", "zh_desc": "桌面壳、终端 TUI、移动端、桌宠等", "en_desc": "desktop shells, terminal TUI, mobile, companions" },
+    { "id": "agent-orchestration", "file": "agent-orchestration.md", "zh": "🤖 Agent 编排 / 多 Agent", "en": "🤖 Agent Orchestration", "zh_desc": "多 Agent 团队、工作流、跨会话消息等", "en_desc": "agent teams, plan/execute, A2A, cross-session messaging" },
+    { "id": "context-memory", "file": "context-memory.md", "zh": "🧠 上下文 / 记忆", "en": "🧠 Context / Memory", "zh_desc": "长期记忆、上下文压缩/审计、蒸馏等", "en_desc": "long-term memory, context compression/audit, session control" },
+    { "id": "multimodal", "file": "multimodal.md", "zh": "👁️ 多模态 / 视觉", "en": "👁️ Multimodal / Vision", "zh_desc": "视觉工具箱、OCR、截图对比、电脑控制等", "en_desc": "image Q&A, OCR, screenshots, computer use" },
+    { "id": "workflow-automation", "file": "workflow-automation.md", "zh": "🔁 工作流 / 自动化", "en": "🔁 Workflow / Automation", "zh_desc": "深度研究、定时任务、条件唤醒等", "en_desc": "deep research, cron, condition wakeup, review loops" },
+    { "id": "notifications-channels", "file": "notifications-channels.md", "zh": "📡 通知 / 渠道 / 远程", "en": "📡 Notifications / Channels", "zh_desc": "Telegram/微信/飞书机器人、SSH 等", "en_desc": "Telegram/WeChat/Feishu bots, SSH, desktop notify" },
+    { "id": "browser-search", "file": "browser-search.md", "zh": "🌐 浏览器 / 搜索", "en": "🌐 Browser / Search", "zh_desc": "浏览器操控、网页抓取、搜索提供方等", "en_desc": "browser control, scraping, search providers" },
+    { "id": "infrastructure-dev", "file": "infrastructure-dev.md", "zh": "🏗️ 基础设施 / 插件管理 / 开发工具", "en": "🏗️ Infra / Plugin Mgmt", "zh_desc": "插件管理器、健康检查、沙箱、遥测等", "en_desc": "plugin managers, health checks, sandboxes, telemetry" },
+    { "id": "fun-other", "file": "fun-other.md", "zh": "🎮 娱乐 / 其他", "en": "🎮 Fun / Other", "zh_desc": "小游戏、桌宠、股票、教学、设计等", "en_desc": "games, pets, stickers, learning, design" },
+    { "id": "official-meta", "file": "official-meta.md", "zh": "🏛️ 官方核心与元项目", "en": "🏛️ Official & Meta", "zh_desc": "核心仓库、awesome 列表、兼容雷达、hub", "en_desc": "core repo, awesome lists, compat radar, community hub" }
+  ]
+}

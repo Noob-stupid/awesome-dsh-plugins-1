@@ -15,7 +15,6 @@
 - [dsh-subagent-tree](https://github.com/dsh-external/dsh-subagent-tree) — 子代理树可视化 ⚠️ dsh-external，公开性待核实
 - [dsh-teamwork](https://github.com/dsh-external/dsh-teamwork) — 团队协作（cordis）⚠️ dsh-external，公开性待核实
 
-
 <!-- nav:start -->
 ---
 ← [上一类: 🖥️ 桌面端 / TUI / 移动端](desktop-tui-mobile.md) · [返回目录](../README.md) · [下一类: 🧠 上下文 / 记忆](context-memory.md) →

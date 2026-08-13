@@ -44,7 +44,6 @@
 - [session-teleport](https://github.com/omdsh-dev/session-teleport) — PostgreSQL 单写者会话交接服务 ⭐1 · `dsh plugin add @mattheliu/session-teleport`
 - [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) — session 关系型数据库持久化 ⭐2 · `dsh plugin add @morlay/session-persistence-rdb`
 
-
 <!-- nav:start -->
 ---
 ← [上一类: 🌐 浏览器 / 搜索](browser-search.md) · [返回目录](../README.md) · [下一类: 🎮 娱乐 / 其他](fun-other.md) →

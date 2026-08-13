@@ -16,7 +16,6 @@
 - [dsh-plugin-opencode-bridge](https://github.com/YYTbit/dsh-plugin-opencode-bridge) — 把 OpenCode skills/config 桥接进 DSH ⭐2 · `dsh plugin add dsh-plugin-opencode-bridge`
 - [dsh-plugin-pi-bridge](https://github.com/YYTbit/dsh-plugin-pi-bridge) — 把 pi skills/config 桥接进 DSH ⭐2 · `dsh plugin add dsh-plugin-pi-bridge`
 
-
 <!-- nav:start -->
 ---
 ← [上一类: 🛠️ 工具类 Tools](tools.md) · [返回目录](../README.md) · [下一类: 🔌 MCP 接入](mcp.md) →

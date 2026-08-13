@@ -33,7 +33,6 @@
 - [dsh-port-guard](https://github.com/PangYiMing/dsh-port-guard) — 端口占用处置（复用/切换/精确 kill） ⭐1 · `dsh plugin add dsh-port-guard`
 - [dsh-scout](https://github.com/omdsh-dev/dsh-scout) — 只读环境探测：运行环境/版本/资源/端口/服务/硬件/工作区 ⭐1 · `dsh plugin add @deepseek-ai/dsh-tool-scout`
 
-
 <!-- nav:start -->
 ---
 ← [上一类: 🏛️ 官方核心与元项目](official-meta.md) · [返回目录](../README.md) · [下一类: 🧩 技能类 Skills](skills.md) →

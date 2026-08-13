@@ -8,23 +8,9 @@ const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const PLUGINS_DIR = join(ROOT, 'plugins')
 const DATA_PATH = join(ROOT, 'data', 'plugins.json')
 
-// 分类顺序（与 README 目录一致）
-const CATEGORIES = [
-  ['tools.md', '🛠️ 工具类 Tools'],
-  ['skills.md', '🧩 技能类 Skills'],
-  ['mcp.md', '🔌 MCP 接入'],
-  ['ui-themes.md', '🎨 Web UI / 皮肤 / 主题'],
-  ['desktop-tui-mobile.md', '🖥️ 桌面端 / TUI / 移动端'],
-  ['agent-orchestration.md', '🤖 Agent 编排 / 多 Agent'],
-  ['context-memory.md', '🧠 上下文 / 记忆'],
-  ['multimodal.md', '👁️ 多模态 / 视觉'],
-  ['workflow-automation.md', '🔁 工作流 / 自动化'],
-  ['notifications-channels.md', '📡 通知 / 渠道 / 远程'],
-  ['browser-search.md', '🌐 浏览器 / 搜索'],
-  ['infrastructure-dev.md', '🏗️ 基础设施 / 插件管理 / 开发工具'],
-  ['fun-other.md', '🎮 娱乐 / 其他'],
-  ['official-meta.md', '🏛️ 官方核心与元项目'],
-]
+// 分类顺序（单一真源：data/taxonomy.json）
+const taxonomy = JSON.parse(readFileSync(join(ROOT, 'data', 'taxonomy.json'), 'utf8'))
+const CATEGORIES = taxonomy.categories.map((c) => [c.file, c.zh])
 
 const data = JSON.parse(readFileSync(DATA_PATH, 'utf8'))
 const byRepo = new Map()
@@ -46,8 +32,8 @@ for (let i = 0; i < CATEGORIES.length; i++) {
   const path = join(PLUGINS_DIR, file)
   let content = readFileSync(path, 'utf8')
 
-  // 去掉旧导航块（幂等）
-  content = content.replace(/<!-- nav:start -->[\s\S]*?<!-- nav:end -->\n?$/, '')
+  // 去掉旧导航块与尾部空行（幂等）
+  content = content.replace(/<!-- nav:start -->[\s\S]*?<!-- nav:end -->\n?$/, '').replace(/\n+$/, '')
 
   // 逐行处理插件条目
   const lines = content.split('\n')
@@ -81,13 +67,7 @@ for (let i = 0; i < CATEGORIES.length; i++) {
   // 上一类 / 下一类
   const prev = CATEGORIES[(i - 1 + CATEGORIES.length) % CATEGORIES.length]
   const next = CATEGORIES[(i + 1) % CATEGORIES.length]
-  const nav = [
-    '',
-    '<!-- nav:start -->',
-    '---',
-    `← [上一类: ${prev[1]}](${prev[0]}) · [返回目录](../README.md) · [下一类: ${next[1]}](${next[0]}) →`,
-    '<!-- nav:end -->',
-  ].join('\n')
+  const nav = `\n\n<!-- nav:start -->\n---\n← [上一类: ${prev[1]}](${prev[0]}) · [返回目录](../README.md) · [下一类: ${next[1]}](${next[0]}) →\n<!-- nav:end -->`
 
   writeFileSync(path, out.join('\n') + nav + '\n')
   console.log(`${file}: ${title}`)

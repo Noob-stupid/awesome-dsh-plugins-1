@@ -23,7 +23,6 @@
 - [dsh-tiered-approval](https://github.com/Elaina-real/dsh-tiered-approval) — 分层自动审查：静态规则 + LLM 审查 + 人工兜底 ⭐2 · `dsh plugin add dsh-tiered-approval`
 - [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) — 事件流审计面板：观察事件类型/分发模式/计数，帮插件作者理解内部 ⭐1 · `dsh plugin add @dsh-external/dsh-event-auditor`
 
-
 <!-- nav:start -->
 ---
 ← [上一类: 👁️ 多模态 / 视觉](multimodal.md) · [返回目录](../README.md) · [下一类: 📡 通知 / 渠道 / 远程](notifications-channels.md) →

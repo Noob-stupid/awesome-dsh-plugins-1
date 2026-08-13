@@ -44,7 +44,6 @@
 - [dsh-director-toolkit](https://github.com/lhmd/dsh-director-toolkit) — 3D 艺术家/技术美术方向包：Blender/Three.js/Houdini/C4D 方向指引 ⭐1 · `dsh plugin add @lhmd/dsh-director-toolkit`
 - [dsh-apple-mode](https://github.com/jihongboo/dsh-apple-mode) — Xcode AI 集成：26 个 Xcode MCP 工具 + Apple 平台技能 ⭐1 · `dsh plugin add dsh-apple-mode`
 
-
 <!-- nav:start -->
 ---
 ← [上一类: 🏗️ 基础设施 / 插件管理 / 开发工具](infrastructure-dev.md) · [返回目录](../README.md) · [下一类: 🏛️ 官方核心与元项目](official-meta.md) →

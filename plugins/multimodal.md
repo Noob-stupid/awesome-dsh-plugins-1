@@ -19,7 +19,6 @@
 - [dsh-hdc-bridge](https://github.com/1na-ko/dsh-hdc-bridge) — 原生鸿蒙设备桥：hdc 截图-看图-装包-验证闭环调试 ⭐2 · `dsh plugin add dsh-hdc-bridge`
 - [dsh-plugin-aigc-canvas](https://github.com/HuanLinOTO/dsh-plugin-aigc-canvas) — provider 无关的 AIGC HTTP 桥 + 自由画布 + ffmpeg 后处理 ⭐1 · `dsh plugin add @huanlin/dsh-plugin-aigc-canvas`
 
-
 <!-- nav:start -->
 ---
 ← [上一类: 🧠 上下文 / 记忆](context-memory.md) · [返回目录](../README.md) · [下一类: 🔁 工作流 / 自动化](workflow-automation.md) →

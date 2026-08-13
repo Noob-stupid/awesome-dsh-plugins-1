@@ -47,7 +47,6 @@
 - [web-components](https://github.com/omdsh-dev/web-components) — Web Components 支持 ⭐1 · `dsh plugin add @deepseek-ai/dsh-client-web-component`
 - [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) — OpenPencil 设计预览与编辑（Agent 操作真实设计画布） ⭐33 · `dsh plugin add @zseven-w/dsh-openpencil`
 
-
 <!-- nav:start -->
 ---
 ← [上一类: 🔌 MCP 接入](mcp.md) · [返回目录](../README.md) · [下一类: 🖥️ 桌面端 / TUI / 移动端](desktop-tui-mobile.md) →

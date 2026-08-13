@@ -24,7 +24,6 @@
 - [dsh-all-search](https://github.com/RealAlexandreAI/dsh-all-search) — AnySearch 网页搜索提供方（ctx.web） ⭐1 · `dsh plugin add dsh-all-search`
 - [modsearch](https://github.com/liustack/modsearch) — CLI 搜索工具：把搜索查询转结构化 web 证据 JSON
 
-
 <!-- nav:start -->
 ---
 ← [上一类: 📡 通知 / 渠道 / 远程](notifications-channels.md) · [返回目录](../README.md) · [下一类: 🏗️ 基础设施 / 插件管理 / 开发工具](infrastructure-dev.md) →
