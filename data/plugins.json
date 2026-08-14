@@ -33,7 +33,7 @@
       "fullName": "Bernardxu123/dsh-mobile-gate",
       "url": "https://github.com/Bernardxu123/dsh-mobile-gate",
       "description": "LAN mobile gateway: isolated child-process reverse proxy with first-visit approval, per-device token binding, rate limiting, and mobile layout injection (compact composer pills, randomUUID polyfill).",
-      "stars": 0,
+      "stars": 1,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -47,7 +47,7 @@
       "fullName": "Noob-stupid/dsh-plugin-hub",
       "url": "https://github.com/Noob-stupid/dsh-plugin-hub",
       "description": "A plugin management panel: one-click enable/disable for installed plugins plus a GitHub dsh-plugin marketplace with details and one-click installs.",
-      "stars": 7,
+      "stars": 8,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -75,7 +75,7 @@
       "fullName": "zoumutou/dsh-cost-balance",
       "url": "https://github.com/zoumutou/dsh-cost-balance",
       "description": "Collapsible iOS-style stats pill under the composer: session cost, DeepSeek account balance, cache-hit rate, and token usage in a frosted panel.",
-      "stars": 0,
+      "stars": 1,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -187,7 +187,7 @@
       "fullName": "alingalingling/ui-status-label",
       "url": "https://github.com/alingalingling/ui-status-label",
       "description": "Customize the \"deep diving\" thinking status label to anything you like.",
-      "stars": 29,
+      "stars": 30,
       "pushedAt": "2026-08-13T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -299,7 +299,7 @@
       "fullName": "omdsh-dev/dsh-annotation",
       "url": "https://github.com/omdsh-dev/dsh-annotation",
       "description": "Select text → annotate → send with your message; replies map back to each annotation.",
-      "stars": 39,
+      "stars": 40,
       "pushedAt": "2026-08-13T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -604,6 +604,20 @@
       }
     },
     {
+      "fullName": "GLFzr/dsh-opencode-go-quota",
+      "url": "https://github.com/GLFzr/dsh-opencode-go-quota",
+      "description": "OpenCode Go quota ring: click-to-cycle progress ring (5h/weekly/monthly) left of the model selector, colored by urgency, with reset countdowns on hover.",
+      "stars": 1,
+      "pushedAt": "2026-08-14T00:00:00Z",
+      "license": null,
+      "isPlugin": true,
+      "npmName": null,
+      "category": {
+        "id": "ui",
+        "title": "UI 增强 / UI Enhancements"
+      }
+    },
+    {
       "fullName": "Han-1413141/dsh-cost-meter",
       "url": "https://github.com/Han-1413141/dsh-cost-meter",
       "description": "Per-session and daily API cost, budget with usage %, official balance, history dashboard, and one-click official price sync with peak/off-peak pricing.",
@@ -677,7 +691,7 @@
       "fullName": "ccch1mneyyy/dsh-TUI",
       "url": "https://github.com/ccch1mneyyy/dsh-TUI",
       "description": "Claude Code-style full-screen terminal UI: pixel-whale header, live status line, and streaming thought expansion.",
-      "stars": 869,
+      "stars": 876,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -691,7 +705,7 @@
       "fullName": "omdsh-dev/DSH-better-sidebar",
       "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
       "description": "Full sidebar workbench with file rendering and editing, terminal, Git, and subagents; third-party plugins can register new tabs.",
-      "stars": 735,
+      "stars": 740,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -772,14 +786,14 @@
       }
     },
     {
-      "fullName": "zhu1090093659/dsh-web-ui",
-      "url": "https://github.com/zhu1090093659/dsh-web-ui",
+      "fullName": "zhu1090093659/dsh-web-ui#packages/dsh-web-ui-all",
+      "url": "https://github.com/zhu1090093659/dsh-web-ui/tree/main/packages/dsh-web-ui-all",
       "description": "Plugin and skin collection for the DSH Web UI: task board, Git graph, right-side panel, remote mobile UI, pet, live token stats, and a skin center.",
-      "stars": 1868,
+      "stars": 1880,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
-      "npmName": null,
+      "npmName": "@linxin666/dsh-web-ui-all",
       "category": {
         "id": "ui",
         "title": "UI 增强 / UI Enhancements"
@@ -915,7 +929,7 @@
       "fullName": "Jolly-J/dsh-deepseek-billing",
       "url": "https://github.com/Jolly-J/dsh-deepseek-billing",
       "description": "DeepSeek account balance and per-session cost card in the sidebar foot.",
-      "stars": 1,
+      "stars": 2,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -1122,10 +1136,24 @@
       }
     },
     {
+      "fullName": "ZichengGurrr/dsh-window#plugin",
+      "url": "https://github.com/ZichengGurrr/dsh-window/tree/main/plugin",
+      "description": "Native Windows desktop window (WebView2) for DSH: one-command install, auto-fetches the app zip from GitHub Releases, creates a desktop shortcut, and adds a desktop_launch tool to start it from chat.",
+      "stars": 0,
+      "pushedAt": "2026-08-14T00:00:00Z",
+      "license": null,
+      "isPlugin": true,
+      "npmName": null,
+      "category": {
+        "id": "ui",
+        "title": "UI 增强 / UI Enhancements"
+      }
+    },
+    {
       "fullName": "yyyyukari/dsh-plugin-workshop",
       "url": "https://github.com/yyyyukari/dsh-plugin-workshop",
       "description": "Steam Workshop-style in-app plugin browser: search, hot/newest/trending (7/30/90-day) sorting, Chinese keyword mapping, bilingual descriptions and README translation, plugin-signature filtering, and one-click install/update.",
-      "stars": 14,
+      "stars": 15,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -1139,7 +1167,7 @@
       "fullName": "zoumutou/dsh-web-preview",
       "url": "https://github.com/zoumutou/dsh-web-preview",
       "description": "Side web-preview panel: local static hosting, Markdown/code/image preview, one-click run of non-static projects (Cargo/npm/Go/Python) with live logs, web element mark & annotate, and link-click takeover into the side panel.",
-      "stars": 0,
+      "stars": 1,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -1167,7 +1195,7 @@
       "fullName": "Small-tailqwq/dsh-deep-whale",
       "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
       "description": "Whale-girl skin series for the DSH Web UI (maid-atelier).",
-      "stars": 570,
+      "stars": 574,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -1209,7 +1237,21 @@
       "fullName": "tianyhjg-lab/dsh-font",
       "url": "https://github.com/tianyhjg-lab/dsh-font",
       "description": "Font switcher for the DSH Web GUI: 99 UI fonts and 31 code fonts with CJK-Latin pairing stacks, instant apply and localStorage persistence.",
-      "stars": 0,
+      "stars": 1,
+      "pushedAt": "2026-08-14T00:00:00Z",
+      "license": null,
+      "isPlugin": true,
+      "npmName": null,
+      "category": {
+        "id": "theme",
+        "title": "主题与外观 / Themes & Appearance"
+      }
+    },
+    {
+      "fullName": "starslittle/dsh-blue-whale",
+      "url": "https://github.com/starslittle/dsh-blue-whale",
+      "description": "DeepSeek-Chat-style blue-whale skin: brand #4D6BFE on light and dark, following the built-in appearance.",
+      "stars": 2,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -1223,7 +1265,7 @@
       "fullName": "cindyguyuehu123/dsh-webchatlike",
       "url": "https://github.com/cindyguyuehu123/dsh-webchatlike",
       "description": "Bring the deepseek.com web/app chat experience to DSH: edit your prompt and regenerate answers in place, with a per-message <i/N> version pager (tree model, stable across conversations).",
-      "stars": 1,
+      "stars": 2,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -1307,7 +1349,7 @@
       "fullName": "hellodigua/dsh-share",
       "url": "https://github.com/hellodigua/dsh-share",
       "description": "Share your conversations with one click.",
-      "stars": 16,
+      "stars": 17,
       "pushedAt": "2026-08-13T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -1396,6 +1438,20 @@
       "license": null,
       "isPlugin": true,
       "npmName": null,
+      "category": {
+        "id": "session",
+        "title": "会话与消息 / Sessions & Messages"
+      }
+    },
+    {
+      "fullName": "PwnKY/dsh-session-link",
+      "url": "https://github.com/PwnKY/dsh-session-link",
+      "description": "Copy and open `dsh://` session deep links, or paste them into another conversation to inject a bounded, read-only snapshot of the referenced session.",
+      "stars": 0,
+      "pushedAt": "2026-08-14T00:00:00Z",
+      "license": null,
+      "isPlugin": true,
+      "npmName": "dsh-session-link",
       "category": {
         "id": "session",
         "title": "会话与消息 / Sessions & Messages"
@@ -1550,6 +1606,20 @@
       "license": null,
       "isPlugin": true,
       "npmName": null,
+      "category": {
+        "id": "session",
+        "title": "会话与消息 / Sessions & Messages"
+      }
+    },
+    {
+      "fullName": "huguangyu666/dsh-plugin-session-import",
+      "url": "https://github.com/huguangyu666/dsh-plugin-session-import",
+      "description": "Import claude-code / codex / reasonix / zcode chat history into dsh sessions: workspace binding, tool calls preserved, oversized-session protection, zcode compaction restore.",
+      "stars": 1,
+      "pushedAt": "2026-08-14T00:00:00Z",
+      "license": null,
+      "isPlugin": true,
+      "npmName": "dsh-plugin-session-import",
       "category": {
         "id": "session",
         "title": "会话与消息 / Sessions & Messages"
@@ -1825,7 +1895,7 @@
       "fullName": "Noelune/unified-agent-memory",
       "url": "https://github.com/Noelune/unified-agent-memory",
       "description": "One shared Obsidian vault for every agent: dependency-free Python core (search/promote/adjudicate/forget), vault template, dsh plugin (memory_search/show/submit/status).",
-      "stars": 1,
+      "stars": 2,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -1881,7 +1951,7 @@
       "fullName": "ysr666/dsh-vision-router",
       "url": "https://github.com/ysr666/dsh-vision-router",
       "description": "Free vision for text-only agents: built-in keyless vision chain plus pixel tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots); paste an image to use it.",
-      "stars": 47,
+      "stars": 48,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -1993,7 +2063,7 @@
       "fullName": "Anionex/dsh-vision-toolkit",
       "url": "https://github.com/Anionex/dsh-vision-toolkit",
       "description": "Vision tasks for text-only models: intent-aware image Q&A, long-screenshot OCR, UI reproduction, grounding, and pixel diff.",
-      "stars": 319,
+      "stars": 323,
       "pushedAt": "2026-08-13T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -2441,7 +2511,7 @@
       "fullName": "liustack/modlens",
       "url": "https://github.com/liustack/modlens",
       "description": "Vision bridge for text-only models: paste an image, get structured JSON evidence (OCR, layout, semantics).",
-      "stars": 1254,
+      "stars": 1261,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -2455,7 +2525,7 @@
       "fullName": "dsh-market/dsh-market",
       "url": "https://github.com/dsh-market/dsh-market",
       "description": "The plugin market inside DSH: a Settings page to browse and search the full community catalog by category, with confirmed one-click installs and an installed-plugins view.",
-      "stars": 39,
+      "stars": 43,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -2600,6 +2670,20 @@
       "license": null,
       "isPlugin": true,
       "npmName": null,
+      "category": {
+        "id": "tools",
+        "title": "工具与能力 / Tools & Capabilities"
+      }
+    },
+    {
+      "fullName": "Realyujie/dsh-us-stocks",
+      "url": "https://github.com/Realyujie/dsh-us-stocks",
+      "description": "US stock quotes, price history, financial statements, analyst consensus and news via yahoo-finance2.",
+      "stars": 1,
+      "pushedAt": "2026-08-14T00:00:00Z",
+      "license": null,
+      "isPlugin": true,
+      "npmName": "dsh-us-stocks",
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
@@ -2791,7 +2875,7 @@
       "fullName": "Sanqi-normal/dsh-webui-market-plugin",
       "url": "https://github.com/Sanqi-normal/dsh-webui-market-plugin",
       "description": "In-harness plugin market for the dsh web GUI: browse the awesome-dsh-plugin.com catalog and install/uninstall plugins into a profile from Settings → Plugins → Plugin Market.",
-      "stars": 23,
+      "stars": 26,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -3127,7 +3211,7 @@
       "fullName": "dfycaly98931680/dsh-trajectory-governance",
       "url": "https://github.com/dfycaly98931680/dsh-trajectory-governance",
       "description": "Agent trajectory governance and anomaly diagnosis: rebuilds flat session logs into multi-branch trajectory trees, detects loop deadlock, invalid retry, and goal drift, alerts with cost attribution, one-click interrupt and breakpoint fork via official APIs, independent GUI tab.",
-      "stars": 1,
+      "stars": 2,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -3169,7 +3253,7 @@
       "fullName": "zhaiyateng/dsh-design-skills",
       "url": "https://github.com/zhaiyateng/dsh-design-skills",
       "description": "Design-aesthetics skill pack (10 styles: dark SaaS, minimal white, neumorphism, brutalism, glassmorphism, Japanese minimal, bento grid, cyberpunk, vaporwave, art deco) with runnable landing-page demos: tokens, component rules, forbidden lists, and acceptance checklists per style.",
-      "stars": 0,
+      "stars": 1,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -3211,7 +3295,7 @@
       "fullName": "Cavan-Ou/hermes-dsh-collab",
       "url": "https://github.com/Cavan-Ou/hermes-dsh-collab",
       "description": "Hook DeepSeek Harness into a Hermes pipeline: dispatch-spec template, model-tier routing, orchestrator-run quality gates, git single-writer rule, as a SKILL.md pack (bundle installable).",
-      "stars": 1,
+      "stars": 2,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -3253,7 +3337,7 @@
       "fullName": "NanmiCoder/dsh-agent-teams",
       "url": "https://github.com/NanmiCoder/dsh-agent-teams",
       "description": "AgentTeams multi-agent teams.",
-      "stars": 243,
+      "stars": 244,
       "pushedAt": "2026-08-13T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -3589,7 +3673,7 @@
       "fullName": "Noelune/dsh-agent-relay",
       "url": "https://github.com/Noelune/dsh-agent-relay",
       "description": "Loopback-first multi-agent message relay: HMAC-authenticated broker plus dsh plugin (relay_send/recv/peers/history), zero-dependency CLI and Python clients, wire protocol v1.0.",
-      "stars": 1,
+      "stars": 2,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -3617,7 +3701,7 @@
       "fullName": "omdsh-dev/dsh-open-in-vscode",
       "url": "https://github.com/omdsh-dev/dsh-open-in-vscode",
       "description": "Open DSH workspace directories in VS Code directly from the web GUI.",
-      "stars": 39,
+      "stars": 40,
       "pushedAt": "2026-08-13T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -3922,6 +4006,20 @@
       }
     },
     {
+      "fullName": "huguangyu666/dsh-plugin-notify",
+      "url": "https://github.com/huguangyu666/dsh-plugin-notify",
+      "description": "Notification outbox: agent proactively notifies via toast / Chinese TTS voice / sound effects (explosion, victory, alarm), 60s confirmation window voice-calls you back, volume boost, settings panel.",
+      "stars": 2,
+      "pushedAt": "2026-08-14T00:00:00Z",
+      "license": null,
+      "isPlugin": true,
+      "npmName": "dsh-plugin-notify",
+      "category": {
+        "id": "notify",
+        "title": "通知与集成 / Notifications & Integrations"
+      }
+    },
+    {
       "fullName": "dylan121322/llm-adaptive",
       "url": "https://github.com/dylan121322/llm-adaptive",
       "description": "Adaptive model routing: per-request complexity classification with automatic provider routing.",
@@ -4034,6 +4132,20 @@
       }
     },
     {
+      "fullName": "SaiSenBox/dsh-boot-guard",
+      "url": "https://github.com/SaiSenBox/dsh-boot-guard",
+      "description": "Loader-independent startup recovery for DSH Web that detects likely broken plugins, temporarily skips them, and restores only Boot Guard-managed changes.",
+      "stars": 2,
+      "pushedAt": "2026-08-14T00:00:00Z",
+      "license": null,
+      "isPlugin": true,
+      "npmName": "dsh-boot-guard",
+      "category": {
+        "id": "dev",
+        "title": "开发与运行时 / Development & Runtime"
+      }
+    },
+    {
       "fullName": "leechen298/Code2Skill",
       "url": "https://github.com/leechen298/Code2Skill",
       "description": "Generate Functions, MCP tools, workflow Skills, and offline test packages from user-authorized source code.",
@@ -4093,7 +4205,7 @@
       "fullName": "Zhenyu98/dsh-context-doctor",
       "url": "https://github.com/Zhenyu98/dsh-context-doctor",
       "description": "Context injection audit: token costs of instruction chains / skill catalogs / tool schemas, duplicate and conflict detection.",
-      "stars": 6,
+      "stars": 7,
       "pushedAt": "2026-08-13T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -4373,7 +4485,7 @@
       "fullName": "Areium/dsh-fail-logger",
       "url": "https://github.com/Areium/dsh-fail-logger",
       "description": "Auto-log failed tool calls across native tools, PTC run_code, and inline invocations: dedup and count root causes into a skill so repeated mistakes fade.",
-      "stars": 6,
+      "stars": 7,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -4653,7 +4765,7 @@
       "fullName": "Leon0555/dsh-lan-access",
       "url": "https://github.com/Leon0555/dsh-lan-access",
       "description": "LAN access for the Web GUI: 0.0.0.0 bind plus a crypto.randomUUID polyfill for non-secure (LAN HTTP) contexts.",
-      "stars": 2,
+      "stars": 3,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -4682,6 +4794,34 @@
       "url": "https://github.com/jiayan-xu/dsh-ocr-review",
       "description": "Local AI code-review gate: review a workspace/branch/commit diff via the managed ocr.js, returning structured findings with token stats; gate mode fails on findings.",
       "stars": 0,
+      "pushedAt": "2026-08-14T00:00:00Z",
+      "license": null,
+      "isPlugin": true,
+      "npmName": null,
+      "category": {
+        "id": "dev",
+        "title": "开发与运行时 / Development & Runtime"
+      }
+    },
+    {
+      "fullName": "huguangyu666/dsh-store",
+      "url": "https://github.com/huguangyu666/dsh-store",
+      "description": "Plugin store: npm authoritative catalog + awesome curated list (550+ plugins, 11 categories), dsh-field quality verification, official `dsh plugin add/remove` one-click install, sidebar + settings entry.",
+      "stars": 1,
+      "pushedAt": "2026-08-14T00:00:00Z",
+      "license": null,
+      "isPlugin": true,
+      "npmName": "dsh-store",
+      "category": {
+        "id": "dev",
+        "title": "开发与运行时 / Development & Runtime"
+      }
+    },
+    {
+      "fullName": "liqichen/dsh-plugin-manager",
+      "url": "https://github.com/liqichen/dsh-plugin-manager",
+      "description": "GUI in the DSH settings panel: toggle/delete MCP servers, browse and trash skills, and list built-in plugin packages — hot-applied without restart.",
+      "stars": 1,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -4779,7 +4919,7 @@
       "fullName": "vlln/whale-girl",
       "url": "https://github.com/vlln/whale-girl",
       "description": "Desktop pet (QQ-pet style): floats in the corner, draggable, feedable, playable.",
-      "stars": 125,
+      "stars": 126,
       "pushedAt": "2026-08-13T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -4947,7 +5087,21 @@
       "fullName": "xiekai886/dsh-MusicPlayer",
       "url": "https://github.com/xiekai886/dsh-MusicPlayer",
       "description": "A collapsible/expandable draggable floating music player with NetEase Cloud Music playlist import and song/artist search — chat and listen at the same time.",
-      "stars": 0,
+      "stars": 1,
+      "pushedAt": "2026-08-14T00:00:00Z",
+      "license": null,
+      "isPlugin": true,
+      "npmName": null,
+      "category": {
+        "id": "fun",
+        "title": "娱乐 / Just for Fun"
+      }
+    },
+    {
+      "fullName": "609476965/dsh-LorebookMD",
+      "url": "https://github.com/609476965/dsh-LorebookMD",
+      "description": "Import SillyTavern/TavernAI character cards and world books, save them as local Markdown lore documents, and generate novel prose from your prompts with the world settings as reference.",
+      "stars": 2,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,

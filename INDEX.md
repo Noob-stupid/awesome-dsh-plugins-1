@@ -85,7 +85,7 @@
 | 插件 | 描述 | ⭐ | 安装命令 |
 |---|---|---|---|
 | [dsh-skins](https://github.com/Moeblack/dsh-skins) | Web UI 皮肤合集（含 harbor 夕港黄昏皮肤） | 1 | `dsh plugin add @dsh-external/dsh-web-skins` |
-| [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | DSH Web 鲸鱼娘皮肤系列（深海女仆工坊） | 570 |  |
+| [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | DSH Web 鲸鱼娘皮肤系列（深海女仆工坊） | 574 |  |
 | [dsh-qq2006](https://github.com/LaplaceYoung/dsh-qq2006) | QQ2006 复古皮肤 |  |  |
 | [dsh-miku-skin](https://github.com/stushansusu/dsh-miku-skin) | 初音未来主题（蓝紫渐变/毛玻璃/亮暗双主题） | 1 | `dsh plugin add @deepseek-ai/dsh-client-ui-skin-miku` |
 | [dsh-deepcel](https://github.com/Small-tailqwq/dsh-deepcel) | 模仿 Excel 的皮肤 |  |  |
@@ -96,10 +96,10 @@
 | [dsh-plugin-background](https://github.com/gameswu/dsh-plugin-background) | Web UI 壁纸自定义 |  |  |
 | [dsh-chat-width](https://github.com/chen-001/dsh-chat-width) | 调整回复宽度（终端宽度感知） |  |  |
 | [deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) | 换肤系统：21 套内置皮肤 + 一图生成整套配色 | 24 |  |
-| [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 侧边栏完整工作台：文件渲染编辑/终端/Git/子代理，支持三方注册 Tab | 735 | `dsh plugin add dsh-better-sidebar` |
+| [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 侧边栏完整工作台：文件渲染编辑/终端/Git/子代理，支持三方注册 Tab | 740 | `dsh plugin add dsh-better-sidebar` |
 | [dsh-side-panel](https://github.com/ccq1/dsh-side-panel) | 侧边栏集成文件浏览器、终端和 Git 审查 | 17 | `dsh plugin add @dsh-external/dsh-side-panel` |
 | [dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) | 「聚焦会话」精简视图，只关注最终产出结果 | 13 | `dsh plugin add @dingyi222666/dsh-focus-chat` |
-| [ui-status-label](https://github.com/alingalingling/ui-status-label) | 把鲸鱼娘思考时的 "deep diving" 状态文案自定义 | 29 | `dsh plugin add dsh-ui-status-label` |
+| [ui-status-label](https://github.com/alingalingling/ui-status-label) | 把鲸鱼娘思考时的 "deep diving" 状态文案自定义 | 30 | `dsh plugin add dsh-ui-status-label` |
 | [dsh-navbar](https://github.com/vlln/dsh-navbar) | 对话节点导航条，右缘节点串快速跳转 user 消息 | 17 | `dsh plugin add @dsh-external/dsh-navbar` |
 | [dsh-task-status](https://github.com/vlln/dsh-task-status) | 后台任务状态条：对话页任务进度 + 实时输出 tail | 8 | `dsh plugin add @dsh-external/dsh-task-status` |
 | [dsh-web-archive](https://github.com/renat3u/dsh-web-archive) | 折叠对话中的 Think、Bash 等「无用消息」 | 5 | `dsh plugin add dsh-web-archive` |
@@ -109,7 +109,7 @@
 | [dsh-diff-viewer](https://github.com/lehhair/dsh-diff-viewer) | PiUI 风格 diff 查看器，替换 write/edit 的默认 DiffBlock | 7 | `dsh plugin add @dsh-external/dsh-diff-viewer` |
 | [dsh-drag-and-drop](https://github.com/bill9109/dsh-drag-and-drop) | 跨平台文件拖拽与原始路径插入，无需复制文件 | 4 | `dsh plugin add @bill9109/dsh-drag-and-drop` |
 | [ex-setting](https://github.com/omdsh-dev/ex-setting) | DSH 的设置扩展 | 2 | `dsh plugin add @deepseek-ai/dsh-ex-setting` |
-| [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | 选中文字→批注→回车随消息发送，回复按批注逐条对照 | 39 | `dsh plugin add @omdsh-dev/dsh-annotation` |
+| [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | 选中文字→批注→回车随消息发送，回复按批注逐条对照 | 40 | `dsh plugin add @omdsh-dev/dsh-annotation` |
 | [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio) | 带实时预览的用户/内置 system prompt 分节编辑器 | 2 | `dsh plugin add dsh-prompt-studio` |
 | [dsh-prompt-persona](https://github.com/Xilin3/dsh-prompt-persona) | 从设置页编辑系统提示词（deployment persona），带实时预览 | 2 | `dsh plugin add @xilin3/dsh-prompt-persona` |
 | [dsh-model-selector](https://github.com/bitterSmilezzz/dsh-model-selector) | provider 分组折叠 + 名称搜索的模型选择器增强 | 1 | `dsh plugin add dsh-model-selector` |
@@ -161,7 +161,7 @@
 
 | 插件 | 描述 | ⭐ | 安装命令 |
 |---|---|---|---|
-| [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | AgentTeams 多智能体团队协作 | 243 | `dsh plugin add dsh-agent-teams` |
+| [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) | AgentTeams 多智能体团队协作 | 244 | `dsh plugin add dsh-agent-teams` |
 | [dsh_workflow](https://github.com/icetomoyo/dsh_workflow) | 把 UltraCode 式多 Agent 调度带给 DSH：可生成/保存/治理/观察/恢复的 Workflow 层 | 54 | `dsh plugin add @dsh-external/workflow` |
 | [dsh-meta-orchestrator](https://github.com/jiruidai/dsh-meta-orchestrator) | 模型原生 meta-agent：运行时合成任务专属工作流并协调工具/子代理 | 1 | `dsh plugin add dsh-meta-orchestrator` |
 | [dsh-crosstalk](https://github.com/Jesse-njx/dsh-crosstalk) | 跨会话消息互发：本机任意会话像 Claude Code 一样互发消息 | 1 | `dsh plugin add @dsh-crosstalk/bundle` |
@@ -189,7 +189,7 @@
 | [dsh-plugin-meta-memory](https://github.com/YYTbit/dsh-plugin-meta-memory) | 结构化长期记忆系统 | 1 | `dsh plugin add dsh-plugin-meta-memory` |
 | [dsh-kb-sieve](https://github.com/omdsh-dev/dsh-kb-sieve) | 从 md/txt/docx/pdf 构建可审计知识库包（SQLite FTS5） | 2 | `dsh plugin add @dsh-external/dsh-kb-sieve` |
 | [dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) | 从 agent 管理 LLM-Wiki 知识库（wiki_search/read/stats/ingest 等） | 2 | `dsh plugin add @detpecca/dsh-llm-wiki` |
-| [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) | 上下文注入审计：统计指令链/技能目录/工具 schema 的 token 成本，检测重复冲突 | 6 | `dsh plugin add dsh-context-doctor` |
+| [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) | 上下文注入审计：统计指令链/技能目录/工具 schema 的 token 成本，检测重复冲突 | 7 | `dsh plugin add dsh-context-doctor` |
 | [context-vista](https://github.com/GooodWei/context-vista) | `/context` 命令 + 环形图实时展示上下文 token 用量与费用 | 3 | `dsh plugin add context-vista` |
 | [distill](https://github.com/LoserFox/distill) | 自动对话蒸馏：后台 subagent 反省 + 技能 create/update | 15 | `dsh plugin add @loserfox/distill` |
 | [dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) | compact_now 工具，回合结束自动压缩上下文 |  |  |
@@ -210,8 +210,8 @@
 
 | 插件 | 描述 | ⭐ | 安装命令 |
 |---|---|---|---|
-| [modlens](https://github.com/liustack/modlens) | DSH 首个视觉插件：粘贴图片返回结构化 JSON 证据（OCR/布局/语义） | 1254 | `dsh plugin add @liustack/modlens` |
-| [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 纯文本模型的视觉工具箱：图片问答、长截图 OCR、UI 还原、定位、像素对比、Artifacts | 319 | `dsh plugin add @dsh-external/dsh-vision-toolkit` |
+| [modlens](https://github.com/liustack/modlens) | DSH 首个视觉插件：粘贴图片返回结构化 JSON 证据（OCR/布局/语义） | 1261 | `dsh plugin add @liustack/modlens` |
+| [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) | 纯文本模型的视觉工具箱：图片问答、长截图 OCR、UI 还原、定位、像素对比、Artifacts | 323 | `dsh plugin add @dsh-external/dsh-vision-toolkit` |
 | [agent-vision-toolkit](https://github.com/Anionex/agent-vision-toolkit) | 同上，agent 通用视觉工具箱与技能（多图理解/GUI 自动化） |  |  |
 | [dsh-vision](https://github.com/william-jin-cmu/dsh-vision) | view_image 工具桥接任意 OpenAI 兼容 VLM（默认智谱免费档） |  |  |
 | [dsh-vision-LMstudio](https://github.com/TiankunDai/dsh-vision-LMstudio) | 通过 LM Studio 调用本地视觉模型 |  |  |
@@ -275,8 +275,8 @@
 | [dsh-session-notification](https://github.com/dingyi222666/dsh-session-notification) | 会话完成等四种状态通知，支持浏览器提示 | 5 | `dsh plugin add @dingyi222666/dsh-session-notification` |
 | [dsh-ssh](https://github.com/UynajGI/dsh-ssh) | SSH 远程执行（ProxyJump 链、SFTP 文件系统、PTY） |  |  |
 | [dsh-webhook-bridge](https://github.com/ben7am1n/dsh-webhook-bridge) | 通用 webhook 接收器：POST /hook/:channel 唤醒 per-channel agent | 1 | `dsh plugin add dsh-webhook-bridge` |
-| [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) | 从 Web GUI 一键在 VS Code 中打开工作区目录 | 39 | `dsh plugin add dsh-open-in-vscode` |
-| [dsh-share](https://github.com/hellodigua/dsh-share) | 一键分享你的对话 | 16 | `dsh plugin add @dsh-external/dsh-share` |
+| [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) | 从 Web GUI 一键在 VS Code 中打开工作区目录 | 40 | `dsh plugin add dsh-open-in-vscode` |
+| [dsh-share](https://github.com/hellodigua/dsh-share) | 一键分享你的对话 | 17 | `dsh plugin add @dsh-external/dsh-share` |
 | [dsh-conversation-share](https://github.com/bill9109/dsh-conversation-share) | 分享任意段落的对话 | 1 | `dsh plugin add @bill9109/dsh-conversation-share` |
 | [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) | BitFun 与 DSH 的 ACP 交互对接 | 9 | `dsh plugin add dsh-acp-for-bitfun` |
 
@@ -352,7 +352,7 @@
 | [dsh-auto-chess](https://github.com/omdsh-dev/dsh-auto-chess) | 自走棋：人机对战或双 AI 对弈 | 3 | `dsh plugin add @deepseek-ai/dsh-auto-chess` |
 | [dsh-plugin-d399](https://github.com/HuanLinOTO/dsh-plugin-d399) | 模型生成时弹出小游戏菜单（wordle/消消乐，可扩展） | 5 | `dsh plugin add @huanlin/dsh-plugin-d399` |
 | [dsh-ui-whale](https://github.com/lhh010/dsh-ui-whale) | 全手绘像素鲸鱼伙伴（眨眼/摆尾/喷水/爱心） |  |  |
-| [whale-girl](https://github.com/vlln/whale-girl) | 桌面宠物鲸鱼娘（QQ 宠物形态，可拖拽/投喂/玩耍） | 125 | `dsh plugin add whale-girl` |
+| [whale-girl](https://github.com/vlln/whale-girl) | 桌面宠物鲸鱼娘（QQ 宠物形态，可拖拽/投喂/玩耍） | 126 | `dsh plugin add whale-girl` |
 | [dsh-pixel-whale](https://github.com/yoke233/dsh-pixel-whale) | 活泼像素鲸鱼运行状态伴侣 | 1 | `dsh plugin add dsh-pixel-whale` |
 | [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) | 蓝鲸女仆桌面像素宠物 | 2 | `dsh plugin add dsh-blue-whale-maid` |
 | [deepseek-pet](https://github.com/keleus/deepseek-pet) | 在 DSH 上养一只大蓝鲸 | 2 | `dsh plugin add deepseek-pet` |

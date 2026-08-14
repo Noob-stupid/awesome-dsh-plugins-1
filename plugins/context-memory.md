@@ -16,7 +16,7 @@
 
 ## 上下文审计 / 压缩 / 蒸馏
 
-- [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) — 上下文注入审计：统计指令链/技能目录/工具 schema 的 token 成本，检测重复冲突 ⭐6 · `dsh plugin add dsh-context-doctor`
+- [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) — 上下文注入审计：统计指令链/技能目录/工具 schema 的 token 成本，检测重复冲突 ⭐7 · `dsh plugin add dsh-context-doctor`
 - [context-vista](https://github.com/GooodWei/context-vista) — `/context` 命令 + 环形图实时展示上下文 token 用量与费用 ⭐3 · `dsh plugin add context-vista`
 - [distill](https://github.com/LoserFox/distill) — 自动对话蒸馏：后台 subagent 反省 + 技能 create/update ⭐15 · `dsh plugin add @loserfox/distill`
 - [dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) — compact_now 工具，回合结束自动压缩上下文

@@ -5,7 +5,7 @@
 ## 皮肤 / 主题
 
 - [dsh-skins](https://github.com/Moeblack/dsh-skins) — Web UI 皮肤合集（含 harbor 夕港黄昏皮肤） ⭐1 · `dsh plugin add @dsh-external/dsh-web-skins`
-- [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) — DSH Web 鲸鱼娘皮肤系列（深海女仆工坊） ⭐570
+- [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) — DSH Web 鲸鱼娘皮肤系列（深海女仆工坊） ⭐574
 - [dsh-qq2006](https://github.com/LaplaceYoung/dsh-qq2006) — QQ2006 复古皮肤
 - [dsh-miku-skin](https://github.com/stushansusu/dsh-miku-skin) — 初音未来主题（蓝紫渐变/毛玻璃/亮暗双主题） ⭐1 · `dsh plugin add @deepseek-ai/dsh-client-ui-skin-miku`
 - [dsh-deepcel](https://github.com/Small-tailqwq/dsh-deepcel) — 模仿 Excel 的皮肤
@@ -19,10 +19,10 @@
 
 ## 界面增强 / 面板
 
-- [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — 侧边栏完整工作台：文件渲染编辑/终端/Git/子代理，支持三方注册 Tab ⭐735 · `dsh plugin add dsh-better-sidebar`
+- [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — 侧边栏完整工作台：文件渲染编辑/终端/Git/子代理，支持三方注册 Tab ⭐740 · `dsh plugin add dsh-better-sidebar`
 - [dsh-side-panel](https://github.com/ccq1/dsh-side-panel) — 侧边栏集成文件浏览器、终端和 Git 审查 ⭐17 · `dsh plugin add @dsh-external/dsh-side-panel`
 - [dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) — 「聚焦会话」精简视图，只关注最终产出结果 ⭐13 · `dsh plugin add @dingyi222666/dsh-focus-chat`
-- [ui-status-label](https://github.com/alingalingling/ui-status-label) — 把鲸鱼娘思考时的 "deep diving" 状态文案自定义 ⭐29 · `dsh plugin add dsh-ui-status-label`
+- [ui-status-label](https://github.com/alingalingling/ui-status-label) — 把鲸鱼娘思考时的 "deep diving" 状态文案自定义 ⭐30 · `dsh plugin add dsh-ui-status-label`
 - [dsh-navbar](https://github.com/vlln/dsh-navbar) — 对话节点导航条，右缘节点串快速跳转 user 消息 ⭐17 · `dsh plugin add @dsh-external/dsh-navbar`
 - [dsh-task-status](https://github.com/vlln/dsh-task-status) — 后台任务状态条：对话页任务进度 + 实时输出 tail ⭐8 · `dsh plugin add @dsh-external/dsh-task-status`
 - [dsh-web-archive](https://github.com/renat3u/dsh-web-archive) — 折叠对话中的 Think、Bash 等「无用消息」 ⭐5 · `dsh plugin add dsh-web-archive`
@@ -32,7 +32,7 @@
 - [dsh-diff-viewer](https://github.com/lehhair/dsh-diff-viewer) — PiUI 风格 diff 查看器，替换 write/edit 的默认 DiffBlock ⭐7 · `dsh plugin add @dsh-external/dsh-diff-viewer`
 - [dsh-drag-and-drop](https://github.com/bill9109/dsh-drag-and-drop) — 跨平台文件拖拽与原始路径插入，无需复制文件 ⭐4 · `dsh plugin add @bill9109/dsh-drag-and-drop`
 - [ex-setting](https://github.com/omdsh-dev/ex-setting) — DSH 的设置扩展 ⭐2 · `dsh plugin add @deepseek-ai/dsh-ex-setting`
-- [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) — 选中文字→批注→回车随消息发送，回复按批注逐条对照 ⭐39 · `dsh plugin add @omdsh-dev/dsh-annotation`
+- [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) — 选中文字→批注→回车随消息发送，回复按批注逐条对照 ⭐40 · `dsh plugin add @omdsh-dev/dsh-annotation`
 - [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio) — 带实时预览的用户/内置 system prompt 分节编辑器 ⭐2 · `dsh plugin add dsh-prompt-studio`
 - [dsh-prompt-persona](https://github.com/Xilin3/dsh-prompt-persona) — 从设置页编辑系统提示词（deployment persona），带实时预览 ⭐2 · `dsh plugin add @xilin3/dsh-prompt-persona`
 - [dsh-model-selector](https://github.com/bitterSmilezzz/dsh-model-selector) — provider 分组折叠 + 名称搜索的模型选择器增强 ⭐1 · `dsh plugin add dsh-model-selector`
