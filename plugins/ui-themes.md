@@ -5,7 +5,7 @@
 ## 皮肤 / 主题
 
 - [dsh-skins](https://github.com/Moeblack/dsh-skins) — Web UI 皮肤合集（含 harbor 夕港黄昏皮肤） ⭐1 · `dsh plugin add @dsh-external/dsh-web-skins`
-- [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) — DSH Web 鲸鱼娘皮肤系列（深海女仆工坊） ⭐569
+- [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) — DSH Web 鲸鱼娘皮肤系列（深海女仆工坊） ⭐570
 - [dsh-qq2006](https://github.com/LaplaceYoung/dsh-qq2006) — QQ2006 复古皮肤
 - [dsh-miku-skin](https://github.com/stushansusu/dsh-miku-skin) — 初音未来主题（蓝紫渐变/毛玻璃/亮暗双主题） ⭐1 · `dsh plugin add @deepseek-ai/dsh-client-ui-skin-miku`
 - [dsh-deepcel](https://github.com/Small-tailqwq/dsh-deepcel) — 模仿 Excel 的皮肤

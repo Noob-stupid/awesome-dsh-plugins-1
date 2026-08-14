@@ -1167,7 +1167,7 @@
       "fullName": "Small-tailqwq/dsh-deep-whale",
       "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
       "description": "Whale-girl skin series for the DSH Web UI (maid-atelier).",
-      "stars": 569,
+      "stars": 570,
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -1993,7 +1993,7 @@
       "fullName": "Anionex/dsh-vision-toolkit",
       "url": "https://github.com/Anionex/dsh-vision-toolkit",
       "description": "Vision tasks for text-only models: intent-aware image Q&A, long-screenshot OCR, UI reproduction, grounding, and pixel diff.",
-      "stars": 318,
+      "stars": 319,
       "pushedAt": "2026-08-13T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -2949,7 +2949,7 @@
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
-      "npmName": null,
+      "npmName": "@dsh-suite/plugin-manager",
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
@@ -3253,7 +3253,7 @@
       "fullName": "NanmiCoder/dsh-agent-teams",
       "url": "https://github.com/NanmiCoder/dsh-agent-teams",
       "description": "AgentTeams multi-agent teams.",
-      "stars": 242,
+      "stars": 243,
       "pushedAt": "2026-08-13T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -3537,7 +3537,7 @@
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
-      "npmName": null,
+      "npmName": "@dsh-suite/plugin-team-board",
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
@@ -3579,7 +3579,7 @@
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
-      "npmName": null,
+      "npmName": "uagent-sync-dsh",
       "category": {
         "id": "workflow",
         "title": "工作流与自动化 / Workflow & Automation"
@@ -4779,7 +4779,7 @@
       "fullName": "vlln/whale-girl",
       "url": "https://github.com/vlln/whale-girl",
       "description": "Desktop pet (QQ-pet style): floats in the corner, draggable, feedable, playable.",
-      "stars": 124,
+      "stars": 125,
       "pushedAt": "2026-08-13T00:00:00Z",
       "license": null,
       "isPlugin": true,
@@ -4937,7 +4937,7 @@
       "pushedAt": "2026-08-14T00:00:00Z",
       "license": null,
       "isPlugin": true,
-      "npmName": null,
+      "npmName": "dsh-pet",
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
