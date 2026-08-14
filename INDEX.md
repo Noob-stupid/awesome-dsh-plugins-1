@@ -76,7 +76,7 @@
 ## 🎨 Web UI / 皮肤 / 主题
 
 - [dsh-skins](https://github.com/Moeblack/dsh-skins) — Web UI 皮肤合集（含 harbor 夕港黄昏皮肤） ⭐1 · `dsh plugin add @dsh-external/dsh-web-skins`
-- [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) — DSH Web 鲸鱼娘皮肤系列（深海女仆工坊） ⭐568
+- [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) — DSH Web 鲸鱼娘皮肤系列（深海女仆工坊） ⭐569
 - [dsh-qq2006](https://github.com/LaplaceYoung/dsh-qq2006) — QQ2006 复古皮肤
 - [dsh-miku-skin](https://github.com/stushansusu/dsh-miku-skin) — 初音未来主题（蓝紫渐变/毛玻璃/亮暗双主题） ⭐1 · `dsh plugin add @deepseek-ai/dsh-client-ui-skin-miku`
 - [dsh-deepcel](https://github.com/Small-tailqwq/dsh-deepcel) — 模仿 Excel 的皮肤
@@ -86,7 +86,7 @@
 - [dsh-web-background](https://github.com/BruceWu1126/dsh-web-background) — Web UI 背景自定义
 - [dsh-plugin-background](https://github.com/gameswu/dsh-plugin-background) — Web UI 壁纸自定义
 - [dsh-chat-width](https://github.com/chen-001/dsh-chat-width) — 调整回复宽度（终端宽度感知）
-- [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — 侧边栏完整工作台：文件渲染编辑/终端/Git/子代理，支持三方注册 Tab ⭐731 · `dsh plugin add dsh-better-sidebar`
+- [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — 侧边栏完整工作台：文件渲染编辑/终端/Git/子代理，支持三方注册 Tab ⭐735 · `dsh plugin add dsh-better-sidebar`
 - [dsh-side-panel](https://github.com/ccq1/dsh-side-panel) — 侧边栏集成文件浏览器、终端和 Git 审查 ⭐17 · `dsh plugin add @dsh-external/dsh-side-panel`
 - [dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) — 「聚焦会话」精简视图，只关注最终产出结果 ⭐13 · `dsh plugin add @dingyi222666/dsh-focus-chat`
 - [ui-status-label](https://github.com/alingalingling/ui-status-label) — 把鲸鱼娘思考时的 "deep diving" 状态文案自定义 ⭐29 · `dsh plugin add dsh-ui-status-label`
@@ -142,7 +142,7 @@
 
 ## 🤖 Agent 编排 / 多 Agent
 
-- [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) — AgentTeams 多智能体团队协作 ⭐241 · `dsh plugin add dsh-agent-teams`
+- [dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) — AgentTeams 多智能体团队协作 ⭐242 · `dsh plugin add dsh-agent-teams`
 - [dsh_workflow](https://github.com/icetomoyo/dsh_workflow) — 把 UltraCode 式多 Agent 调度带给 DSH：可生成/保存/治理/观察/恢复的 Workflow 层 ⭐54 · `dsh plugin add @dsh-external/workflow`
 - [dsh-meta-orchestrator](https://github.com/jiruidai/dsh-meta-orchestrator) — 模型原生 meta-agent：运行时合成任务专属工作流并协调工具/子代理 ⭐1 · `dsh plugin add dsh-meta-orchestrator`
 - [dsh-crosstalk](https://github.com/Jesse-njx/dsh-crosstalk) — 跨会话消息互发：本机任意会话像 Claude Code 一样互发消息 ⭐1 · `dsh plugin add @dsh-crosstalk/bundle`
@@ -179,15 +179,15 @@
 - [dsh-sidechain](https://github.com/Buyi-wsgzg/dsh-sidechain) — `/side` 持续性侧会话与 `/btw` 一次性侧问，在临时 fork 中运行 ⭐5 · `dsh plugin add @dsh-external/dsh-sidechain`
 - [dsh-message-edit](https://github.com/Moeblack/dsh-message-edit) — 基于分支的消息编辑、reroll、重试与版本时间线 ⭐18 · `dsh plugin add dsh-message-edit`
 - [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) — 跨 dsh/Codex/Claude/pi/OpenCode 会话的无索引全文搜索
-- [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话 ⭐23 · `dsh plugin add dsh-chat-import`
+- [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话 ⭐24 · `dsh plugin add dsh-chat-import`
 - [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) — 迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH ⭐2 · `dsh plugin add dsh-claude-move`
 
 [↩ 回到 🧠 上下文 / 记忆 分类页](context-memory.md)
 
 ## 👁️ 多模态 / 视觉
 
-- [modlens](https://github.com/liustack/modlens) — DSH 首个视觉插件：粘贴图片返回结构化 JSON 证据（OCR/布局/语义） ⭐1252 · `dsh plugin add @liustack/modlens`
-- [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — 纯文本模型的视觉工具箱：图片问答、长截图 OCR、UI 还原、定位、像素对比、Artifacts ⭐317 · `dsh plugin add @dsh-external/dsh-vision-toolkit`
+- [modlens](https://github.com/liustack/modlens) — DSH 首个视觉插件：粘贴图片返回结构化 JSON 证据（OCR/布局/语义） ⭐1254 · `dsh plugin add @liustack/modlens`
+- [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — 纯文本模型的视觉工具箱：图片问答、长截图 OCR、UI 还原、定位、像素对比、Artifacts ⭐318 · `dsh plugin add @dsh-external/dsh-vision-toolkit`
 - [agent-vision-toolkit](https://github.com/Anionex/agent-vision-toolkit) — 同上，agent 通用视觉工具箱与技能（多图理解/GUI 自动化）
 - [dsh-vision](https://github.com/william-jin-cmu/dsh-vision) — view_image 工具桥接任意 OpenAI 兼容 VLM（默认智谱免费档）
 - [dsh-vision-LMstudio](https://github.com/TiankunDai/dsh-vision-LMstudio) — 通过 LM Studio 调用本地视觉模型
@@ -255,7 +255,7 @@
 
 ## 🌐 浏览器 / 搜索
 
-- [dsh-browser](https://github.com/Lum1104/dsh-browser) — Chrome 侧边栏扩展，让 DSH 直接操作你的浏览器（无需视觉能力） ⭐88
+- [dsh-browser](https://github.com/Lum1104/dsh-browser) — Chrome 侧边栏扩展，让 DSH 直接操作你的浏览器（无需视觉能力） ⭐89
 - [dsh-browser-control](https://github.com/PangYiMing/dsh-browser-control) — CDP/Playwright 操控浏览器 ⭐1 · `dsh plugin add dsh-browser-control`
 - [ego-browser](https://github.com/Fisfzy/ego-browser) — 把 ego-lite（给 AI Agent 的 Chromium）接入 DSH，13 个结构化 ego_* 工具
 - [dsh-better-browser](https://github.com/titanwings/dsh-better-browser) — 通过 Kimi WebBridge 让 Agent 操作用户已登录浏览器（13 个工具） ⭐3 · `dsh plugin add @dsh-external/dsh-better-browser`
