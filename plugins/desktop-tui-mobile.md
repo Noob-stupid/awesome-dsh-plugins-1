@@ -15,7 +15,7 @@
 
 ## 社区发行版
 
-- [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) — 一站式社区发行版：TUI、桌面端与 Web UI 三种形态统一体验 ⭐164 · `dsh plugin add @oh-dsh/desktop`
+- [oh-dsh](https://github.com/hust-open-atom-club/oh-dsh) — 一站式社区发行版：TUI、桌面端与 Web UI 三种形态统一体验 ⭐165 · `dsh plugin add @oh-dsh/desktop`
 - [oh-dsh-desktop](https://github.com/hust-open-atom-club/oh-dsh-desktop) — 可扩展 macOS 工作台：原生 PTY、工作区工具、双语插件、隔离预览市场
 
 ## 桌面壳（多作者）
