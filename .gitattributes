@@ -1,3 +1,4 @@
 # 统一行尾为 LF：gen-readme/gen-index 的正则依赖 LF，
 # Windows 上的 CRLF 会导致条目被漏解析（详见 scripts/*.mjs 的 ENTRY_RE）。
 *.md text eol=lf
+*.json text eol=lf

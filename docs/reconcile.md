@@ -2,7 +2,7 @@
 
 > 由 `node scripts/reconcile.mjs` 生成。对比 `data/plugins.json`（种子数据）与 `plugins/*.md`（目录清单）。
 >
-> 数据共 334 条 · 目录共 283 条 · 两者交集 209 条
+> 数据共 334 条 · 目录共 285 条 · 两者交集 209 条
 
 ## 候选待收录（数据里有、目录还没有）— 125 条
 
@@ -136,7 +136,7 @@
 | [Yan-Zero/dsh-codex](https://github.com/Yan-Zero/dsh-codex) | 0 | UI 增强 / UI Enhancements |
 | [fly3366/DeepJIT](https://github.com/fly3366/DeepJIT) | 0 | 工作流与自动化 / Workflow & Automation |
 
-## 目录里有、数据里没有 — 74 条
+## 目录里有、数据里没有 — 76 条
 
 多为官方/元项目、dsh-external 私有仓库、或来自其他来源的补充条目，需人工确认是否保留。
 
@@ -144,6 +144,8 @@
 - `qintsg/dsh-safe-delete` — 🛠️ 工具类 Tools
 - `jesse-njx/dsh-cowork` — 🛠️ 工具类 Tools
 - `omdsh-dev/dsh-plugin-skills` — 🧩 技能类 Skills
+- `leechen298/code2skill` — 🧩 技能类 Skills
+- `dhicoc/dsh-reverse-skill` — 🧩 技能类 Skills
 - `withlovehub/dsh-webfetch` — 🔌 MCP 接入
 - `springbrand-lab/dsh-oauth-mcp-client` — 🔌 MCP 接入
 - `wardlu/shadow-vision` — 🔌 MCP 接入
