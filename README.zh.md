@@ -126,7 +126,7 @@
 </details>
 
 <details>
-<summary>🧩 技能类 Skills · 13</summary>
+<summary>🧩 技能类 Skills · 15</summary>
 
 - [dsh-review-skills](https://github.com/ben7am1n/dsh-review-skills) — 工程纪律技能包：code-review/simplify/plan-then-execute/test-first/resolve-conflict ⭐1 · `dsh plugin add dsh-review-skills`
 - [dsh-skillport](https://github.com/Jesse-njx/dsh-skillport) — 把已有 Agent Skills（Claude/Codex/Cursor/Gemini 的 SKILL.md）带进 DSH，渐进式索引 + 按需加载 ⭐1 · `dsh plugin add @dsh-skillport/bundle`
@@ -141,6 +141,8 @@
 - [dsh-plugin-codex-bridge](https://github.com/YYTbit/dsh-plugin-codex-bridge) — 把 Codex skills/config 桥接进 DSH ⭐2 · `dsh plugin add dsh-plugin-codex-bridge`
 - [dsh-plugin-opencode-bridge](https://github.com/YYTbit/dsh-plugin-opencode-bridge) — 把 OpenCode skills/config 桥接进 DSH ⭐2 · `dsh plugin add dsh-plugin-opencode-bridge`
 - [dsh-plugin-pi-bridge](https://github.com/YYTbit/dsh-plugin-pi-bridge) — 把 pi skills/config 桥接进 DSH ⭐2 · `dsh plugin add dsh-plugin-pi-bridge`
+- [Code2Skill](https://github.com/leechen298/Code2Skill) — 从现有代码生成 Function、MCP、Agent Skill 和离线测试包，并作为可安装的 DSH Bundle 分发 · `dsh plugin add github:leechen298/Code2Skill#v1.1.3`
+- [dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) — 逆向工程、授权渗透测试与安全研究技能路由包（85 个 SKILL.md，仅限授权测试） ⭐2 · `dsh plugin add github:dhicoc/dsh-reverse-skill`
 
 </details>
 
@@ -269,7 +271,7 @@
 - [dsh-sidechain](https://github.com/Buyi-wsgzg/dsh-sidechain) — `/side` 持续性侧会话与 `/btw` 一次性侧问，在临时 fork 中运行 ⭐3 · `dsh plugin add @dsh-external/dsh-sidechain`
 - [dsh-message-edit](https://github.com/Moeblack/dsh-message-edit) — 基于分支的消息编辑、reroll、重试与版本时间线 ⭐11 · `dsh plugin add dsh-message-edit`
 - [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) — 跨 dsh/Codex/Claude/pi/OpenCode 会话的无索引全文搜索
-- [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 从 Claude Code/Codex/ChatGPT/Cursor 全保真导入历史会话为可续聊 DSH 会话 ⭐4 · `dsh plugin add dsh-chat-import`
+- [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话 ⭐22 · `dsh plugin add dsh-chat-import`
 - [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) — 迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH ⭐2 · `dsh plugin add dsh-claude-move`
 
 </details>
