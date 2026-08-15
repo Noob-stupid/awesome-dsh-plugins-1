@@ -11,7 +11,7 @@
 - [DSH-plugin-switch](https://github.com/Nexus-Aethra/DSH-plugin-switch) — 插件市场：浏览/搜索/安装 GitHub 项目，自动识别 plugin/skill ⭐2 · `dsh plugin add dsh-plugin-switch`
 - [dsh-plugin-installer](https://github.com/Toukaiteio/dsh-plugin-installer) — 把 DSH 快速接入 GitHub 插件生态的市场插件 ⭐6 · `dsh plugin add dsh-plugin-installer`
 - [dsh-super-injector](https://github.com/yjh051108/dsh-super-injector) — 超级模组注入器：运行时注入本地插件包（junction + loader.create，热重载） ⭐39 · `dsh plugin add @dsh-external/dsh-super-injector`
-- [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) — 面向 DSH 的插件生态：700+ 插件，扩展接缝注册不改 agent-loop ⭐45
+- [oh-my-dsh](https://github.com/LaplaceYoung/oh-my-dsh) — 面向 DSH 的插件生态：700+ 插件，扩展接缝注册不改 agent-loop ⭐46
 
 ## 健康检查 / 诊断 / 审计
 

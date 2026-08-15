@@ -14,7 +14,7 @@
 
 ## 通知
 
-- [dsh-notification](https://github.com/omdsh-dev/dsh-notification) — 回合完成桌面通知，按结果分控 + 关键词过滤 ⭐44 · `dsh plugin add dsh-notification`
+- [dsh-notification](https://github.com/omdsh-dev/dsh-notification) — 回合完成桌面通知，按结果分控 + 关键词过滤 ⭐45 · `dsh plugin add dsh-notification`
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) — Windows 通知（零依赖） ⭐3
 - [dsh-win-notify](https://github.com/MuziIsabel/dsh-win-notify) — Windows toast 通知（任务完成带声音） ⭐4 · `dsh plugin add dsh-win-notify`
 - [dsh-web-ui-notify](https://github.com/bill9109/dsh-web-ui-notify) — 桌面通知提醒 ⭐12 · `dsh plugin add @bill9109/dsh-web-ui-notify`
