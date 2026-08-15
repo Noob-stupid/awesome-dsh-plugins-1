@@ -11,7 +11,7 @@ const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const PLUGINS_DIR = join(ROOT, 'plugins')
 
 const taxonomy = JSON.parse(readFileSync(join(ROOT, 'data', 'taxonomy.json'), 'utf8'))
-const CATEGORIES = taxonomy.categories.map((c) => ({ file: c.file, en: c.en, zh: c.zh }))
+const CATEGORIES = taxonomy.categories.map((c) => ({ file: c.file, en: c.en, zh: c.zh, enDesc: c.en_desc, zhDesc: c.zh_desc }))
 
 const ENTRY_RE = /^-\s*\[[^\]]+\]\(https:\/\/github\.com\/[^)]+\)\s*—\s*.*$/
 
@@ -38,12 +38,12 @@ function extractEntries(file) {
 
 function catTableHeader(lang) {
   return lang === 'zh'
-    ? '| 插件 | 描述 | ⭐ | 安装命令 |\n|---|---|---|---|'
-    : '| Plugin | Description | ⭐ | Install |\n|---|---|---|---|'
+    ? '| 插件 | ⭐ | 描述 | 安装命令 |\n|---|---|---|---|'
+    : '| Plugin | ⭐ | Description | Install |\n|---|---|---|---|'
 }
 
 function toCatRow(e) {
-  return `| [${e.name}](${e.url}) | ${esc(e.desc)} | ${e.star || ''} | ${e.install || ''} |`
+  return `| [${e.name}](${e.url}) | ${e.star || ''} | ${esc(e.desc)} | ${e.install || ''} |`
 }
 
 function buildBlocks(lang) {
@@ -67,8 +67,23 @@ function hotTableHeader(lang) {
 function buildHot(lang) {
   const all = CATEGORIES.flatMap((c) => extractEntries(c.file))
   const top = all.filter((e) => e.star > 0).sort((a, b) => b.star - a.star).slice(0, 10)
-  const rows = top.map((e, i) => `| ${i + 1} | [${e.name}](${e.url}) | ${esc(e.desc)} | ${e.star} |`)
+  const medals = ['🥇', '🥈', '🥉']
+  const rows = top.map((e, i) => `| ${medals[i] ?? (i + 1)} | [${e.name}](${e.url}) | ${esc(e.desc)} | ${e.star} |`)
   return `${hotTableHeader(lang)}\n${rows.join('\n')}`
+}
+
+// 生成「分类目录」表（含插件数）
+function buildCatIndex(lang) {
+  const header = lang === 'zh'
+    ? '| # | 分类 | 插件数 | 说明 |\n|---|---|---|---|'
+    : '| # | Category | Plugins | Description |\n|---|---|---|---|'
+  const rows = CATEGORIES.map((c, i) => {
+    const count = extractEntries(c.file).length
+    const name = lang === 'zh' ? c.zh : c.en
+    const desc = lang === 'zh' ? c.zhDesc : c.enDesc
+    return `| ${i + 1} | [${name}](plugins/${c.file}) | ${count} | ${desc} |`
+  })
+  return `${header}\n${rows.join('\n')}`
 }
 
 function injectSection(content, startMarker, endMarker, html) {
@@ -116,6 +131,8 @@ function inject(readmePath, lang) {
   let content = readFileSync(readmePath, 'utf8')
   const { html, total } = buildBlocks(lang)
   const hot = buildHot(lang)
+  const catIndex = buildCatIndex(lang)
+  content = injectSection(content, '<!-- catindex:start -->', '<!-- catindex:end -->', catIndex)
   content = injectSection(content, '<!-- hot:start -->', '<!-- hot:end -->', hot)
   content = injectSection(content, '<!-- categories:start -->', '<!-- categories:end -->', html)
   const stats = {
