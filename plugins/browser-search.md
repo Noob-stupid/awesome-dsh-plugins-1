@@ -22,7 +22,7 @@
 - [dsh-tavily-search](https://github.com/zhouzhencheng07/dsh-tavily-search) — 免 key Tavily 搜索工具 ⭐2 · `dsh plugin add dsh-tavily-search`
 - [dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) — 增强持久搜索（多引擎 + SQLite/LRU 缓存 + Playwright 渲染） ⭐7 · `dsh plugin add dsh-web-search-pro`
 - [dsh-all-search](https://github.com/RealAlexandreAI/dsh-all-search) — AnySearch 网页搜索提供方（ctx.web） ⭐1 · `dsh plugin add dsh-all-search`
-- [modsearch](https://github.com/liustack/modsearch) — CLI 搜索工具：把搜索查询转结构化 web 证据 JSON ⭐102 · `dsh plugin add @liustack/modsearch`
+- [modsearch](https://github.com/liustack/modsearch) — CLI 搜索工具：把搜索查询转结构化 web 证据 JSON ⭐103 · `dsh plugin add @liustack/modsearch`
 
 <!-- nav:start -->
 ---

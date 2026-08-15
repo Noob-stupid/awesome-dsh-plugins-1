@@ -6,8 +6,8 @@
 
 ## 终端 TUI
 
-- [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) — Claude Code 风格全屏交互终端：像素鲸鱼顶栏、流式思考展开、双击 Esc 回滚、上下文/TPS 仪表 ⭐1112 · `dsh plugin add dsh-cc-tui`
-- [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — DSH 终端 TUI（天枢） ⭐148 · `dsh plugin add @huiliyi37/dsh-tianshu-tui`
+- [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) — Claude Code 风格全屏交互终端：像素鲸鱼顶栏、流式思考展开、双击 Esc 回滚、上下文/TPS 仪表 ⭐1120 · `dsh plugin add dsh-cc-tui`
+- [dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) — DSH 终端 TUI（天枢） ⭐149 · `dsh plugin add @huiliyi37/dsh-tianshu-tui`
 - [dsh-pi-tui](https://github.com/lqhl/dsh-pi-tui) — Pi TUI 前端：流式 markdown、思考折叠、工具卡、斜杠命令 ⭐1
 - [deepseek-harness-tui](https://github.com/gxinxing/deepseek-harness-tui) — Ink/React 终端原生 TUI ⭐7 · `dsh plugin add deepseek-harness-tui`
 - [dsh-tui](https://github.com/orriduck/dsh-tui) — 轻量、会话感知的终端 UI ⭐2 · `dsh plugin add dsh-tui`
@@ -29,13 +29,13 @@
 - [dsh-desktop-electron](https://github.com/Void0312Aurora/dsh-desktop-electron) — 跨平台 Electron 桌面壳（托盘驻留、无内置 Node） ⭐4
 - [dsh-mac-desktop](https://github.com/bitterSmilezzz/dsh-mac-desktop) — 在原生 macOS 窗口打开 Web GUI（SwiftUI + WKWebView） ⭐2 · `dsh plugin add dsh-mac-desktop`
 - [dsh-desktop-window](https://github.com/fengzhiyushui/dsh-desktop-window) — 以独立应用窗口打开 Web UI（自动开窗 + 设置开关） ⭐1 · `dsh plugin add dsh-desktop-window`
-- [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) — 现代化 DeepSeek Harness 桌面端体验 ⭐4204
+- [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) — 现代化 DeepSeek Harness 桌面端体验 ⭐4287
 - [Deepseek-Harness-Desktop](https://github.com/ChisaAlter/Deepseek-Harness-Desktop) — Electron 桌面壳：主题/背景图/托盘，对话仍走官方 dsh web ⭐80 · `dsh plugin add deepseek-harness-desktop`
-- [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) — Windows 轻量启动器：开机自启 + 独立小窗口 ⭐87
+- [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) — Windows 轻量启动器：开机自启 + 独立小窗口 ⭐89
 
 ## 本地工作台
 
-- [dsh-work](https://github.com/vibeinging/dsh-work) — 本地 AI 工作桌面：Session/文件/数据分析/MCP/Office 一体化 ⭐114
+- [dsh-work](https://github.com/vibeinging/dsh-work) — 本地 AI 工作桌面：Session/文件/数据分析/MCP/Office 一体化 ⭐115
 
 ## 移动端 / 常驻助手
 
