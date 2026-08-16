@@ -27,7 +27,7 @@
 - [dsh-ssh](https://github.com/UynajGI/dsh-ssh) — SSH 远程执行（ProxyJump 链、SFTP 文件系统、PTY） ⭐5
 - [dsh-webhook-bridge](https://github.com/ben7am1n/dsh-webhook-bridge) — 通用 webhook 接收器：POST /hook/:channel 唤醒 per-channel agent ⭐1 · `dsh plugin add dsh-webhook-bridge`
 - [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) — 从 Web GUI 一键在 VS Code 中打开工作区目录 ⭐46 · `dsh plugin add dsh-open-in-vscode`
-- [dsh-share](https://github.com/hellodigua/dsh-share) — 一键分享你的对话 ⭐20 · `dsh plugin add @dsh-external/dsh-share`
+- [dsh-share](https://github.com/hellodigua/dsh-share) — 一键分享你的对话 ⭐21 · `dsh plugin add @dsh-external/dsh-share`
 - [dsh-conversation-share](https://github.com/bill9109/dsh-conversation-share) — 分享任意段落的对话 ⭐1 · `dsh plugin add @bill9109/dsh-conversation-share`
 
 <!-- nav:start -->
