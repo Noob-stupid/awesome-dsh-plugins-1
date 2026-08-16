@@ -2551,11 +2551,11 @@
       "fullName": "ZK-Andy/dsh-continual-evolve",
       "url": "https://github.com/ZK-Andy/dsh-continual-evolve",
       "description": "Continual self-evolution: versioned, auditable, rollback-safe harness state (prompts, memory, skills, subagent specs) refined from session trajectories, with review gates and hot-reloaded skills.",
-      "stars": 0,
-      "pushedAt": "2026-08-14T00:00:00Z",
-      "license": null,
+      "stars": 6,
+      "pushedAt": "2026-08-15T22:47:39Z",
+      "license": "MIT",
       "isPlugin": true,
-      "npmName": null,
+      "npmName": "dsh-continual-evolve",
       "category": {
         "id": "tools",
         "title": "工具与能力 / Tools & Capabilities"
@@ -5241,6 +5241,48 @@
       "category": {
         "id": "fun",
         "title": "娱乐 / Just for Fun"
+      }
+    },
+    {
+      "fullName": "yushi-xxh/dsh-homepage-skin",
+      "url": "https://github.com/yushi-xxh/dsh-homepage-skin",
+      "description": "Puts the DeepSeek Harness homepage-style background on dsh web: WebGL fluid, dot grid and digital whale, in dark and light themes.",
+      "stars": 0,
+      "pushedAt": "2026-08-15T15:46:21Z",
+      "license": "MIT",
+      "isPlugin": true,
+      "npmName": "dsh-homepage-skin",
+      "category": {
+        "id": "theme",
+        "title": "主题与外观 / Themes & Appearance"
+      }
+    },
+    {
+      "fullName": "2nd1st/dsh-plugin-open-app",
+      "url": "https://github.com/2nd1st/dsh-plugin-open-app",
+      "description": "Brings open-mcp-apps into DSH: one sidebar container per MCP app (own workspace, session and App mode), an agent status strip, inline chat rendering and an App Store.",
+      "stars": 0,
+      "pushedAt": "2026-08-15T17:34:54Z",
+      "license": "MIT",
+      "isPlugin": true,
+      "npmName": "@2nd1st/dsh-plugin-open-app",
+      "category": {
+        "id": "ui",
+        "title": "UI 增强 / UI Enhancements"
+      }
+    },
+    {
+      "fullName": "Han-1413141/dsh-ui-hub",
+      "url": "https://github.com/Han-1413141/dsh-ui-hub",
+      "description": "UI butler: fold and toggle official/plugin UI by section, drag to move and resize, with collision avoidance and one-click auto layout.",
+      "stars": 1,
+      "pushedAt": "2026-08-15T12:47:48Z",
+      "license": "MIT",
+      "isPlugin": true,
+      "npmName": null,
+      "category": {
+        "id": "ui",
+        "title": "UI 增强 / UI Enhancements"
       }
     }
   ]

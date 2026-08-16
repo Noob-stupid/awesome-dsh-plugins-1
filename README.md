@@ -79,10 +79,10 @@ Top community plugins by GitHub stars:
 | 1 | [🛠️ Tools](plugins/tools.md) | 30 | deterministic tools, git, test runners, safe delete |
 | 2 | [🧩 Skills](plugins/skills.md) | 17 | engineering discipline, skill migration, book-to-skill |
 | 3 | [🔌 MCP](plugins/mcp.md) | 9 | MCP server management, webfetch, vision MCP |
-| 4 | [🎨 UI / Skins / Themes](plugins/ui-themes.md) | 38 | skins, themes, generative UI, input enhancements |
+| 4 | [🎨 UI / Skins / Themes](plugins/ui-themes.md) | 41 | skins, themes, generative UI, input enhancements |
 | 5 | [🖥️ Desktop / TUI / Mobile](plugins/desktop-tui-mobile.md) | 25 | desktop shells, terminal TUI, mobile, companions |
 | 6 | [🤖 Agent Orchestration](plugins/agent-orchestration.md) | 12 | agent teams, plan/execute, A2A, cross-session messaging |
-| 7 | [🧠 Context / Memory](plugins/context-memory.md) | 23 | long-term memory, context compression/audit, session control |
+| 7 | [🧠 Context / Memory](plugins/context-memory.md) | 24 | long-term memory, context compression/audit, session control |
 | 8 | [👁️ Multimodal / Vision](plugins/multimodal.md) | 17 | image Q&A, OCR, screenshots, computer use |
 | 9 | [🔁 Workflow / Automation](plugins/workflow-automation.md) | 21 | deep research, cron, condition wakeup, review loops |
 | 10 | [📡 Notifications / Channels](plugins/notifications-channels.md) | 17 | Telegram/WeChat/Feishu bots, SSH, desktop notify |
@@ -180,7 +180,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🎨 UI / Skins / Themes · 38</summary>
+<summary>🎨 UI / Skins / Themes · 41</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -196,6 +196,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-plugin-background](https://github.com/gameswu/dsh-plugin-background) | 9 | Web UI wallpaper customization |  |
 | [dsh-chat-width](https://github.com/chen-001/dsh-chat-width) | 3 | Adjusts reply width (terminal-width aware) |  |
 | [deepseek-harness-skin](https://github.com/HeiGeAi/deepseek-harness-skin) | 37 | Skinning system with 21 built-in skins plus one-image color scheme generation |  |
+| [dsh-homepage-skin](https://github.com/yushi-xxh/dsh-homepage-skin) |  | Puts the DeepSeek Harness homepage-style background on dsh web: WebGL fluid, dot grid and digital whale, in dark and light themes. | `dsh plugin --profile web add dsh-homepage-skin` |
 | [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) | 1387 | Full sidebar workbench with file rendering and editing, terminal, Git, and subagents; third-party plugins can register new tabs. | `dsh plugin add dsh-better-sidebar` |
 | [dsh-side-panel](https://github.com/ccq1/dsh-side-panel) | 15 | Side panel with file browser, terminal, and Git review for quick file previews. | `dsh plugin add @dsh-external/dsh-side-panel` |
 | [dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) | 16 | A "focus chat" minimal view that shows only final outputs. | `dsh plugin add @dingyi222666/dsh-focus-chat` |
@@ -218,6 +219,8 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-token-usage](https://github.com/hashdiana/dsh-token-usage) | 2 | Prettier token usage bar: context, input/output, cache breakdown, time-to-first-token | `dsh plugin add dsh-token-usage` |
 | [dsh-model-config-sync](https://github.com/LiangYin233/dsh-provider-model-configurator) | 11 | Advanced model configurator applying pi-ai presets to custom providers in one click | `dsh plugin add dsh-model-config-sync` |
 | [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 2899 | DSH Web UI plugin and skin collection: task board, Git graph, right panel, mobile remote, skin center | `dsh plugin add dsh-web-ui` |
+| [dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) |  | Brings open-mcp-apps into DSH: one sidebar container per MCP app (own workspace, session and App mode), an agent status strip, inline chat rendering and an App Store. | `dsh plugin --profile web add @2nd1st/dsh-plugin-open-app` |
+| [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) | 1 | UI butler: fold and toggle official/plugin UI by section, drag to move and resize, with collision avoidance and one-click auto layout. | `dsh plugin --profile web add github:Han-1413141/dsh-ui-hub` |
 | [dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) | 130 | In-conversation generative UI: the model renders interactive HTML cards into the chat stream, with streaming preview and sandboxed rendering. | `dsh plugin add @dsh-external/dsh-visualize` |
 | [dsh-genui](https://github.com/omdsh-dev/dsh-genui) | 116 | Interactive UI components rendered inline in replies: layout, charts, forms, quizzes, mermaid, 3D scenes, and an action event loop back to the model. | `dsh plugin add @omdsh-dev/dsh-genui` |
 | [web-components](https://github.com/omdsh-dev/web-components) | 2 | Web Components support. | `dsh plugin add @deepseek-ai/dsh-client-web-component` |
@@ -279,7 +282,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🧠 Context / Memory · 23</summary>
+<summary>🧠 Context / Memory · 24</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -292,6 +295,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-plugin-meta-memory](https://github.com/YYTbit/dsh-plugin-meta-memory) | 2 | Structured long-term memory system | `dsh plugin add dsh-plugin-meta-memory` |
 | [dsh-kb-sieve](https://github.com/omdsh-dev/dsh-kb-sieve) | 2 | Build auditable KB packs (SQLite FTS5) from md/txt/docx/pdf with deterministic retrieval and original-text reading. | `dsh plugin add @dsh-external/dsh-kb-sieve` |
 | [dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) | 4 | Manage the LLM-Wiki knowledge base from an agent (wiki_search/read/stats/ingest, etc.) | `dsh plugin add @detpecca/dsh-llm-wiki` |
+| [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) | 6 | Continual self-evolution: versioned, auditable, rollback-safe harness state (prompts, memory, skills, subagent specs) refined from session trajectories, with review gates and hot-reloaded skills. | `dsh plugin add dsh-continual-evolve` |
 | [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) | 10 | Context injection audit: token costs of instruction chains / skill catalogs / tool schemas, duplicate and conflict detection. | `dsh plugin add dsh-context-doctor` |
 | [context-vista](https://github.com/GooodWei/context-vista) | 4 | A right-side floating panel and /context command for DeepSeek Harness — a live donut chart of context token usage, allocation, and estimated cost. | `dsh plugin add context-vista` |
 | [distill](https://github.com/LoserFox/distill) | 19 | Automatic conversation distillation: background subagent reflection + skill create/update. | `dsh plugin add @loserfox/distill` |
