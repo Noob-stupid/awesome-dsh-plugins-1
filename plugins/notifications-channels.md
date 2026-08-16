@@ -7,7 +7,7 @@
 - [telegram](https://github.com/LoserFox/telegram) — Telegram Bot API 桥接：长轮询、per-chat 会话、HTML 格式化 ⭐6 · `dsh plugin add @loserfox/telegram`
 - [dsh-telegram](https://github.com/ben7am1n/dsh-telegram) — Telegram 运行时适配器（per-chat 会话、allowlist 认证） ⭐1 · `dsh plugin add dsh-telegram`
 - [DSH-Telegram-Relay](https://github.com/congchuanling-dot/DSH-Telegram-Relay) — 通过 Telegram 远程对话并接收通知 ⭐6 · `dsh plugin add dsh-telegram-relay`
-- [dsh-chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) — 通过 iLink 网关在微信里与 DSH agent 聊天/监控/审批 ⭐4 · `dsh plugin add @dsh-cowork/chatnode-wechat`
+- [dsh-chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) — 通过 iLink 网关在微信里与 DSH agent 聊天/监控/审批 ⭐5 · `dsh plugin add @dsh-cowork/chatnode-wechat`
 - [dsh-lark](https://github.com/Roy-oss1/dsh-lark) — 飞书 IM bot 通道：聊天驱动 agent、审批回传卡片（已删除） ⭐2 · `dsh plugin add @dsh-contrib/dsh-lark-channel`
 - [dsh-lark-bridge](https://github.com/imetn/dsh-lark-bridge) — 双向飞书控制器 ⭐7 · `dsh plugin add dsh-lark-bridge`
 - [dsh-onlyne](https://github.com/dbydd/dsh-onlyne) — IM 网关：从 dsh 会话收发 QQ/微信/飞书/Telegram 消息 ⭐2
@@ -24,7 +24,7 @@
 
 - [dsh-ssh](https://github.com/UynajGI/dsh-ssh) — SSH 远程执行（ProxyJump 链、SFTP 文件系统、PTY） ⭐5
 - [dsh-webhook-bridge](https://github.com/ben7am1n/dsh-webhook-bridge) — 通用 webhook 接收器：POST /hook/:channel 唤醒 per-channel agent ⭐1 · `dsh plugin add dsh-webhook-bridge`
-- [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) — 从 Web GUI 一键在 VS Code 中打开工作区目录 ⭐46 · `dsh plugin add dsh-open-in-vscode`
+- [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) — 从 Web GUI 一键在 VS Code 中打开工作区目录 ⭐45 · `dsh plugin add dsh-open-in-vscode`
 - [dsh-share](https://github.com/hellodigua/dsh-share) — 一键分享你的对话 ⭐19 · `dsh plugin add @dsh-external/dsh-share`
 - [dsh-conversation-share](https://github.com/bill9109/dsh-conversation-share) — 分享任意段落的对话 ⭐1 · `dsh plugin add @bill9109/dsh-conversation-share`
 

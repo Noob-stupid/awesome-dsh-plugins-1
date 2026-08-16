@@ -11,7 +11,7 @@
 - [dsh-tool-markdown](https://github.com/omdsh-dev/dsh-tool-markdown) — HTML↔Markdown 转换、GFM 表格规范化、目录生成 ⭐4 · `dsh plugin add @deepseek-ai/dsh-tool-markdown`
 - [dsh-tool-regex](https://github.com/omdsh-dev/dsh-tool-regex) — 正则测试/提取/安全替换/静态解释（不执行代码） ⭐3 · `dsh plugin add @deepseek-ai/dsh-tool-regex`
 - [dsh-tool-schema](https://github.com/omdsh-dev/dsh-tool-schema) — JSON Schema 验证：validate/paths/explain/normalize ⭐3 · `dsh plugin add @deepseek-ai/dsh-tool-schema`
-- [dsh-tool-stat](https://github.com/omdsh-dev/dsh-tool-stat) — 描述统计/百分位数/频数分布/相关性 ⭐4 · `dsh plugin add @deepseek-ai/dsh-tool-stat`
+- [dsh-tool-stat](https://github.com/omdsh-dev/dsh-tool-stat) — 描述统计/百分位数/频数分布/相关性 ⭐5 · `dsh plugin add @deepseek-ai/dsh-tool-stat`
 - [dsh-tool-time](https://github.com/omdsh-dev/dsh-tool-time) — 严格 ISO 8601 解析、IANA 时区、UTC 日历运算 ⭐4 · `dsh plugin add @deepseek-ai/dsh-tool-time`
 - [dsh-tool-git](https://github.com/lxj808624/dsh-tool-git) — 结构化 Git 工具（status/diff/log/branch/stage/commit/stash/show）+ 危险命令守卫 ⭐4 · `dsh plugin add dsh-tool-git`
 - [dsh-test-runner](https://github.com/suimi8/dsh-test-runner) — 结构化 test_run：自动探测 vitest/jest/pytest/node:test 并解析失败摘要 ⭐2 · `dsh plugin add dsh-test-runner`
@@ -19,7 +19,7 @@
 - [dsh-tool-search](https://github.com/vibeinging/dsh-tool-search) — 按 agent 的按需工具发现 + 渐进式 schema 披露 ⭐2 · `dsh plugin add @deepseek-ai/dsh-tool-search`
 - [dsh-custom-tool](https://github.com/omdsh-dev/dsh-custom-tool) — 用 Monaco 编辑器创建/管理沙箱化自定义 JS 工具 ⭐24 · `dsh plugin add dsh-custom-tool`
 - [dsh-bash-encoding](https://github.com/lhh010/dsh-bash-encoding) — 自动识别并解码 Bash 输出编码（UTF-16LE/UTF-8/GBK），修中文乱码 ⭐7
-- [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) — Codex 风格 `@file` 文件引用，输入框里直接搜索并引用工作区文件 ⭐241 · `dsh plugin add dsh-at-file`
+- [dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) — Codex 风格 `@file` 文件引用，输入框里直接搜索并引用工作区文件 ⭐249 · `dsh plugin add dsh-at-file`
 - [dsh-wikilink](https://github.com/zhaoscsc/dsh-wikilink) — Obsidian 风格 `[[wikilink]]` 提及：模糊搜索笔记标题并附加内容 ⭐3 · `dsh plugin add dsh-wikilink`
 - [dsh-safe-delete](https://github.com/Qintsg/dsh-safe-delete) — 安全删除：移入回收站/暂存区而非永久删除，支持恢复 ⭐3
 - [dsh-bisect-debug](https://github.com/PangYiMing/dsh-bisect-debug) — 二分法定位 bug 根因（代码/边界/commit） ⭐1 · `dsh plugin add dsh-bisect-debug`
