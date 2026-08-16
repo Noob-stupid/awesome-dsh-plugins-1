@@ -5288,6 +5288,21 @@
         "title": "UI 增强 / UI Enhancements"
       },
       "archived": false
+    },
+    {
+      "fullName": "Laplace-bit/dsh-bell-notify",
+      "url": "https://github.com/Laplace-bit/dsh-bell-notify",
+      "description": "Rings bells and shows a breathing status dot for Agent lifecycle events; Web Audio synthesized (zero audio files), custom sounds uploadable per event.",
+      "stars": 1,
+      "pushedAt": "2026-08-16T13:10:55Z",
+      "license": "MIT",
+      "isPlugin": true,
+      "npmName": null,
+      "category": {
+        "id": "notify",
+        "title": "通知与集成 / Notifications & Integrations"
+      },
+      "archived": false
     }
   ]
 }
