@@ -539,5 +539,6 @@
  "dsh-external/dsh-cordis-examples": "Minimal native DSH/Cordis extension examples (⚠️ deleted).",
  "yushi-xxh/dsh-homepage-skin": "Puts the DeepSeek Harness homepage-style background on dsh web: WebGL fluid, dot grid and digital whale, in dark and light themes.",
  "2nd1st/dsh-plugin-open-app": "Brings open-mcp-apps into DSH: one sidebar container per MCP app (own workspace, session and App mode), an agent status strip, inline chat rendering and an App Store.",
- "han-1413141/dsh-ui-hub": "UI butler: fold and toggle official/plugin UI by section, drag to move and resize, with collision avoidance and one-click auto layout."
+ "han-1413141/dsh-ui-hub": "UI butler: fold and toggle official/plugin UI by section, drag to move and resize, with collision avoidance and one-click auto layout.",
+  "laplace-bit/dsh-bell-notify": "Rings bells and shows a breathing status dot for Agent lifecycle events; Web Audio synthesized (zero audio files), custom sounds uploadable per event."
 }
