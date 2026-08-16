@@ -7,14 +7,14 @@
 - [telegram](https://github.com/LoserFox/telegram) — Telegram Bot API 桥接：长轮询、per-chat 会话、HTML 格式化 ⭐6 · `dsh plugin add @loserfox/telegram`
 - [dsh-telegram](https://github.com/ben7am1n/dsh-telegram) — Telegram 运行时适配器（per-chat 会话、allowlist 认证） ⭐1 · `dsh plugin add dsh-telegram`
 - [DSH-Telegram-Relay](https://github.com/congchuanling-dot/DSH-Telegram-Relay) — 通过 Telegram 远程对话并接收通知 ⭐6 · `dsh plugin add dsh-telegram-relay`
-- [dsh-chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) — 通过 iLink 网关在微信里与 DSH agent 聊天/监控/审批 ⭐3 · `dsh plugin add @dsh-cowork/chatnode-wechat`
+- [dsh-chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) — 通过 iLink 网关在微信里与 DSH agent 聊天/监控/审批 ⭐4 · `dsh plugin add @dsh-cowork/chatnode-wechat`
 - [dsh-lark](https://github.com/Roy-oss1/dsh-lark) — 飞书 IM bot 通道：聊天驱动 agent、审批回传卡片（已删除） ⭐2 · `dsh plugin add @dsh-contrib/dsh-lark-channel`
 - [dsh-lark-bridge](https://github.com/imetn/dsh-lark-bridge) — 双向飞书控制器 ⭐7 · `dsh plugin add dsh-lark-bridge`
 - [dsh-onlyne](https://github.com/dbydd/dsh-onlyne) — IM 网关：从 dsh 会话收发 QQ/微信/飞书/Telegram 消息 ⭐2
 
 ## 通知
 
-- [dsh-notification](https://github.com/omdsh-dev/dsh-notification) — 回合完成桌面通知，按结果分控 + 关键词过滤 ⭐49 · `dsh plugin add dsh-notification`
+- [dsh-notification](https://github.com/omdsh-dev/dsh-notification) — 回合完成桌面通知，按结果分控 + 关键词过滤 ⭐50 · `dsh plugin add dsh-notification`
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) — Windows 通知（零依赖） ⭐3
 - [dsh-win-notify](https://github.com/MuziIsabel/dsh-win-notify) — Windows toast 通知（任务完成带声音） ⭐4 · `dsh plugin add dsh-win-notify`
 - [dsh-web-ui-notify](https://github.com/bill9109/dsh-web-ui-notify) — 桌面通知提醒 ⭐15 · `dsh plugin add @bill9109/dsh-web-ui-notify`
