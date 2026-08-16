@@ -4,7 +4,7 @@
 
 ## 记忆 / 知识
 
-- [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) — 跨会话长期记忆 + 后台自我进化（五轨记忆/git 分支感知/技能进化） ⭐119
+- [dsh-memory-evolve](https://github.com/csyangwen/dsh-memory-evolve) — 跨会话长期记忆 + 后台自我进化（五轨记忆/git 分支感知/技能进化） ⭐120
 - [billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) — 模型驱动上下文压缩（ACP）：模型决定何时压缩（移植自 billion-context-pi） ⭐19
 - [dsh-memory](https://github.com/Jesse-njx/dsh-memory) — 基于无损会话日志的引用式记忆（事实带 sessionId/eventRange 引用） ⭐2 · `dsh plugin add @dsh-memory/bundle`
 - [dsh-memory](https://github.com/ben7am1n/dsh-memory) — 跨会话 SQLite 持久记忆 ⭐1 · `dsh plugin add dsh-memory`
@@ -26,7 +26,7 @@
 
 ## 会话控制 / 回退
 
-- [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) — 对话回退：基于持久 Change Ledger 回滚会话与工作区状态 ⭐64 · `dsh plugin add @dsh-external/turn-rewind`
+- [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) — 对话回退：基于持久 Change Ledger 回滚会话与工作区状态 ⭐63 · `dsh plugin add @dsh-external/turn-rewind`
 - [dsh-undo](https://github.com/LingLambda/dsh-undo) — 上下文 undo/redo：回退到上一个已完成步骤并恢复 ⭐4 · `dsh plugin add dsh-undo`
 - [dsh-recall](https://github.com/Mongfayi/dsh-recall) — 消息撤回：每条用户消息一个撤销按钮，删除该轮及其后内容（不改代码） ⭐3 · `dsh plugin add dsh-recall`
 - [dsh-sidechain](https://github.com/omdsh-dev/dsh-sidechain) — `/side` 持续性侧会话与 `/btw` 一次性侧问，在临时 fork 中运行 ⭐9 · `dsh plugin add @dsh-external/dsh-sidechain`

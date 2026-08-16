@@ -14,15 +14,15 @@
 - [dsh-ui-whale](https://github.com/lhh010/dsh-ui-whale) — 全手绘像素鲸鱼伙伴（眨眼/摆尾/喷水/爱心） ⭐29
 - [whale-girl](https://github.com/vlln/whale-girl) — 桌面宠物鲸鱼娘（QQ 宠物形态，可拖拽/投喂/玩耍） ⭐194 · `dsh plugin add whale-girl`
 - [dsh-pixel-whale](https://github.com/yoke233/dsh-pixel-whale) — 活泼像素鲸鱼运行状态伴侣 ⭐1 · `dsh plugin add dsh-pixel-whale`
-- [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) — 蓝鲸女仆桌面像素宠物 ⭐3 · `dsh plugin add dsh-blue-whale-maid`
+- [dsh-blue-whale-maid](https://github.com/yuxino/dsh-blue-whale-maid) — 蓝鲸女仆桌面像素宠物 ⭐4 · `dsh plugin add dsh-blue-whale-maid`
 - [deepseek-pet](https://github.com/keleus/deepseek-pet) — 在 DSH 上养一只大蓝鲸 ⭐26 · `dsh plugin add deepseek-pet`
 - [dsh-stickers](https://github.com/william-jin-cmu/dsh-stickers) — 用户与 agent 双向表情贴纸互动 ⭐19 · `dsh plugin add @dsh-external/dsh-stickers`
 - [dsh-emoji](https://github.com/hellodigua/dsh-emoji) — 为 AI 回复自动添加表情 ⭐21 · `dsh plugin add @dsh-external/dsh-emoji`
 
 ## 整活 / 音效 / 趣味
 
-- [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — 2005 中文站点风格整活广告（侧栏/信息流/弹窗，素材全虚构） ⭐455 · `dsh plugin add @dsh-external/dsh-ads`
-- [dsh-stock-market](https://github.com/AnacondaKC/dsh-stock-market) — 股票行情数据插件（整活向） ⭐11 · `dsh plugin add dsh-stock-market`
+- [dsh-ads](https://github.com/Nagi-ovo/dsh-ads) — 2005 中文站点风格整活广告（侧栏/信息流/弹窗，素材全虚构） ⭐456 · `dsh plugin add @dsh-external/dsh-ads`
+- [dsh-stock-market](https://github.com/AnacondaKC/dsh-stock-market) — 股票行情数据插件（整活向） ⭐12 · `dsh plugin add dsh-stock-market`
 - [dsh-douyin](https://github.com/AnacondaKC/dsh-douyin) — 侧栏短视频：原生播放器、系列导航、历史回放 ⭐3 · `dsh plugin add dsh-douyin`
 - [deepseek-manners](https://github.com/Moeblack/deepseek-manners) — 每次消息后注入感谢语，做个有礼貌的人 ⭐12 · `dsh plugin add deepseek-manners`
 - [dsh-sound-effects-plugin](https://github.com/JasonJin2006/dsh-sound-effects-plugin) — Reasonix 风格音效（生成式五声音阶环境音 + 提示音） ⭐2 · `dsh plugin add dsh-sound-effects-plugin`
