@@ -7,7 +7,7 @@
 - [dsh-meta-orchestrator](https://github.com/jiruidai/dsh-meta-orchestrator) — 模型原生 meta-agent：运行时合成任务专属工作流并协调工具/子代理 ⭐3 · `dsh plugin add dsh-meta-orchestrator`
 - [dsh-crosstalk](https://github.com/Jesse-njx/dsh-crosstalk) — 跨会话消息互发：本机任意会话像 Claude Code 一样互发消息 ⭐2 · `dsh plugin add @dsh-crosstalk/bundle`
 - [dsh-agent-messaging](https://github.com/happyren/dsh-agent-messaging) — 跨会话 agent-to-agent 消息投递（按会话名寻址） ⭐4 · `dsh plugin add dsh-agent-messaging`
-- [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) — 跨实例消息/事件交接（interconnect 服务 + 工具） ⭐29 · `dsh plugin add dsh-interconnect`
+- [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) — 跨实例消息/事件交接（interconnect 服务 + 工具） ⭐30 · `dsh plugin add dsh-interconnect`
 - [dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) — 多服务器 DSH 会话聚合与原生操控（hub 网关 + 官方 UI 桥） ⭐4 · `dsh plugin add dsh-session-hub`
 - [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) — 可配置子代理 profiles + 实时工具调用/token 显示 + 子会话跳转 ⭐7 · `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent`
 - [dsh-plan-execute](https://github.com/dsh-external/dsh-plan-execute) — 双模型 plan/execute 路由（planner 想、executor 做）⚠️ dsh-external，已删除

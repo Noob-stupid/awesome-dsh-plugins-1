@@ -20,7 +20,7 @@
 
 ## 界面增强 / 面板
 
-- [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — 侧边栏完整工作台：文件渲染编辑/终端/Git/子代理，支持三方注册 Tab ⭐1615 · `dsh plugin add dsh-better-sidebar`
+- [DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) — 侧边栏完整工作台：文件渲染编辑/终端/Git/子代理，支持三方注册 Tab ⭐1616 · `dsh plugin add dsh-better-sidebar`
 - [dsh-side-panel](https://github.com/ccq1/dsh-side-panel) — 侧边栏集成文件浏览器、终端和 Git 审查 ⭐15 · `dsh plugin add @dsh-external/dsh-side-panel`
 - [dsh-focus-chat](https://github.com/dingyi222666/dsh-focus-chat) — 「聚焦会话」精简视图，只关注最终产出结果 ⭐18 · `dsh plugin add @dingyi222666/dsh-focus-chat`
 - [ui-status-label](https://github.com/alingalingling/ui-status-label) — 把鲸鱼娘思考时的 "deep diving" 状态文案自定义 ⭐37 · `dsh plugin add dsh-ui-status-label`
@@ -35,13 +35,13 @@
 - [ex-setting](https://github.com/omdsh-dev/ex-setting) — DSH 的设置扩展 ⭐2 · `dsh plugin add @deepseek-ai/dsh-ex-setting`
 - [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) — 选中文字→批注→回车随消息发送，回复按批注逐条对照 ⭐63 · `dsh plugin add @omdsh-dev/dsh-annotation`
 - [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio) — 带实时预览的用户/内置 system prompt 分节编辑器 ⭐3 · `dsh plugin add dsh-prompt-studio`
-- [dsh-prompt-persona](https://github.com/Xilin3/dsh-prompt-persona) — 从设置页编辑系统提示词（deployment persona），带实时预览 ⭐5 · `dsh plugin add @xilin3/dsh-prompt-persona`
+- [dsh-prompt-persona](https://github.com/Xilin3/dsh-prompt-persona) — 从设置页编辑系统提示词（deployment persona），带实时预览 ⭐6 · `dsh plugin add @xilin3/dsh-prompt-persona`
 - [dsh-model-selector](https://github.com/bitterSmilezzz/dsh-model-selector) — provider 分组折叠 + 名称搜索的模型选择器增强（已删除） ⭐1 · `dsh plugin add dsh-model-selector`
 - [dsh-local-filetree](https://github.com/Mongfayi/dsh-local-filetree) — 右侧详情列显示当前会话工作区文件树（懒加载、只读） ⭐1 · `dsh plugin add dsh-local-filetree`
 - [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) — 把滚出屏幕的折叠标签（Think/工具卡）钉在视口顶部 ⭐3 · `dsh plugin add dsh-sticky-disclosure`
 - [dsh-token-usage](https://github.com/hashdiana/dsh-token-usage) — 更美观的 Token 用量条：上下文占用/输入输出/缓存分解/首字延迟 ⭐2 · `dsh plugin add dsh-token-usage`
 - [dsh-model-config-sync](https://github.com/LiangYin233/dsh-provider-model-configurator) — 高级模型配置器：把 pi-ai 预设一键应用到自定义提供商 ⭐11 · `dsh plugin add dsh-model-config-sync`
-- [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) — DSH Web UI 插件与皮肤集合：任务看板、Git 图谱、右侧面板、移动端远程、皮肤中心 ⭐3387 · `dsh plugin add dsh-web-ui`
+- [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) — DSH Web UI 插件与皮肤集合：任务看板、Git 图谱、右侧面板、移动端远程、皮肤中心 ⭐3391 · `dsh plugin add dsh-web-ui`
 - [dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) — 把 open-mcp-apps 带进 DSH：每个 MCP app 一个侧边栏容器（独立 workspace + 会话 + App mode），带 agent 状态条、聊天内行内渲染与 App Store · `dsh plugin --profile web add @2nd1st/dsh-plugin-open-app`
 - [dsh-ui-hub](https://github.com/Han-1413141/dsh-ui-hub) — UI 管家：官方/插件 UI 分区折叠、逐条开关，拖拽移动/改大小，碰撞避让与一键自动排布 · `dsh plugin --profile web add github:Han-1413141/dsh-ui-hub` ⭐2
 

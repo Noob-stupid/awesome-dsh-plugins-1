@@ -12,7 +12,7 @@
 - [dsh-browser](https://github.com/ben7am1n/dsh-browser) — Playwright 驱动的浏览器自动化 ⭐1 · `dsh plugin add dsh-browser`
 - [DSH-Chrome-devtools](https://github.com/yuzi-ska/DSH-Chrome-devtools) — 基于 Chrome DevTools MCP 的真实 Chrome 控制 ⭐1 · `dsh plugin add dsh-chrome-devtools`
 - [dsh-playwright-cli](https://github.com/mitao-su/dsh-playwright-cli) — 包装 Playwright CLI：装浏览器、跑测试、从 agent 循环打开 HTML 报告 ⭐2 · `dsh plugin add dsh-playwright-cli`
-- [deepseek-pp](https://github.com/zhu1090093659/deepseek-pp) — 浏览器扩展 AI Agent 工作区，内置 MCP 与记忆 ⭐1570
+- [deepseek-pp](https://github.com/zhu1090093659/deepseek-pp) — 浏览器扩展 AI Agent 工作区，内置 MCP 与记忆 ⭐1571
 
 ## 搜索 / 抓取
 
@@ -22,7 +22,7 @@
 - [dsh-web-search-pro](https://github.com/anweat/dsh-web-search-pro) — 增强持久搜索（多引擎 + SQLite/LRU 缓存 + Playwright 渲染） ⭐14 · `dsh plugin add dsh-web-search-pro`
 - [dsh-all-search](https://github.com/RealAlexandreAI/dsh-all-search) — AnySearch 网页搜索提供方（ctx.web） ⭐1 · `dsh plugin add dsh-all-search`
 - [modsearch](https://github.com/liustack/modsearch) — CLI 搜索工具：把搜索查询转结构化 web 证据 JSON ⭐111 · `dsh plugin add @liustack/modsearch`
-- [argo](https://github.com/taxueseek/argo) — 为 agent 打造的多语言搜索工具（中文/英文/学术/代码/购物/金融/新闻/百科） ⭐91 · `dsh plugin add github:taxueseek/argo`
+- [argo](https://github.com/taxueseek/argo) — 为 agent 打造的多语言搜索工具（中文/英文/学术/代码/购物/金融/新闻/百科） ⭐92 · `dsh plugin add github:taxueseek/argo`
 
 <!-- nav:start -->
 ---
