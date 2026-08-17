@@ -24,7 +24,7 @@
 
 ## 运行时 / 沙箱 / 遥测 / hook
 
-- [dsh-evolve](https://github.com/william-jin-cmu/dsh-evolve) — 自进化：agent 会话内给自己热挂载/卸载持久化插件 ⭐11 · `dsh plugin add @dsh-external/dsh-evolve`
+- [dsh-evolve](https://github.com/william-jin-cmu/dsh-evolve) — 自进化：agent 会话内给自己热挂载/卸载持久化插件 ⭐10 · `dsh plugin add @dsh-external/dsh-evolve`
 - [dsh-trace](https://github.com/vibeinging/dsh-trace) — 遥测后端：导出 turns/model steps/tool calls 到 yiTrace ⭐2 · `dsh plugin add @deepseek-ai/dsh-trace`
 - [fabric](https://github.com/omdsh-dev/fabric) — 类似 MC Fabric 的 hook 处理器 ⭐14 · `dsh plugin add cordis-fabric-bundle`
 - [sandbox-micro](https://github.com/omdsh-dev/sandbox-micro) — microsandbox 沙箱支持 ⭐3 · `dsh plugin add @deepseek-ai/dsh-sandbox-microsandbox`
@@ -44,7 +44,7 @@
 - [dsh-multica-runtime](https://github.com/multica-ai/dsh-multica-runtime) — Multica 的 DSH runtime 桥接（stdio JSONL 协议） ⭐46 · `dsh plugin add @multica-ai/dsh-runtime`
 - [session-teleport](https://github.com/omdsh-dev/session-teleport) — PostgreSQL 单写者会话交接服务 ⭐2 · `dsh plugin add @mattheliu/session-teleport`
 - [session-persistence-rdb](https://github.com/morlay/session-persistence-rdb) — session 关系型数据库持久化 ⭐4 · `dsh plugin add @morlay/session-persistence-rdb`
-- [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐816 · `dsh plugin add github:dsh-market/dsh-market`
+- [dsh-market](https://github.com/dsh-market/dsh-market) — DSH 可视化插件市场：浏览/搜索/一键安装 ⭐822 · `dsh plugin add github:dsh-market/dsh-market`
 - [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) — dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 ⭐78 · `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin`
 
 <!-- nav:start -->
