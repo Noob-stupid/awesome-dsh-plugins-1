@@ -14,7 +14,7 @@
 
 ## 通知
 
-- [dsh-notification](https://github.com/omdsh-dev/dsh-notification) — 回合完成桌面通知，按结果分控 + 关键词过滤 ⭐55 · `dsh plugin add dsh-notification`
+- [dsh-notification](https://github.com/omdsh-dev/dsh-notification) — 回合完成桌面通知，按结果分控 + 关键词过滤 ⭐56 · `dsh plugin add dsh-notification`
 - [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) — Windows 通知（零依赖） ⭐5
 - [dsh-win-notify](https://github.com/MuziIsabel/dsh-win-notify) — Windows toast 通知（任务完成带声音） ⭐4 · `dsh plugin add dsh-win-notify`
 - [dsh-web-ui-notify](https://github.com/bill9109/dsh-web-ui-notify) — 桌面通知提醒 ⭐17 · `dsh plugin add @bill9109/dsh-web-ui-notify`
@@ -26,7 +26,7 @@
 
 - [dsh-ssh](https://github.com/UynajGI/dsh-ssh) — SSH 远程执行（ProxyJump 链、SFTP 文件系统、PTY） ⭐5
 - [dsh-webhook-bridge](https://github.com/ben7am1n/dsh-webhook-bridge) — 通用 webhook 接收器：POST /hook/:channel 唤醒 per-channel agent ⭐1 · `dsh plugin add dsh-webhook-bridge`
-- [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) — 从 Web GUI 一键在 VS Code 中打开工作区目录 ⭐46 · `dsh plugin add dsh-open-in-vscode`
+- [dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) — 从 Web GUI 一键在 VS Code 中打开工作区目录 ⭐47 · `dsh plugin add dsh-open-in-vscode`
 - [dsh-share](https://github.com/hellodigua/dsh-share) — 一键分享你的对话 ⭐22 · `dsh plugin add @dsh-external/dsh-share`
 - [dsh-conversation-share](https://github.com/bill9109/dsh-conversation-share) — 分享任意段落的对话 ⭐1 · `dsh plugin add @bill9109/dsh-conversation-share`
 
