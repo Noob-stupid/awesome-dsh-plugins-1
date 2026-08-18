@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**A curated directory of 295+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
+**A curated directory of 299+ [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) plugins across 14 categories — every entry with ⭐ stars and a `dsh plugin add` command. Bilingual (EN + 中文), machine-readable data, auto-sync CI.**
 
-![plugins](https://img.shields.io/badge/plugins-295-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-299-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **English** · [中文版](README.zh.md)
 
@@ -66,7 +66,7 @@ Top community plugins by GitHub stars:
 
 | Metric | Value |
 |---|---|
-| Plugins listed | **295** entries (295 unique) |
+| Plugins listed | **299** entries (299 unique) |
 | Categories | **14** top-level |
 | Ecosystem reference | `dsh-plugin` topic ~3300+ repos · seed data 369 · compat radar 286+ |
 
@@ -79,13 +79,13 @@ Top community plugins by GitHub stars:
 | 1 | [🛠️ Tools](plugins/tools.md) | 30 | deterministic tools, git, test runners, safe delete |
 | 2 | [🧩 Skills](plugins/skills.md) | 16 | engineering discipline, skill migration, book-to-skill |
 | 3 | [🔌 MCP](plugins/mcp.md) | 8 | MCP server management, webfetch, vision MCP |
-| 4 | [🎨 UI / Skins / Themes](plugins/ui-themes.md) | 42 | skins, themes, generative UI, input enhancements |
+| 4 | [🎨 UI / Skins / Themes](plugins/ui-themes.md) | 43 | skins, themes, generative UI, input enhancements |
 | 5 | [🖥️ Desktop / TUI / Mobile](plugins/desktop-tui-mobile.md) | 22 | desktop shells, terminal TUI, mobile, companions |
-| 6 | [🤖 Agent Orchestration](plugins/agent-orchestration.md) | 9 | agent teams, plan/execute, A2A, cross-session messaging |
-| 7 | [🧠 Context / Memory](plugins/context-memory.md) | 23 | long-term memory, context compression/audit, session control |
+| 6 | [🤖 Agent Orchestration](plugins/agent-orchestration.md) | 10 | agent teams, plan/execute, A2A, cross-session messaging |
+| 7 | [🧠 Context / Memory](plugins/context-memory.md) | 24 | long-term memory, context compression/audit, session control |
 | 8 | [👁️ Multimodal / Vision](plugins/multimodal.md) | 17 | image Q&A, OCR, screenshots, computer use |
 | 9 | [🔁 Workflow / Automation](plugins/workflow-automation.md) | 21 | deep research, cron, condition wakeup, review loops |
-| 10 | [📡 Notifications / Channels](plugins/notifications-channels.md) | 17 | Telegram/WeChat/Feishu bots, SSH, desktop notify |
+| 10 | [📡 Notifications / Channels](plugins/notifications-channels.md) | 18 | Telegram/WeChat/Feishu bots, SSH, desktop notify |
 | 11 | [🌐 Browser / Search](plugins/browser-search.md) | 16 | browser control, scraping, search providers |
 | 12 | [🏗️ Infra / Plugin Mgmt](plugins/infrastructure-dev.md) | 33 | plugin managers, health checks, sandboxes, telemetry |
 | 13 | [🎮 Fun / Other](plugins/fun-other.md) | 31 | games, pets, stickers, learning, design |
@@ -178,7 +178,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🎨 UI / Skins / Themes · 42</summary>
+<summary>🎨 UI / Skins / Themes · 43</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -215,6 +215,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) | 3 | One-click collapse of every expanded section (Think rows, tool cards) with a live-count pill and a customizable hotkey. | `dsh plugin add dsh-sticky-disclosure` |
 | [dsh-token-usage](https://github.com/hashdiana/dsh-token-usage) | 3 | Prettier token usage bar: context, input/output, cache breakdown, time-to-first-token | `dsh plugin add dsh-token-usage` |
 | [TokenLedger](https://github.com/zh667/TokenLedger) | 99 | 按中转站点、项目和模型统计本地 DSH Token 用量，并显示账户余额与订阅额度周期 | `dsh plugin --profile web add github:zh667/TokenLedger` |
+| [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) | 10 | RMB/USD token 计费：官方峰谷价自动计价、按 provider/来源分组统计、预算与余额可视、CSV/JSON 导出 | `dsh plugin --profile web add github:bpc-oss/dsh-web-billing` |
 | [dsh-model-config-sync](https://github.com/LiangYin233/dsh-provider-model-configurator) | 11 | Advanced model configurator applying pi-ai presets to custom providers in one click | `dsh plugin add dsh-model-config-sync` |
 | [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 4513 | DSH Web UI plugin and skin collection: task board, Git graph, right panel, mobile remote, skin center | `dsh plugin add dsh-web-ui` |
 | [dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) | 3 | Brings open-mcp-apps into DSH: one sidebar container per MCP app (own workspace, session and App mode), an agent status strip, inline chat rendering and an App Store. |  |
@@ -258,7 +259,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>🤖 Agent Orchestration · 9</summary>
+<summary>🤖 Agent Orchestration · 10</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -271,11 +272,12 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) | 4 | Aggregate and natively control DSH sessions across servers (hub gateway + official UI bridge) | `dsh plugin add dsh-session-hub` |
 | [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) | 11 | Configurable subagent profiles plus live tool-call/token display and sub-session jump | `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent` |
 | [dsh-a2a](https://github.com/dpskh/dsh-a2a) | 5 | Agent2Agent mesh interconnection ⚠️ dsh-external, public availability unverified |  |
+| [dph-fleet](https://github.com/polaris-smart/dph-fleet) | 2 | 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连，任意设备可派单/接单（零 npm 依赖） | `dsh plugin add dph-fleet-0.2.4.tgz` |
 
 </details>
 
 <details>
-<summary>🧠 Context / Memory · 23</summary>
+<summary>🧠 Context / Memory · 24</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -289,6 +291,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-kb-sieve](https://github.com/omdsh-dev/dsh-kb-sieve) | 2 | Build auditable KB packs (SQLite FTS5) from md/txt/docx/pdf with deterministic retrieval and original-text reading. | `dsh plugin add @dsh-external/dsh-kb-sieve` |
 | [dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) | 4 | Manage the LLM-Wiki knowledge base from an agent (wiki_search/read/stats/ingest, etc.) | `dsh plugin add @detpecca/dsh-llm-wiki` |
 | [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) | 12 | Continual self-evolution: versioned, auditable, rollback-safe harness state (prompts, memory, skills, subagent specs) refined from session trajectories, with review gates and hot-reloaded skills. | `dsh plugin add dsh-continual-evolve` |
+| [dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) | 10 | 跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理 | `dsh plugin add github:Phant0Meow/dsh-meow-memory` |
 | [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) | 15 | Context injection audit: token costs of instruction chains / skill catalogs / tool schemas, duplicate and conflict detection. | `dsh plugin add dsh-context-doctor` |
 | [context-vista](https://github.com/GooodWei/context-vista) | 8 | A right-side floating panel and /context command for DeepSeek Harness — a live donut chart of context token usage, allocation, and estimated cost. | `dsh plugin add context-vista` |
 | [distill](https://github.com/LoserFox/distill) | 19 | Automatic conversation distillation: background subagent reflection + skill create/update. | `dsh plugin add @loserfox/distill` |
@@ -360,7 +363,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 </details>
 
 <details>
-<summary>📡 Notifications / Channels · 17</summary>
+<summary>📡 Notifications / Channels · 18</summary>
 
 | Plugin | ⭐ | Description | Install |
 |---|---|---|---|
@@ -370,6 +373,7 @@ Expand any category to browse all plugins inline — no need to leave this page.
 | [dsh-chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) | 6 | Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session targeting, digest heartbeats, and numbered approval prompts. | `dsh plugin add @dsh-cowork/chatnode-wechat` |
 | [dsh-lark-bridge](https://github.com/imetn/dsh-lark-bridge) | 7 | Bidirectional Lark/Feishu controller for DeepSeek Harness with project and session routing, interactive cards, approvals, attachments, and task controls. | `dsh plugin add dsh-lark-bridge` |
 | [dsh-onlyne](https://github.com/dbydd/dsh-onlyne) | 2 | IM gateway sending/receiving QQ, WeChat, Feishu, and Telegram messages from dsh sessions |  |
+| [dsh-im](https://github.com/xmanrui/dsh-im) | 52 | 一个设置入口统一接入飞书/微信/钉钉/企业微信/QQ/Slack/Telegram/Discord/WhatsApp 机器人，支持扫码、Manifest 或凭据绑定 | `npx -y github:xmanrui/dsh-im install` |
 | [dsh-notification](https://github.com/omdsh-dev/dsh-notification) | 60 | Desktop notifications for turn completions, with per-outcome controls and keyword rules. | `dsh plugin add dsh-notification` |
 | [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) | 5 | Windows notifications (zero dependencies) |  |
 | [dsh-win-notify](https://github.com/MuziIsabel/dsh-win-notify) | 4 | Windows toast notifications (sound on task completion) | `dsh plugin add dsh-win-notify` |

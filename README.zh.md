@@ -2,9 +2,9 @@
 
 # 🐋 Awesome DeepSeek Harness Plugins
 
-**DeepSeek Harness（`dsh`）插件精选目录：14 类 295 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
+**DeepSeek Harness（`dsh`）插件精选目录：14 类 299 个插件，每条附 ⭐ star 与 `dsh plugin add` 安装命令。双语（英文主 + 中文）、机器可读数据、自动同步 CI。**
 
-![plugins](https://img.shields.io/badge/plugins-295-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![plugins](https://img.shields.io/badge/plugins-299-blue) ![categories](https://img.shields.io/badge/categories-14-blue) ![license](https://img.shields.io/badge/license-MIT-green) ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
 **中文** · [English](README.md)
 
@@ -66,7 +66,7 @@
 
 | 指标 | 数值 |
 |---|---|
-| 收录插件条目 | **295** 条（去重后 295 个插件） |
+| 收录插件条目 | **299** 条（去重后 299 个插件） |
 | 分类 | **14** 个一级分类 |
 | 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 本仓库种子数据 369 · 兼容雷达追踪 286+ |
 
@@ -79,13 +79,13 @@
 | 1 | [🛠️ 工具类 Tools](plugins/tools.md) | 30 | 确定性工具集、git、测试、安全删除等 |
 | 2 | [🧩 技能类 Skills](plugins/skills.md) | 16 | 工程纪律、技能迁移、书转技能等 |
 | 3 | [🔌 MCP 接入](plugins/mcp.md) | 8 | MCP 服务器管理、webfetch、视觉 MCP 等 |
-| 4 | [🎨 Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 42 | 皮肤、主题、生成式 UI、输入增强等 |
+| 4 | [🎨 Web UI / 皮肤 / 主题](plugins/ui-themes.md) | 43 | 皮肤、主题、生成式 UI、输入增强等 |
 | 5 | [🖥️ 桌面端 / TUI / 移动端](plugins/desktop-tui-mobile.md) | 22 | 桌面壳、终端 TUI、移动端、桌宠等 |
-| 6 | [🤖 Agent 编排 / 多 Agent](plugins/agent-orchestration.md) | 9 | 多 Agent 团队、工作流、跨会话消息等 |
-| 7 | [🧠 上下文 / 记忆](plugins/context-memory.md) | 23 | 长期记忆、上下文压缩/审计、蒸馏等 |
+| 6 | [🤖 Agent 编排 / 多 Agent](plugins/agent-orchestration.md) | 10 | 多 Agent 团队、工作流、跨会话消息等 |
+| 7 | [🧠 上下文 / 记忆](plugins/context-memory.md) | 24 | 长期记忆、上下文压缩/审计、蒸馏等 |
 | 8 | [👁️ 多模态 / 视觉](plugins/multimodal.md) | 17 | 视觉工具箱、OCR、截图对比、电脑控制等 |
 | 9 | [🔁 工作流 / 自动化](plugins/workflow-automation.md) | 21 | 深度研究、定时任务、条件唤醒等 |
-| 10 | [📡 通知 / 渠道 / 远程](plugins/notifications-channels.md) | 17 | Telegram/微信/飞书机器人、SSH 等 |
+| 10 | [📡 通知 / 渠道 / 远程](plugins/notifications-channels.md) | 18 | Telegram/微信/飞书机器人、SSH 等 |
 | 11 | [🌐 浏览器 / 搜索](plugins/browser-search.md) | 16 | 浏览器操控、网页抓取、搜索提供方等 |
 | 12 | [🏗️ 基础设施 / 插件管理 / 开发工具](plugins/infrastructure-dev.md) | 33 | 插件管理器、健康检查、沙箱、遥测等 |
 | 13 | [🎮 娱乐 / 其他](plugins/fun-other.md) | 31 | 小游戏、桌宠、股票、教学、设计等 |
@@ -178,7 +178,7 @@
 </details>
 
 <details>
-<summary>🎨 Web UI / 皮肤 / 主题 · 42</summary>
+<summary>🎨 Web UI / 皮肤 / 主题 · 43</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -215,6 +215,7 @@
 | [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) | 3 | 把滚出屏幕的折叠标签（Think/工具卡）钉在视口顶部 | `dsh plugin add dsh-sticky-disclosure` |
 | [dsh-token-usage](https://github.com/hashdiana/dsh-token-usage) | 3 | 更美观的 Token 用量条：上下文占用/输入输出/缓存分解/首字延迟 | `dsh plugin add dsh-token-usage` |
 | [TokenLedger](https://github.com/zh667/TokenLedger) | 99 | 按中转站点、项目和模型统计本地 DSH Token 用量，并显示账户余额与订阅额度周期 | `dsh plugin --profile web add github:zh667/TokenLedger` |
+| [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) | 10 | RMB/USD token 计费：官方峰谷价自动计价、按 provider/来源分组统计、预算与余额可视、CSV/JSON 导出 | `dsh plugin --profile web add github:bpc-oss/dsh-web-billing` |
 | [dsh-model-config-sync](https://github.com/LiangYin233/dsh-provider-model-configurator) | 11 | 高级模型配置器：把 pi-ai 预设一键应用到自定义提供商 | `dsh plugin add dsh-model-config-sync` |
 | [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 4513 | DSH Web UI 插件与皮肤集合：任务看板、Git 图谱、右侧面板、移动端远程、皮肤中心 | `dsh plugin add dsh-web-ui` |
 | [dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) | 3 | 把 open-mcp-apps 带进 DSH：每个 MCP app 一个侧边栏容器（独立 workspace + 会话 + App mode），带 agent 状态条、聊天内行内渲染与 App Store · `dsh plugin --profile web add @2nd1st/dsh-plugin-open-app` |  |
@@ -258,7 +259,7 @@
 </details>
 
 <details>
-<summary>🤖 Agent 编排 / 多 Agent · 9</summary>
+<summary>🤖 Agent 编排 / 多 Agent · 10</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -271,11 +272,12 @@
 | [dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) | 4 | 多服务器 DSH 会话聚合与原生操控（hub 网关 + 官方 UI 桥） | `dsh plugin add dsh-session-hub` |
 | [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) | 11 | 可配置子代理 profiles + 实时工具调用/token 显示 + 子会话跳转 | `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent` |
 | [dsh-a2a](https://github.com/dpskh/dsh-a2a) | 5 | Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 |  |
+| [dph-fleet](https://github.com/polaris-smart/dph-fleet) | 2 | 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连，任意设备可派单/接单（零 npm 依赖） | `dsh plugin add dph-fleet-0.2.4.tgz` |
 
 </details>
 
 <details>
-<summary>🧠 上下文 / 记忆 · 23</summary>
+<summary>🧠 上下文 / 记忆 · 24</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -289,6 +291,7 @@
 | [dsh-kb-sieve](https://github.com/omdsh-dev/dsh-kb-sieve) | 2 | 从 md/txt/docx/pdf 构建可审计知识库包（SQLite FTS5） | `dsh plugin add @dsh-external/dsh-kb-sieve` |
 | [dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) | 4 | 从 agent 管理 LLM-Wiki 知识库（wiki_search/read/stats/ingest 等） | `dsh plugin add @detpecca/dsh-llm-wiki` |
 | [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) | 12 | 持续自进化：版本化、可审计、可回滚的 harness 状态（提示词/记忆/技能/子代理规格）沉淀自会话轨迹，带审查门禁与技能热加载 | `dsh plugin add dsh-continual-evolve` |
+| [dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) | 10 | 跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理 | `dsh plugin add github:Phant0Meow/dsh-meow-memory` |
 | [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) | 15 | 上下文注入审计：统计指令链/技能目录/工具 schema 的 token 成本，检测重复冲突 | `dsh plugin add dsh-context-doctor` |
 | [context-vista](https://github.com/GooodWei/context-vista) | 8 | `/context` 命令 + 环形图实时展示上下文 token 用量与费用 | `dsh plugin add context-vista` |
 | [distill](https://github.com/LoserFox/distill) | 19 | 自动对话蒸馏：后台 subagent 反省 + 技能 create/update | `dsh plugin add @loserfox/distill` |
@@ -360,7 +363,7 @@
 </details>
 
 <details>
-<summary>📡 通知 / 渠道 / 远程 · 17</summary>
+<summary>📡 通知 / 渠道 / 远程 · 18</summary>
 
 | 插件 | ⭐ | 描述 | 安装命令 |
 |---|---|---|---|
@@ -370,6 +373,7 @@
 | [dsh-chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) | 6 | 通过 iLink 网关在微信里与 DSH agent 聊天/监控/审批 | `dsh plugin add @dsh-cowork/chatnode-wechat` |
 | [dsh-lark-bridge](https://github.com/imetn/dsh-lark-bridge) | 7 | 双向飞书控制器 | `dsh plugin add dsh-lark-bridge` |
 | [dsh-onlyne](https://github.com/dbydd/dsh-onlyne) | 2 | IM 网关：从 dsh 会话收发 QQ/微信/飞书/Telegram 消息 |  |
+| [dsh-im](https://github.com/xmanrui/dsh-im) | 52 | 一个设置入口统一接入飞书/微信/钉钉/企业微信/QQ/Slack/Telegram/Discord/WhatsApp 机器人，支持扫码、Manifest 或凭据绑定 | `npx -y github:xmanrui/dsh-im install` |
 | [dsh-notification](https://github.com/omdsh-dev/dsh-notification) | 60 | 回合完成桌面通知，按结果分控 + 关键词过滤 | `dsh plugin add dsh-notification` |
 | [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) | 5 | Windows 通知（零依赖） |  |
 | [dsh-win-notify](https://github.com/MuziIsabel/dsh-win-notify) | 4 | Windows toast 通知（任务完成带声音） | `dsh plugin add dsh-win-notify` |

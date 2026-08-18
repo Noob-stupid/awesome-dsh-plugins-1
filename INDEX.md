@@ -1,6 +1,6 @@
 # 插件总索引
 
-> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **295** 条。
+> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **299** 条。
 >
 > 返回：[README](README.md) · [中文](README.zh.md)
 
@@ -116,6 +116,7 @@
 | [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) | 把滚出屏幕的折叠标签（Think/工具卡）钉在视口顶部 | 3 | `dsh plugin add dsh-sticky-disclosure` |
 | [dsh-token-usage](https://github.com/hashdiana/dsh-token-usage) | 更美观的 Token 用量条：上下文占用/输入输出/缓存分解/首字延迟 | 3 | `dsh plugin add dsh-token-usage` |
 | [TokenLedger](https://github.com/zh667/TokenLedger) | 按中转站点、项目和模型统计本地 DSH Token 用量，并显示账户余额与订阅额度周期 | 99 | `dsh plugin --profile web add github:zh667/TokenLedger` |
+| [dsh-web-billing](https://github.com/bpc-oss/dsh-web-billing) | RMB/USD token 计费：官方峰谷价自动计价、按 provider/来源分组统计、预算与余额可视、CSV/JSON 导出 | 10 | `dsh plugin --profile web add github:bpc-oss/dsh-web-billing` |
 | [dsh-model-config-sync](https://github.com/LiangYin233/dsh-provider-model-configurator) | 高级模型配置器：把 pi-ai 预设一键应用到自定义提供商 | 11 | `dsh plugin add dsh-model-config-sync` |
 | [dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | DSH Web UI 插件与皮肤集合：任务看板、Git 图谱、右侧面板、移动端远程、皮肤中心 | 4513 | `dsh plugin add dsh-web-ui` |
 | [dsh-plugin-open-app](https://github.com/2nd1st/dsh-plugin-open-app) | 把 open-mcp-apps 带进 DSH：每个 MCP app 一个侧边栏容器（独立 workspace + 会话 + App mode），带 agent 状态条、聊天内行内渲染与 App Store · `dsh plugin --profile web add @2nd1st/dsh-plugin-open-app` | 3 |  |
@@ -170,6 +171,7 @@
 | [dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) | 多服务器 DSH 会话聚合与原生操控（hub 网关 + 官方 UI 桥） | 4 | `dsh plugin add dsh-session-hub` |
 | [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) | 可配置子代理 profiles + 实时工具调用/token 显示 + 子会话跳转 | 11 | `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent` |
 | [dsh-a2a](https://github.com/dpskh/dsh-a2a) | Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 | 5 |  |
+| [dph-fleet](https://github.com/polaris-smart/dph-fleet) | 去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连，任意设备可派单/接单（零 npm 依赖） | 2 | `dsh plugin add dph-fleet-0.2.4.tgz` |
 
 [↩ 回到 🤖 Agent 编排 / 多 Agent 分类页](plugins/agent-orchestration.md)
 
@@ -187,6 +189,7 @@
 | [dsh-kb-sieve](https://github.com/omdsh-dev/dsh-kb-sieve) | 从 md/txt/docx/pdf 构建可审计知识库包（SQLite FTS5） | 2 | `dsh plugin add @dsh-external/dsh-kb-sieve` |
 | [dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) | 从 agent 管理 LLM-Wiki 知识库（wiki_search/read/stats/ingest 等） | 4 | `dsh plugin add @detpecca/dsh-llm-wiki` |
 | [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) | 持续自进化：版本化、可审计、可回滚的 harness 状态（提示词/记忆/技能/子代理规格）沉淀自会话轨迹，带审查门禁与技能热加载 | 12 | `dsh plugin add dsh-continual-evolve` |
+| [dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) | 跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理 | 10 | `dsh plugin add github:Phant0Meow/dsh-meow-memory` |
 | [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) | 上下文注入审计：统计指令链/技能目录/工具 schema 的 token 成本，检测重复冲突 | 15 | `dsh plugin add dsh-context-doctor` |
 | [context-vista](https://github.com/GooodWei/context-vista) | `/context` 命令 + 环形图实时展示上下文 token 用量与费用 | 8 | `dsh plugin add context-vista` |
 | [distill](https://github.com/LoserFox/distill) | 自动对话蒸馏：后台 subagent 反省 + 技能 create/update | 19 | `dsh plugin add @loserfox/distill` |
@@ -265,6 +268,7 @@
 | [dsh-chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) | 通过 iLink 网关在微信里与 DSH agent 聊天/监控/审批 | 6 | `dsh plugin add @dsh-cowork/chatnode-wechat` |
 | [dsh-lark-bridge](https://github.com/imetn/dsh-lark-bridge) | 双向飞书控制器 | 7 | `dsh plugin add dsh-lark-bridge` |
 | [dsh-onlyne](https://github.com/dbydd/dsh-onlyne) | IM 网关：从 dsh 会话收发 QQ/微信/飞书/Telegram 消息 | 2 |  |
+| [dsh-im](https://github.com/xmanrui/dsh-im) | 一个设置入口统一接入飞书/微信/钉钉/企业微信/QQ/Slack/Telegram/Discord/WhatsApp 机器人，支持扫码、Manifest 或凭据绑定 | 52 | `npx -y github:xmanrui/dsh-im install` |
 | [dsh-notification](https://github.com/omdsh-dev/dsh-notification) | 回合完成桌面通知，按结果分控 + 关键词过滤 | 60 | `dsh plugin add dsh-notification` |
 | [dsh-notify-windows](https://github.com/SeverusZh/dsh-notify-windows) | Windows 通知（零依赖） | 5 |  |
 | [dsh-win-notify](https://github.com/MuziIsabel/dsh-win-notify) | Windows toast 通知（任务完成带声音） | 4 | `dsh plugin add dsh-win-notify` |
