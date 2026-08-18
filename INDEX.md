@@ -1,6 +1,6 @@
 # 插件总索引
 
-> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **310** 条。
+> 全部插件单文件扁平清单（按分类分组），方便在仓库里 `Ctrl+F` 全局搜索。共 **293** 条。
 >
 > 返回：[README](README.md) · [中文](README.zh.md)
 
@@ -39,7 +39,7 @@
 | [dsh-port-guard](https://github.com/PangYiMing/dsh-port-guard) | 端口占用处置（复用/切换/精确 kill） | 1 | `dsh plugin add dsh-port-guard` |
 | [dsh-scout](https://github.com/omdsh-dev/dsh-scout) | 只读环境探测：运行环境/版本/资源/端口/服务/硬件/工作区 | 2 | `dsh plugin add @deepseek-ai/dsh-tool-scout` |
 
-[↩ 回到 🛠️ 工具类 Tools 分类页](tools.md)
+[↩ 回到 🛠️ 工具类 Tools 分类页](plugins/tools.md)
 
 ## 🧩 技能类 Skills
 
@@ -53,7 +53,6 @@
 | [dsh-superpowers](https://github.com/codeAnqiang-ma/dsh-superpowers) | Superpowers（obra/superpowers）作为 DSH 插件：方法论技能 + 会话引导 | 3 | `dsh plugin add dsh-superpowers` |
 | [dsh-plugin-code-review](https://github.com/YYTbit/dsh-plugin-code-review) | 结构化代码审查技能（YYTbit 系列） | 1 | `dsh plugin add dsh-plugin-code-review` |
 | [dsh-review-loop](https://github.com/wuxiangru915/dsh-review-loop) | 增量 diff 审查：checkpoint 队列 + Web 面板 + 审查意见注入 agent | 2 | `dsh plugin add @dsh-plugin/dsh-review-loop` |
-| [dsh-skill-manager](https://github.com/bitterSmilezzz/dsh-skill-manager) | 在 Web 设置页管理（列出/禁用启用/编辑）skills（已删除） | 1 | `dsh plugin add dsh-skill-manager` |
 | [dsh-plugin-claude-bridge](https://github.com/YYTbit/dsh-plugin-claude-bridge) | 把 Claude Code 记忆/技能/配置桥接进 DSH | 8 | `dsh plugin add dsh-plugin-claude-bridge` |
 | [dsh-plugin-codex-bridge](https://github.com/YYTbit/dsh-plugin-codex-bridge) | 把 Codex skills/config 桥接进 DSH | 2 | `dsh plugin add dsh-plugin-codex-bridge` |
 | [dsh-plugin-opencode-bridge](https://github.com/YYTbit/dsh-plugin-opencode-bridge) | 把 OpenCode skills/config 桥接进 DSH | 4 | `dsh plugin add dsh-plugin-opencode-bridge` |
@@ -63,13 +62,12 @@
 | [dsh-find-plugins](https://github.com/Nagi-ovo/dsh-find-plugins) | 帮 DSH 搜索、安装并验证 GitHub 插件的 Skill | 145 | `dsh plugin add github:Nagi-ovo/dsh-find-plugins` |
 | [forkprobe](https://github.com/Jayden-X-L/forkprobe) | 同一任务对比多个 skill 并选出最优 | 67 | `dsh plugin add github:Jayden-X-L/forkprobe` |
 
-[↩ 回到 🧩 技能类 Skills 分类页](skills.md)
+[↩ 回到 🧩 技能类 Skills 分类页](plugins/skills.md)
 
 ## 🔌 MCP 接入
 
 | 插件 | 描述 | ⭐ | 安装命令 |
 |---|---|---|---|
-| [dsh-mcp-manager](https://github.com/hyqhyq3/dsh-mcp-manager) | MCP 服务器管理：Settings 页 OAuth(PKCE) 或静态 token 认证，工具注册为 `mcp__*` | 9 | `dsh plugin add dsh-mcp-manager` |
 | [dsh-mcp-proxy](https://github.com/ben7am1n/dsh-mcp-proxy) | 省上下文的惰性 MCP 访问 | 1 | `dsh plugin add dsh-mcp-proxy` |
 | [deepseek-harness-plugin-mcp](https://github.com/bobleer/deepseek-harness-plugin-mcp) | 让任意 agent 发现/安装/运行 DSH 插件的 MCP server | 3 | `dsh plugin add deepseek-harness-plugin-mcp` |
 | [dsh-webfetch](https://github.com/withlovehub/dsh-webfetch) | 零依赖 webfetch MCP server（干净文本/markdown/HTML/JSON，robots.txt 合规，SSRF 防护） | 3 |  |
@@ -79,7 +77,7 @@
 | [mcp-bridge](https://github.com/WongJingGitt/mcp-bridge) | MCP 浏览器桥接，让网页端 AI 调用 MCP 工具 | 31 |  |
 | [dsh-acp-for-bitfun](https://github.com/bobleer/dsh-acp-for-bitfun) | BitFun 与 DSH 的 ACP 交互对接 | 9 | `dsh plugin add dsh-acp-for-bitfun` |
 
-[↩ 回到 🔌 MCP 接入 分类页](mcp.md)
+[↩ 回到 🔌 MCP 接入 分类页](plugins/mcp.md)
 
 ## 🎨 Web UI / 皮肤 / 主题
 
@@ -114,7 +112,6 @@
 | [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) | 选中文字→批注→回车随消息发送，回复按批注逐条对照 | 75 | `dsh plugin add @omdsh-dev/dsh-annotation` |
 | [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio) | 带实时预览的用户/内置 system prompt 分节编辑器 | 3 | `dsh plugin add dsh-prompt-studio` |
 | [dsh-prompt-persona](https://github.com/Xilin3/dsh-prompt-persona) | 从设置页编辑系统提示词（deployment persona），带实时预览 | 8 | `dsh plugin add @xilin3/dsh-prompt-persona` |
-| [dsh-model-selector](https://github.com/bitterSmilezzz/dsh-model-selector) | provider 分组折叠 + 名称搜索的模型选择器增强（已删除） | 1 | `dsh plugin add dsh-model-selector` |
 | [dsh-local-filetree](https://github.com/Mongfayi/dsh-local-filetree) | 右侧详情列显示当前会话工作区文件树（懒加载、只读） | 1 | `dsh plugin add dsh-local-filetree` |
 | [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) | 把滚出屏幕的折叠标签（Think/工具卡）钉在视口顶部 | 3 | `dsh plugin add dsh-sticky-disclosure` |
 | [dsh-token-usage](https://github.com/hashdiana/dsh-token-usage) | 更美观的 Token 用量条：上下文占用/输入输出/缓存分解/首字延迟 | 3 | `dsh plugin add dsh-token-usage` |
@@ -127,7 +124,7 @@
 | [web-components](https://github.com/omdsh-dev/web-components) | Web Components 支持 | 2 | `dsh plugin add @deepseek-ai/dsh-client-web-component` |
 | [dsh-openpencil](https://github.com/ZSeven-W/dsh-openpencil) | OpenPencil 设计预览与编辑（Agent 操作真实设计画布） | 119 | `dsh plugin add @zseven-w/dsh-openpencil` |
 
-[↩ 回到 🎨 Web UI / 皮肤 / 主题 分类页](ui-themes.md)
+[↩ 回到 🎨 Web UI / 皮肤 / 主题 分类页](plugins/ui-themes.md)
 
 ## 🖥️ 桌面端 / TUI / 移动端
 
@@ -147,19 +144,16 @@
 | [dsh-desktop](https://github.com/mrbbbaixue/dsh-desktop) | .NET 10 WPF + WebView2 桌面启动器 | 2 |  |
 | [dsh-desktop](https://github.com/dataelement/dsh-desktop) | 跨平台桌面应用 | 914 |  |
 | [dsh-desktop-electron](https://github.com/Void0312Aurora/dsh-desktop-electron) | 跨平台 Electron 桌面壳（托盘驻留、无内置 Node） | 5 |  |
-| [dsh-mac-desktop](https://github.com/bitterSmilezzz/dsh-mac-desktop) | 在原生 macOS 窗口打开 Web GUI（SwiftUI + WKWebView）（已删除） | 2 | `dsh plugin add dsh-mac-desktop` |
 | [dsh-desktop-window](https://github.com/fengzhiyushui/dsh-desktop-window) | 以独立应用窗口打开 Web UI（自动开窗 + 设置开关） | 1 | `dsh plugin add dsh-desktop-window` |
 | [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 现代化 DeepSeek Harness 桌面端体验 | 13383 |  |
 | [Deepseek-Harness-Desktop](https://github.com/ChisaAlter/Deepseek-Harness-Desktop) | Electron 桌面壳：主题/背景图/托盘，对话仍走官方 dsh web | 118 | `dsh plugin add deepseek-harness-desktop` |
 | [dsh-launcher](https://github.com/Ruler4396/dsh-launcher) | Windows 轻量启动器：开机自启 + 独立小窗口 | 146 |  |
 | [dsh-work](https://github.com/vibeinging/deepseek-harness-desktop-app) | 本地 AI 工作桌面：Session/文件/数据分析/MCP/Office 一体化 | 394 |  |
 | [dsh-companion](https://github.com/william-jin-cmu/dsh-companion) | 常驻桌面助手：全局唤起、定时自动化、快捷回复、插件市场 | 5 |  |
-| [dsh-mobileweb-adapter](https://github.com/dsh-external/dsh-mobileweb-adapter) | 手机 Web 适配器：让 Web GUI 在手机上可用（⚠️ dsh-external，已删除） |  |  |
 | [dsh-mobile](https://github.com/lehhair/dsh-mobile) | 移动端客户端（⚠️ dsh-external，公开性待核实） | 19 |  |
-| [dsh-android](https://github.com/dsh-external/dsh-android) | 在 Android 上运行 dsh（⚠️ dsh-external，已删除） |  |  |
 | [deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui) | Rust/ratatui 编写的 DSH 终端 TUI | 38 | `dsh plugin add github:openma-ai/deepseek-harness-tui` |
 
-[↩ 回到 🖥️ 桌面端 / TUI / 移动端 分类页](desktop-tui-mobile.md)
+[↩ 回到 🖥️ 桌面端 / TUI / 移动端 分类页](plugins/desktop-tui-mobile.md)
 
 ## 🤖 Agent 编排 / 多 Agent
 
@@ -173,12 +167,9 @@
 | [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) | 跨实例消息/事件交接（interconnect 服务 + 工具） | 33 | `dsh plugin add dsh-interconnect` |
 | [dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) | 多服务器 DSH 会话聚合与原生操控（hub 网关 + 官方 UI 桥） | 4 | `dsh plugin add dsh-session-hub` |
 | [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) | 可配置子代理 profiles + 实时工具调用/token 显示 + 子会话跳转 | 11 | `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent` |
-| [dsh-plan-execute](https://github.com/dsh-external/dsh-plan-execute) | 双模型 plan/execute 路由（planner 想、executor 做）⚠️ dsh-external，已删除 |  |  |
 | [dsh-a2a](https://github.com/dpskh/dsh-a2a) | Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 | 5 |  |
-| [dsh-subagent-tree](https://github.com/dsh-external/dsh-subagent-tree) | 子代理树可视化 ⚠️ dsh-external，已删除 |  |  |
-| [dsh-teamwork](https://github.com/dsh-external/dsh-teamwork) | 团队协作（cordis）⚠️ dsh-external，已删除 |  |  |
 
-[↩ 回到 🤖 Agent 编排 / 多 Agent 分类页](agent-orchestration.md)
+[↩ 回到 🤖 Agent 编排 / 多 Agent 分类页](plugins/agent-orchestration.md)
 
 ## 🧠 上下文 / 记忆
 
@@ -198,7 +189,6 @@
 | [context-vista](https://github.com/GooodWei/context-vista) | `/context` 命令 + 环形图实时展示上下文 token 用量与费用 | 8 | `dsh plugin add context-vista` |
 | [distill](https://github.com/LoserFox/distill) | 自动对话蒸馏：后台 subagent 反省 + 技能 create/update | 19 | `dsh plugin add @loserfox/distill` |
 | [dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) | compact_now 工具，回合结束自动压缩上下文 |  |  |
-| [dsh-easy-ctx-manager](https://github.com/dsh-external/dsh-easy-ctx-manager) | 上下文管理：节省、注意力优化、压缩档案馆 ⚠️ dsh-external，已删除 |  |  |
 | [dsh-context](https://github.com/bowenliang123/dsh-context) | 上下文洞察面板：展示模型上下文窗口的构成与演化 | 312 | `dsh plugin add dsh-context` |
 | [dsh-turn-rewind](https://github.com/Anionex/dsh-turn-rewind) | 对话回退：基于持久 Change Ledger 回滚会话与工作区状态 | 83 | `dsh plugin add @dsh-external/turn-rewind` |
 | [dsh-undo](https://github.com/LingLambda/dsh-undo) | 上下文 undo/redo：回退到上一个已完成步骤并恢复 | 4 | `dsh plugin add dsh-undo` |
@@ -209,7 +199,7 @@
 | [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) | 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话 | 66 | `dsh plugin add dsh-chat-import` |
 | [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) | 迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH | 6 | `dsh plugin add dsh-claude-move` |
 
-[↩ 回到 🧠 上下文 / 记忆 分类页](context-memory.md)
+[↩ 回到 🧠 上下文 / 记忆 分类页](plugins/context-memory.md)
 
 ## 👁️ 多模态 / 视觉
 
@@ -233,7 +223,7 @@
 | [dsh-plugin-aigc-canvas](https://github.com/HuanLinOTO/dsh-plugin-aigc-canvas) | provider 无关的 AIGC HTTP 桥 + 自由画布 + ffmpeg 后处理 | 12 | `dsh plugin add @huanlin/dsh-plugin-aigc-canvas` |
 | [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) | 纯文本模型的视觉路由：免费视觉链 + 像素级视觉工具（问答/定位/裁剪/OCR） | 737 | `dsh plugin add dsh-vision-router` |
 
-[↩ 回到 👁️ 多模态 / 视觉 分类页](multimodal.md)
+[↩ 回到 👁️ 多模态 / 视觉 分类页](plugins/multimodal.md)
 
 ## 🔁 工作流 / 自动化
 
@@ -261,7 +251,7 @@
 | [dsh-event-auditor](https://github.com/qing3a/dsh-event-auditor) | 事件流审计面板：观察事件类型/分发模式/计数，帮插件作者理解内部 | 1 | `dsh plugin add @dsh-external/dsh-event-auditor` |
 | [dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) | 自动续传：网络中断后自动发「继续」恢复请求 | 25 | `dsh plugin add github:HsiangNianian/dsh-auto-continue` |
 
-[↩ 回到 🔁 工作流 / 自动化 分类页](workflow-automation.md)
+[↩ 回到 🔁 工作流 / 自动化 分类页](plugins/workflow-automation.md)
 
 ## 📡 通知 / 渠道 / 远程
 
@@ -271,7 +261,6 @@
 | [dsh-telegram](https://github.com/ben7am1n/dsh-telegram) | Telegram 运行时适配器（per-chat 会话、allowlist 认证） | 1 | `dsh plugin add dsh-telegram` |
 | [DSH-Telegram-Relay](https://github.com/congchuanling-dot/DSH-Telegram-Relay) | 通过 Telegram 远程对话并接收通知 | 6 | `dsh plugin add dsh-telegram-relay` |
 | [dsh-chatnode-wechat](https://github.com/Jesse-njx/dsh-chatnode-wechat) | 通过 iLink 网关在微信里与 DSH agent 聊天/监控/审批 | 6 | `dsh plugin add @dsh-cowork/chatnode-wechat` |
-| [dsh-lark](https://github.com/Roy-oss1/dsh-lark) | 飞书 IM bot 通道：聊天驱动 agent、审批回传卡片（已删除） | 2 | `dsh plugin add @dsh-contrib/dsh-lark-channel` |
 | [dsh-lark-bridge](https://github.com/imetn/dsh-lark-bridge) | 双向飞书控制器 | 7 | `dsh plugin add dsh-lark-bridge` |
 | [dsh-onlyne](https://github.com/dbydd/dsh-onlyne) | IM 网关：从 dsh 会话收发 QQ/微信/飞书/Telegram 消息 | 2 |  |
 | [dsh-notification](https://github.com/omdsh-dev/dsh-notification) | 回合完成桌面通知，按结果分控 + 关键词过滤 | 60 | `dsh plugin add dsh-notification` |
@@ -286,7 +275,7 @@
 | [dsh-share](https://github.com/hellodigua/dsh-share) | 一键分享你的对话 | 23 | `dsh plugin add @dsh-external/dsh-share` |
 | [dsh-conversation-share](https://github.com/bill9109/dsh-conversation-share) | 分享任意段落的对话 | 1 | `dsh plugin add @bill9109/dsh-conversation-share` |
 
-[↩ 回到 📡 通知 / 渠道 / 远程 分类页](notifications-channels.md)
+[↩ 回到 📡 通知 / 渠道 / 远程 分类页](plugins/notifications-channels.md)
 
 ## 🌐 浏览器 / 搜索
 
@@ -309,7 +298,7 @@
 | [modsearch](https://github.com/liustack/modsearch) | CLI 搜索工具：把搜索查询转结构化 web 证据 JSON | 146 | `dsh plugin add @liustack/modsearch` |
 | [argo](https://github.com/taxueseek/argo) | 为 agent 打造的多语言搜索工具（中文/英文/学术/代码/购物/金融/新闻/百科） | 100 | `dsh plugin add github:taxueseek/argo` |
 
-[↩ 回到 🌐 浏览器 / 搜索 分类页](browser-search.md)
+[↩ 回到 🌐 浏览器 / 搜索 分类页](plugins/browser-search.md)
 
 ## 🏗️ 基础设施 / 插件管理 / 开发工具
 
@@ -349,7 +338,7 @@
 | [dsh-market](https://github.com/dsh-market/dsh-market) | DSH 可视化插件市场：浏览/搜索/一键安装 | 1009 | `dsh plugin add github:dsh-market/dsh-market` |
 | [dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) | dsh Web GUI 社区插件市场：浏览 awesome-dsh-plugin 目录/安装/卸载 | 86 | `dsh plugin add github:Sanqi-normal/dsh-webui-market-plugin` |
 
-[↩ 回到 🏗️ 基础设施 / 插件管理 / 开发工具 分类页](infrastructure-dev.md)
+[↩ 回到 🏗️ 基础设施 / 插件管理 / 开发工具 分类页](plugins/infrastructure-dev.md)
 
 ## 🎮 娱乐 / 其他
 
@@ -387,7 +376,7 @@
 | [dsh-user-experience](https://github.com/DietCokewithSugar/dsh-user-experience) | persona 驱动的 UX 走查：扫描 React/TS 源码找 UX 问题 | 19 | `dsh plugin add github:DietCokewithSugar/dsh-user-experience` |
 | [dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) | DeepSeek 账户余额与会话成本显示 | 17 | `dsh plugin add github:Ghost011118/dsh-balance-meter` |
 
-[↩ 回到 🎮 娱乐 / 其他 分类页](fun-other.md)
+[↩ 回到 🎮 娱乐 / 其他 分类页](plugins/fun-other.md)
 
 ## 🏛️ 官方核心与元项目
 
@@ -400,14 +389,8 @@
 | [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) | DSH 生态精选：插件/工具/基础设施 | 722 |  |
 | [AdamPlatin123/awesome-dsh-plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) | 目录 + **每日兼容性雷达**（四维检查 + 运行实测） | 1204 |  |
 | [Alex-Yanggg/awesome-DSH-plugin](https://github.com/Alex-Yanggg/awesome-DSH-plugin) | 覆盖生产力/扩展/调试/自定义开发的分类 catalog | 70 |  |
-| [dsh-external/hub](https://github.com/dsh-external/hub) | 社区组织级索引/目录元仓库（⚠️ 私有，白名单可见） （已删除） |  |  |
-| [dsh-external/marisa](https://github.com/dsh-external/marisa) | 「寄生式」外部插件管理器 `dshx`（⚠️ 私有，白名单可见） （已删除） |  |  |
-| [dsh-external/toybox](https://github.com/dsh-external/toybox) | 插件玩具箱：静态 `.dsh-plugin` 格式的技能/MCP 插件收藏（公开） （已删除） |  |  |
 | [HenryZ838978/deepseek-harness](https://github.com/HenryZ838978/deepseek-harness) | 第三方 Harness：Python 库 + dsh CLI + MCP server + SKILL.md | 45 |  |
 | [vvlife/whalehub-dsh](https://github.com/vvlife/whalehub-dsh) | 第三方插件商店/中心 | 6 |  |
-| [dsh-plugin-guide](https://github.com/dsh-external/dsh-plugin-guide) | DSH 插件开发指南：从零到精通 ⚠️ 已删除 |  |  |
-| [dsh-cordis-rocks](https://github.com/dsh-external/dsh-cordis-rocks) | 16 章可逆 Cordis 配套教程 ⚠️ 已删除 |  |  |
-| [dsh-cordis-examples](https://github.com/dsh-external/dsh-cordis-examples) | 最小原生 DSH/Cordis 扩展示例 ⚠️ 已删除 |  |  |
 | [plugin-template](https://github.com/omdsh-dev/plugin-template) | 插件模板仓库（基于 turtle-ui） | 11 | `dsh plugin add @your-scope/dsh-plugin-template` |
 
-[↩ 回到 🏛️ 官方核心与元项目 分类页](official-meta.md)
+[↩ 回到 🏛️ 官方核心与元项目 分类页](plugins/official-meta.md)

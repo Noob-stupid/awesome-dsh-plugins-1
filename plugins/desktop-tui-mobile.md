@@ -26,7 +26,6 @@
 - [dsh-desktop](https://github.com/mrbbbaixue/dsh-desktop) — .NET 10 WPF + WebView2 桌面启动器 ⭐2
 - [dsh-desktop](https://github.com/dataelement/dsh-desktop) — 跨平台桌面应用 ⭐914
 - [dsh-desktop-electron](https://github.com/Void0312Aurora/dsh-desktop-electron) — 跨平台 Electron 桌面壳（托盘驻留、无内置 Node） ⭐5
-- [dsh-mac-desktop](https://github.com/bitterSmilezzz/dsh-mac-desktop) — 在原生 macOS 窗口打开 Web GUI（SwiftUI + WKWebView）（已删除） ⭐2 · `dsh plugin add dsh-mac-desktop`
 - [dsh-desktop-window](https://github.com/fengzhiyushui/dsh-desktop-window) — 以独立应用窗口打开 Web UI（自动开窗 + 设置开关） ⭐1 · `dsh plugin add dsh-desktop-window`
 - [deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) — 现代化 DeepSeek Harness 桌面端体验 ⭐13383
 - [Deepseek-Harness-Desktop](https://github.com/ChisaAlter/Deepseek-Harness-Desktop) — Electron 桌面壳：主题/背景图/托盘，对话仍走官方 dsh web ⭐118 · `dsh plugin add deepseek-harness-desktop`
@@ -39,9 +38,7 @@
 ## 移动端 / 常驻助手
 
 - [dsh-companion](https://github.com/william-jin-cmu/dsh-companion) — 常驻桌面助手：全局唤起、定时自动化、快捷回复、插件市场 ⭐5
-- [dsh-mobileweb-adapter](https://github.com/dsh-external/dsh-mobileweb-adapter) — 手机 Web 适配器：让 Web GUI 在手机上可用（⚠️ dsh-external，已删除）
 - [dsh-mobile](https://github.com/lehhair/dsh-mobile) — 移动端客户端（⚠️ dsh-external，公开性待核实） ⭐19
-- [dsh-android](https://github.com/dsh-external/dsh-android) — 在 Android 上运行 dsh（⚠️ dsh-external，已删除）
 - [deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui) — Rust/ratatui 编写的 DSH 终端 TUI ⭐38 · `dsh plugin add github:openma-ai/deepseek-harness-tui`
 
 <!-- nav:start -->

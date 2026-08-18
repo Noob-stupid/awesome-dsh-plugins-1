@@ -2,32 +2,22 @@
 
 > 由 `node scripts/reconcile.mjs` 生成。对比 `data/plugins.json`（种子数据）与 `plugins/*.md`（目录清单）。
 >
-> 数据共 365 条 · 目录共 295 条 · 两者交集 119 条
+> 数据共 369 条 · 目录共 293 条 · 两者交集 134 条
 
-## 候选待收录（数据里有、目录还没有）— 246 条
+## 候选待收录（数据里有、目录还没有）— 235 条
 
 按 star 降序。可作为下一步补录清单。
 
 | 仓库 | ⭐ | 上游分类 |
 |---|---|---|
 | [zhu1090093659/dsh-web-ui#packages/dsh-web-ui-all](https://github.com/zhu1090093659/dsh-web-ui/tree/main/packages/dsh-web-ui-all) | 1880 | UI 增强 / UI Enhancements |
-| [zhaoolee/notes](https://github.com/zhaoolee/notes) | 138 | 工具与能力 / Tools & Capabilities |
-| [taxueseek/argo](https://github.com/taxueseek/argo) | 69 | 工具与能力 / Tools & Capabilities |
-| [Jayden-X-L/forkprobe](https://github.com/Jayden-X-L/forkprobe) | 65 | 开发与运行时 / Development & Runtime |
-| [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 43 | 工具与能力 / Tools & Capabilities |
 | [forrestchang/dsh-multica-runtime](https://github.com/forrestchang/dsh-multica-runtime) | 30 | 开发与运行时 / Development & Runtime |
-| [Sanqi-normal/dsh-webui-market-plugin](https://github.com/Sanqi-normal/dsh-webui-market-plugin) | 26 | 工具与能力 / Tools & Capabilities |
-| [openma-ai/deepseek-harness-tui](https://github.com/openma-ai/deepseek-harness-tui) | 18 | UI 增强 / UI Enhancements |
-| [DietCokewithSugar/dsh-user-experience](https://github.com/DietCokewithSugar/dsh-user-experience) | 18 | 开发与运行时 / Development & Runtime |
 | [yyyyukari/dsh-plugin-workshop](https://github.com/yyyyukari/dsh-plugin-workshop) | 15 | UI 增强 / UI Enhancements |
 | [whyihaveyou/dsh-suite#plugin-session-export](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-session-export) | 15 | 会话与消息 / Sessions & Messages |
 | [whyihaveyou/dsh-suite#plugin-manager](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-manager) | 15 | 工具与能力 / Tools & Capabilities |
 | [whyihaveyou/dsh-suite#plugin-team-board](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-team-board) | 15 | 工作流与自动化 / Workflow & Automation |
 | [whyihaveyou/dsh-suite#plugin-notify](https://github.com/whyihaveyou/dsh-suite/tree/main/packages/plugins/plugin-notify) | 15 | 通知与集成 / Notifications & Integrations |
-| [Ghost011118/dsh-balance-meter](https://github.com/Ghost011118/dsh-balance-meter) | 13 | UI 增强 / UI Enhancements |
 | [awesome-dsh-plugin/dsh-find-plugin](https://github.com/awesome-dsh-plugin/dsh-find-plugin) | 13 | 工具与能力 / Tools & Capabilities |
-| [Han-1413141/dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter) | 11 | UI 增强 / UI Enhancements |
-| [HsiangNianian/dsh-auto-continue](https://github.com/HsiangNianian/dsh-auto-continue) | 11 | UI 增强 / UI Enhancements |
 | [zp-home/dsh-recommend](https://github.com/zp-home/dsh-recommend) | 11 | 工具与能力 / Tools & Capabilities |
 | [yuezengwu/dsh-explain](https://github.com/yuezengwu/dsh-explain) | 10 | 会话与消息 / Sessions & Messages |
 | [KinGao294/dsh-skin](https://github.com/KinGao294/dsh-skin) | 9 | 主题与外观 / Themes & Appearance |
@@ -229,7 +219,6 @@
 | [jinguanghai/deepseek-harness-forge-plugins#forge-memory](https://github.com/jinguanghai/deepseek-harness-forge-plugins/tree/main/plugins/forge-memory) | 0 | 记忆 / Memory |
 | [jiayan-xu/dsh-memoria-extra](https://github.com/jiayan-xu/dsh-memoria-extra) | 0 | 记忆 / Memory |
 | [truelove-dreamer/dsh-plugin-recall](https://github.com/truelove-dreamer/dsh-plugin-recall) | 0 | 记忆 / Memory |
-| [ZK-Andy/dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) | 0 | 工具与能力 / Tools & Capabilities |
 | [lonelymoon87/dsh-code-intel](https://github.com/lonelymoon87/dsh-code-intel) | 0 | 工具与能力 / Tools & Capabilities |
 | [Jesse-njx/dsh-voice](https://github.com/Jesse-njx/dsh-voice) | 0 | 工具与能力 / Tools & Capabilities |
 | [Jesse-njx/dsh-docker](https://github.com/Jesse-njx/dsh-docker) | 0 | 工具与能力 / Tools & Capabilities |
@@ -257,7 +246,7 @@
 | [jiayan-xu/dsh-ocr-review](https://github.com/jiayan-xu/dsh-ocr-review) | 0 | 开发与运行时 / Development & Runtime |
 | [anweat/dsh-voice-webspeech](https://github.com/anweat/dsh-voice-webspeech) | 0 | 娱乐 / Just for Fun |
 
-## 目录里有、数据里没有 — 176 条
+## 目录里有、数据里没有 — 159 条
 
 多为官方/元项目、dsh-external 私有仓库、或来自其他来源的补充条目，需人工确认是否保留。
 
@@ -281,13 +270,11 @@
 - `codeanqiang-ma/dsh-superpowers` — 🧩 技能类 Skills
 - `yytbit/dsh-plugin-code-review` — 🧩 技能类 Skills
 - `wuxiangru915/dsh-review-loop` — 🧩 技能类 Skills
-- `bittersmilezzz/dsh-skill-manager` — 🧩 技能类 Skills
 - `yytbit/dsh-plugin-claude-bridge` — 🧩 技能类 Skills
 - `yytbit/dsh-plugin-codex-bridge` — 🧩 技能类 Skills
 - `yytbit/dsh-plugin-opencode-bridge` — 🧩 技能类 Skills
 - `yytbit/dsh-plugin-pi-bridge` — 🧩 技能类 Skills
 - `nagi-ovo/dsh-find-plugins` — 🧩 技能类 Skills
-- `hyqhyq3/dsh-mcp-manager` — 🔌 MCP 接入
 - `ben7am1n/dsh-mcp-proxy` — 🔌 MCP 接入
 - `bobleer/deepseek-harness-plugin-mcp` — 🔌 MCP 接入
 - `withlovehub/dsh-webfetch` — 🔌 MCP 接入
@@ -307,7 +294,6 @@
 - `chen-001/dsh-chat-width` — 🎨 Web UI / 皮肤 / 主题
 - `heigeai/deepseek-harness-skin` — 🎨 Web UI / 皮肤 / 主题
 - `xilin3/dsh-prompt-persona` — 🎨 Web UI / 皮肤 / 主题
-- `bittersmilezzz/dsh-model-selector` — 🎨 Web UI / 皮肤 / 主题
 - `mongfayi/dsh-local-filetree` — 🎨 Web UI / 皮肤 / 主题
 - `hashdiana/dsh-token-usage` — 🎨 Web UI / 皮肤 / 主题
 - `liangyin233/dsh-provider-model-configurator` — 🎨 Web UI / 皮肤 / 主题
@@ -323,31 +309,24 @@
 - `mrbbbaixue/dsh-desktop` — 🖥️ 桌面端 / TUI / 移动端
 - `dataelement/dsh-desktop` — 🖥️ 桌面端 / TUI / 移动端
 - `void0312aurora/dsh-desktop-electron` — 🖥️ 桌面端 / TUI / 移动端
-- `bittersmilezzz/dsh-mac-desktop` — 🖥️ 桌面端 / TUI / 移动端
 - `fengzhiyushui/dsh-desktop-window` — 🖥️ 桌面端 / TUI / 移动端
 - `anywhere-labs/deepseek-harness-desktop` — 🖥️ 桌面端 / TUI / 移动端
 - `chisaalter/deepseek-harness-desktop` — 🖥️ 桌面端 / TUI / 移动端
 - `ruler4396/dsh-launcher` — 🖥️ 桌面端 / TUI / 移动端
 - `vibeinging/deepseek-harness-desktop-app` — 🖥️ 桌面端 / TUI / 移动端
 - `william-jin-cmu/dsh-companion` — 🖥️ 桌面端 / TUI / 移动端
-- `dsh-external/dsh-mobileweb-adapter` — 🖥️ 桌面端 / TUI / 移动端
 - `lehhair/dsh-mobile` — 🖥️ 桌面端 / TUI / 移动端
-- `dsh-external/dsh-android` — 🖥️ 桌面端 / TUI / 移动端
 - `jiruidai/dsh-meta-orchestrator` — 🤖 Agent 编排 / 多 Agent
 - `happyren/dsh-agent-messaging` — 🤖 Agent 编排 / 多 Agent
 - `asaiuta/dsh-session-hub` — 🤖 Agent 编排 / 多 Agent
 - `huanlinoto/dsh-plugin-yet-another-subagent` — 🤖 Agent 编排 / 多 Agent
-- `dsh-external/dsh-plan-execute` — 🤖 Agent 编排 / 多 Agent
 - `dpskh/dsh-a2a` — 🤖 Agent 编排 / 多 Agent
-- `dsh-external/dsh-subagent-tree` — 🤖 Agent 编排 / 多 Agent
-- `dsh-external/dsh-teamwork` — 🤖 Agent 编排 / 多 Agent
 - `csyangwen/dsh-memory-evolve` — 🧠 上下文 / 记忆
 - `tyan66666/billion-context-dsh` — 🧠 上下文 / 记忆
 - `ben7am1n/dsh-memory` — 🧠 上下文 / 记忆
 - `yytbit/dsh-plugin-meta-memory` — 🧠 上下文 / 记忆
 - `detpecca/dsh-llm-wiki` — 🧠 上下文 / 记忆
 - `wangxiang0605qvq/dsh-auto-compact` — 🧠 上下文 / 记忆
-- `dsh-external/dsh-easy-ctx-manager` — 🧠 上下文 / 记忆
 - `linglambda/dsh-undo` — 🧠 上下文 / 记忆
 - `mongfayi/dsh-recall` — 🧠 上下文 / 记忆
 - `omdsh-dev/dsh-sidechain` — 🧠 上下文 / 记忆
@@ -374,7 +353,6 @@
 - `qing3a/dsh-event-auditor` — 🔁 工作流 / 自动化
 - `ben7am1n/dsh-telegram` — 📡 通知 / 渠道 / 远程
 - `congchuanling-dot/dsh-telegram-relay` — 📡 通知 / 渠道 / 远程
-- `roy-oss1/dsh-lark` — 📡 通知 / 渠道 / 远程
 - `dbydd/dsh-onlyne` — 📡 通知 / 渠道 / 远程
 - `severuszh/dsh-notify-windows` — 📡 通知 / 渠道 / 远程
 - `muziisabel/dsh-win-notify` — 📡 通知 / 渠道 / 远程
@@ -429,11 +407,5 @@
 - `0xsline/awesome-deepseek-harness` — 🏛️ 官方核心与元项目
 - `adamplatin123/awesome-dsh-plugins` — 🏛️ 官方核心与元项目
 - `alex-yanggg/awesome-dsh-plugin` — 🏛️ 官方核心与元项目
-- `dsh-external/hub` — 🏛️ 官方核心与元项目
-- `dsh-external/marisa` — 🏛️ 官方核心与元项目
-- `dsh-external/toybox` — 🏛️ 官方核心与元项目
 - `henryz838978/deepseek-harness` — 🏛️ 官方核心与元项目
 - `vvlife/whalehub-dsh` — 🏛️ 官方核心与元项目
-- `dsh-external/dsh-plugin-guide` — 🏛️ 官方核心与元项目
-- `dsh-external/dsh-cordis-rocks` — 🏛️ 官方核心与元项目
-- `dsh-external/dsh-cordis-examples` — 🏛️ 官方核心与元项目

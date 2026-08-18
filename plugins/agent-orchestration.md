@@ -10,10 +10,7 @@
 - [dsh-interconnect](https://github.com/Chinesezjc/dsh-interconnect) — 跨实例消息/事件交接（interconnect 服务 + 工具） ⭐33 · `dsh plugin add dsh-interconnect`
 - [dsh-session-hub](https://github.com/Asaiuta/dsh-session-hub) — 多服务器 DSH 会话聚合与原生操控（hub 网关 + 官方 UI 桥） ⭐4 · `dsh plugin add dsh-session-hub`
 - [dsh-plugin-yet-another-subagent](https://github.com/HuanLinOTO/dsh-plugin-yet-another-subagent) — 可配置子代理 profiles + 实时工具调用/token 显示 + 子会话跳转 ⭐11 · `dsh plugin add @huanlin/dsh-plugin-yet-another-subagent`
-- [dsh-plan-execute](https://github.com/dsh-external/dsh-plan-execute) — 双模型 plan/execute 路由（planner 想、executor 做）⚠️ dsh-external，已删除
 - [dsh-a2a](https://github.com/dpskh/dsh-a2a) — Agent2Agent 网状互联 ⚠️ dsh-external，公开性待核实 ⭐5
-- [dsh-subagent-tree](https://github.com/dsh-external/dsh-subagent-tree) — 子代理树可视化 ⚠️ dsh-external，已删除
-- [dsh-teamwork](https://github.com/dsh-external/dsh-teamwork) — 团队协作（cordis）⚠️ dsh-external，已删除
 
 <!-- nav:start -->
 ---

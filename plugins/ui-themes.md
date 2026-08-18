@@ -36,7 +36,6 @@
 - [dsh-annotation](https://github.com/omdsh-dev/dsh-annotation) — 选中文字→批注→回车随消息发送，回复按批注逐条对照 ⭐75 · `dsh plugin add @omdsh-dev/dsh-annotation`
 - [dsh-prompt-studio](https://github.com/Moeblack/dsh-prompt-studio) — 带实时预览的用户/内置 system prompt 分节编辑器 ⭐3 · `dsh plugin add dsh-prompt-studio`
 - [dsh-prompt-persona](https://github.com/Xilin3/dsh-prompt-persona) — 从设置页编辑系统提示词（deployment persona），带实时预览 ⭐8 · `dsh plugin add @xilin3/dsh-prompt-persona`
-- [dsh-model-selector](https://github.com/bitterSmilezzz/dsh-model-selector) — provider 分组折叠 + 名称搜索的模型选择器增强（已删除） ⭐1 · `dsh plugin add dsh-model-selector`
 - [dsh-local-filetree](https://github.com/Mongfayi/dsh-local-filetree) — 右侧详情列显示当前会话工作区文件树（懒加载、只读） ⭐1 · `dsh plugin add dsh-local-filetree`
 - [dsh-sticky-disclosure](https://github.com/Han-1413141/dsh-sticky-disclosure) — 把滚出屏幕的折叠标签（Think/工具卡）钉在视口顶部 ⭐3 · `dsh plugin add dsh-sticky-disclosure`
 - [dsh-token-usage](https://github.com/hashdiana/dsh-token-usage) — 更美观的 Token 用量条：上下文占用/输入输出/缓存分解/首字延迟 ⭐3 · `dsh plugin add dsh-token-usage`

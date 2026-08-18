@@ -18,14 +18,6 @@
 - [AdamPlatin123/awesome-dsh-plugins](https://github.com/AdamPlatin123/awesome-dsh-plugins) — 目录 + **每日兼容性雷达**（四维检查 + 运行实测） ⭐1204
 - [Alex-Yanggg/awesome-DSH-plugin](https://github.com/Alex-Yanggg/awesome-DSH-plugin) — 覆盖生产力/扩展/调试/自定义开发的分类 catalog ⭐70
 
-## 社区组织 / hub / registry（第三方，非官方）
-
-> `dsh-external` 是**第三方社区组织**，其仓库为公开/私有混合体，以下部分仓库公开性待核实。
-
-- [dsh-external/hub](https://github.com/dsh-external/hub) — 社区组织级索引/目录元仓库（⚠️ 私有，白名单可见） （已删除）
-- [dsh-external/marisa](https://github.com/dsh-external/marisa) — 「寄生式」外部插件管理器 `dshx`（⚠️ 私有，白名单可见） （已删除）
-- [dsh-external/toybox](https://github.com/dsh-external/toybox) — 插件玩具箱：静态 `.dsh-plugin` 格式的技能/MCP 插件收藏（公开） （已删除）
-
 ## 第三方实现 / 商店
 
 - [HenryZ838978/deepseek-harness](https://github.com/HenryZ838978/deepseek-harness) — 第三方 Harness：Python 库 + dsh CLI + MCP server + SKILL.md ⭐45
@@ -33,9 +25,6 @@
 
 ## 插件开发指南（社区）
 
-- [dsh-plugin-guide](https://github.com/dsh-external/dsh-plugin-guide) — DSH 插件开发指南：从零到精通 ⚠️ 已删除
-- [dsh-cordis-rocks](https://github.com/dsh-external/dsh-cordis-rocks) — 16 章可逆 Cordis 配套教程 ⚠️ 已删除
-- [dsh-cordis-examples](https://github.com/dsh-external/dsh-cordis-examples) — 最小原生 DSH/Cordis 扩展示例 ⚠️ 已删除
 - [plugin-template](https://github.com/omdsh-dev/plugin-template) — 插件模板仓库（基于 turtle-ui） ⭐11 · `dsh plugin add @your-scope/dsh-plugin-template`
 
 <!-- nav:start -->

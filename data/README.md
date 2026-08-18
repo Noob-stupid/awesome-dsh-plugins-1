@@ -4,7 +4,7 @@
 
 ## 文件
 
-- [`plugins.json`](plugins.json) — 插件结构化数据（334 条种子数据）
+- [`plugins.json`](plugins.json) — 插件结构化数据（368 条种子数据）
 
 ## 字段说明（plugins.json）
 
