@@ -50,17 +50,12 @@ node scripts/gen-web-data.mjs
 
 它会产出 `web/data.js`。**插件数据更新后，跑一次这条命令，刷新页面即可看到最新数据。**
 
-生成脚本的数据来源（只用 14 类清单，已不依赖 `data/plugins.json`）：
+生成脚本的数据来源（只用 14 类清单）：
 
 | 来源 | 提供什么 | 备注 |
 |---|---|---|
 | `data/taxonomy.json` | 14 类权威分类（id / 中英文名 / 描述） | 分类的唯一真源 |
 | `plugins/*.md` | 每个插件的 14 类归属、中文描述、⭐、安装命令 | **网页分类口径与 README 完全一致** |
-
-### 关于「14 类 vs 11 类」的口径
-
-- `plugins/*.md` + `data/taxonomy.json` = 本仓库的 **14 类**权威分类，网页**只认这一套**。
-- `data/plugins.json` 里曾有过上游（awesome-dsh-plugin）的 **11 类**分类，边界与 14 类不同；本网页已完全放弃它，不再读取。
 
 ## 日常数据更新机制（了解即可）
 
@@ -79,4 +74,4 @@ node scripts/gen-web-data.mjs
 1. **分支方式**：把 `web/` 内容推到 `gh-pages` 分支，Pages 源设为该分支根目录。
 2. **Action 方式**：用 `actions/upload-pages-artifact` 上传 `web/` 目录再发布。
 
-> 注意：页面里 footer 有指向 `../data/plugins.json`、`../plugins/` 的相对链接，本地从 `web/` 根访问没问题；部署时若只发布 `web/` 单独目录，这两个链接会 404，可改成指向本仓库 GitHub 页面的绝对 URL。
+> 注意：页面里 footer 有指向 `../plugins/` 的相对链接，本地从 `web/` 根访问没问题；部署时若只发布 `web/` 单独目录，这个链接会 404，可改成指向本仓库 GitHub 页面的绝对 URL。

@@ -31,7 +31,7 @@
 - **每条附 star + 安装命令**，一眼判断热度、一键安装
 - **双语**（英文主 + 中文），一键切换
 - **README 内折叠浏览**，不用跳转就能看完全部分类
-- **机器可读数据**（[data/plugins.json](data/plugins.json)）+ 生成脚本 + 自动同步 CI
+- **机器可读数据**（[web/data.js](web/data.js)）+ 生成脚本 + 自动同步 CI
 
 ## ⚡ 快速开始
 
@@ -39,7 +39,7 @@
 
 1. **浏览**：展开下方任意分类（或点进分类文件），每条插件点链接直达 GitHub 仓库。
 2. **搜索**：在仓库页按 `t`（或 `Ctrl+F`）搜关键词，如 `mcp`、`记忆`、`TUI`、`飞书`、`多Agent`。
-3. **机器消费**：直接读 [`data/plugins.json`](data/plugins.json)（369 条结构化数据，字段说明见 [data/README.md](data/README.md)）。
+3. **机器消费**：直接读 [`web/data.js`](web/data.js)（由 14 类清单生成，说明见 [web/README.md](web/README.md)）。
 
 ## 🔥 热门插件
 
@@ -68,7 +68,7 @@
 |---|---|
 | 收录插件条目 | **299** 条（去重后 299 个插件） |
 | 分类 | **14** 个一级分类 |
-| 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 本仓库种子数据 369 · 兼容雷达追踪 286+ |
+| 生态规模参考 | topic `dsh-plugin` 约 3300+ 仓库 · 兼容雷达追踪 286+ |
 
 ## 🗂 分类目录
 
@@ -542,7 +542,7 @@ export function apply(ctx: Context) {
 
 ## 💾 数据
 
-机器可读的插件数据在 [`data/plugins.json`](data/plugins.json)（369 条种子数据，含 name / repo / npm / star / license / 分类），字段说明与消费示例见 [`data/README.md`](data/README.md)。分类定义见 [`docs/taxonomy.md`](docs/taxonomy.md)。AI / LLM 可读入口见 [llms.txt](llms.txt)。
+机器可读的插件数据在 [`web/data.js`](web/data.js)（由 `scripts/gen-web-data.mjs` 从 14 类清单生成）。分类定义见 [`docs/taxonomy.md`](docs/taxonomy.md)。AI / LLM 可读入口见 [llms.txt](llms.txt)。
 
 ## 🤝 贡献
 

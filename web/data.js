@@ -1,6 +1,6 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-08-18T17:09:53.221Z",
+  "generatedAt": "2026-08-18T17:29:07.470Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
     "plugins": 299,
