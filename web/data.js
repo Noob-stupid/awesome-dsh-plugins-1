@@ -1,12 +1,12 @@
 // 由 scripts/gen-web-data.mjs 自动生成，请勿手改。
 window.__DSH_DATA__ = {
-  "generatedAt": "2026-08-18T16:05:22.983Z",
+  "generatedAt": "2026-08-18T17:09:53.221Z",
   "source": "scripts/gen-web-data.mjs",
   "stats": {
-    "plugins": 293,
+    "plugins": 299,
     "categories": 14,
-    "withInstall": 226,
-    "withStars": 292
+    "withInstall": 231,
+    "withStars": 298
   },
   "categories": [
     {
@@ -984,6 +984,26 @@ window.__DSH_DATA__ = {
       "category": "ui-themes"
     },
     {
+      "name": "TokenLedger",
+      "url": "https://github.com/zh667/TokenLedger",
+      "owner": "zh667",
+      "repo": "TokenLedger",
+      "description": "按中转站点、项目和模型统计本地 DSH Token 用量，并显示账户余额与订阅额度周期",
+      "stars": 99,
+      "install": "dsh plugin --profile web add github:zh667/TokenLedger",
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-web-billing",
+      "url": "https://github.com/bpc-oss/dsh-web-billing",
+      "owner": "bpc-oss",
+      "repo": "dsh-web-billing",
+      "description": "RMB/USD token 计费：官方峰谷价自动计价、按 provider/来源分组统计、预算与余额可视、CSV/JSON 导出",
+      "stars": 10,
+      "install": "dsh plugin --profile web add github:bpc-oss/dsh-web-billing",
+      "category": "ui-themes"
+    },
+    {
       "name": "dsh-model-config-sync",
       "url": "https://github.com/LiangYin233/dsh-provider-model-configurator",
       "owner": "LiangYin233",
@@ -1021,6 +1041,16 @@ window.__DSH_DATA__ = {
       "description": "UI 管家：官方/插件 UI 分区折叠、逐条开关，拖拽移动/改大小，碰撞避让与一键自动排布 · `dsh plugin --profile web add github:Han-1413141/dsh-ui-hub`",
       "stars": 2,
       "install": null,
+      "category": "ui-themes"
+    },
+    {
+      "name": "dsh-what-changed",
+      "url": "https://github.com/sjh9714/dsh-what-changed",
+      "owner": "sjh9714",
+      "repo": "dsh-what-changed",
+      "description": "会话顶栏一屏看完整会话改动，列出 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动",
+      "stars": 2,
+      "install": "dsh plugin --profile web add dsh-what-changed",
       "category": "ui-themes"
     },
     {
@@ -1374,6 +1404,16 @@ window.__DSH_DATA__ = {
       "category": "agent-orchestration"
     },
     {
+      "name": "dph-fleet",
+      "url": "https://github.com/polaris-smart/dph-fleet",
+      "owner": "polaris-smart",
+      "repo": "dph-fleet",
+      "description": "去中心化多设备舰队：mDNS 同网发现 + 密钥配对 + SSH 跨网直连，任意设备可派单/接单（零 npm 依赖）",
+      "stars": 2,
+      "install": "dsh plugin add dph-fleet-0.2.4.tgz",
+      "category": "agent-orchestration"
+    },
+    {
       "name": "dsh-memory-evolve",
       "url": "https://github.com/csyangwen/dsh-memory-evolve",
       "owner": "csyangwen",
@@ -1471,6 +1511,16 @@ window.__DSH_DATA__ = {
       "description": "持续自进化：版本化、可审计、可回滚的 harness 状态（提示词/记忆/技能/子代理规格）沉淀自会话轨迹，带审查门禁与技能热加载",
       "stars": 12,
       "install": "dsh plugin add dsh-continual-evolve",
+      "category": "context-memory"
+    },
+    {
+      "name": "dsh-meow-memory",
+      "url": "https://github.com/Phant0Meow/dsh-meow-memory",
+      "owner": "Phant0Meow",
+      "repo": "dsh-meow-memory",
+      "description": "跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理",
+      "stars": 10,
+      "install": "dsh plugin add github:Phant0Meow/dsh-meow-memory",
       "category": "context-memory"
     },
     {
@@ -2040,6 +2090,16 @@ window.__DSH_DATA__ = {
       "repo": "dsh-onlyne",
       "description": "IM 网关：从 dsh 会话收发 QQ/微信/飞书/Telegram 消息",
       "stars": 2,
+      "install": null,
+      "category": "notifications-channels"
+    },
+    {
+      "name": "dsh-im",
+      "url": "https://github.com/xmanrui/dsh-im",
+      "owner": "xmanrui",
+      "repo": "dsh-im",
+      "description": "一个设置入口统一接入飞书/微信/钉钉/企业微信/QQ/Slack/Telegram/Discord/WhatsApp 机器人，支持扫码、Manifest 或凭据绑定  · `npx -y github:xmanrui/dsh-im install`",
+      "stars": 52,
       "install": null,
       "category": "notifications-channels"
     },

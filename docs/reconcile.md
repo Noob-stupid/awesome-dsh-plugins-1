@@ -2,7 +2,7 @@
 
 > 由 `node scripts/reconcile.mjs` 生成。对比 `data/plugins.json`（种子数据）与 `plugins/*.md`（目录清单）。
 >
-> 数据共 369 条 · 目录共 293 条 · 两者交集 134 条
+> 数据共 369 条 · 目录共 299 条 · 两者交集 134 条
 
 ## 候选待收录（数据里有、目录还没有）— 235 条
 
@@ -246,7 +246,7 @@
 | [jiayan-xu/dsh-ocr-review](https://github.com/jiayan-xu/dsh-ocr-review) | 0 | 开发与运行时 / Development & Runtime |
 | [anweat/dsh-voice-webspeech](https://github.com/anweat/dsh-voice-webspeech) | 0 | 娱乐 / Just for Fun |
 
-## 目录里有、数据里没有 — 159 条
+## 目录里有、数据里没有 — 165 条
 
 多为官方/元项目、dsh-external 私有仓库、或来自其他来源的补充条目，需人工确认是否保留。
 
@@ -296,8 +296,11 @@
 - `xilin3/dsh-prompt-persona` — 🎨 Web UI / 皮肤 / 主题
 - `mongfayi/dsh-local-filetree` — 🎨 Web UI / 皮肤 / 主题
 - `hashdiana/dsh-token-usage` — 🎨 Web UI / 皮肤 / 主题
+- `zh667/tokenledger` — 🎨 Web UI / 皮肤 / 主题
+- `bpc-oss/dsh-web-billing` — 🎨 Web UI / 皮肤 / 主题
 - `liangyin233/dsh-provider-model-configurator` — 🎨 Web UI / 皮肤 / 主题
 - `zhu1090093659/dsh-web-ui` — 🎨 Web UI / 皮肤 / 主题
+- `sjh9714/dsh-what-changed` — 🎨 Web UI / 皮肤 / 主题
 - `lqhl/dsh-pi-tui` — 🖥️ 桌面端 / TUI / 移动端
 - `gxinxing/deepseek-harness-tui` — 🖥️ 桌面端 / TUI / 移动端
 - `orriduck/dsh-tui` — 🖥️ 桌面端 / TUI / 移动端
@@ -321,11 +324,13 @@
 - `asaiuta/dsh-session-hub` — 🤖 Agent 编排 / 多 Agent
 - `huanlinoto/dsh-plugin-yet-another-subagent` — 🤖 Agent 编排 / 多 Agent
 - `dpskh/dsh-a2a` — 🤖 Agent 编排 / 多 Agent
+- `polaris-smart/dph-fleet` — 🤖 Agent 编排 / 多 Agent
 - `csyangwen/dsh-memory-evolve` — 🧠 上下文 / 记忆
 - `tyan66666/billion-context-dsh` — 🧠 上下文 / 记忆
 - `ben7am1n/dsh-memory` — 🧠 上下文 / 记忆
 - `yytbit/dsh-plugin-meta-memory` — 🧠 上下文 / 记忆
 - `detpecca/dsh-llm-wiki` — 🧠 上下文 / 记忆
+- `phant0meow/dsh-meow-memory` — 🧠 上下文 / 记忆
 - `wangxiang0605qvq/dsh-auto-compact` — 🧠 上下文 / 记忆
 - `linglambda/dsh-undo` — 🧠 上下文 / 记忆
 - `mongfayi/dsh-recall` — 🧠 上下文 / 记忆
@@ -354,6 +359,7 @@
 - `ben7am1n/dsh-telegram` — 📡 通知 / 渠道 / 远程
 - `congchuanling-dot/dsh-telegram-relay` — 📡 通知 / 渠道 / 远程
 - `dbydd/dsh-onlyne` — 📡 通知 / 渠道 / 远程
+- `xmanrui/dsh-im` — 📡 通知 / 渠道 / 远程
 - `severuszh/dsh-notify-windows` — 📡 通知 / 渠道 / 远程
 - `muziisabel/dsh-win-notify` — 📡 通知 / 渠道 / 远程
 - `uynajgi/dsh-ssh` — 📡 通知 / 渠道 / 远程

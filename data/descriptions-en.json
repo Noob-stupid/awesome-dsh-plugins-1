@@ -523,5 +523,11 @@
  "yushi-xxh/dsh-homepage-skin": "Puts the DeepSeek Harness homepage-style background on dsh web: WebGL fluid, dot grid and digital whale, in dark and light themes.",
  "2nd1st/dsh-plugin-open-app": "Brings open-mcp-apps into DSH: one sidebar container per MCP app (own workspace, session and App mode), an agent status strip, inline chat rendering and an App Store.",
  "han-1413141/dsh-ui-hub": "UI butler: fold and toggle official/plugin UI by section, drag to move and resize, with collision avoidance and one-click auto layout.",
-  "laplace-bit/dsh-bell-notify": "Rings bells and shows a breathing status dot for Agent lifecycle events; Web Audio synthesized (zero audio files), custom sounds uploadable per event."
+  "laplace-bit/dsh-bell-notify": "Rings bells and shows a breathing status dot for Agent lifecycle events; Web Audio synthesized (zero audio files), custom sounds uploadable per event.",
+ "zh667/tokenledger": "Track local DSH token usage by relay site, project and model, and show account balance and subscription quota cycles.",
+ "sjh9714/dsh-what-changed": "Session top bar summarizing the whole session's changes: every file the agent wrote and each edit, with permission-denied writes counted separately.",
+ "bpc-oss/dsh-web-billing": "RMB/USD token billing: official peak/off-peak auto pricing, per-provider/source cost grouping, budget and balance views, CSV/JSON export.",
+ "phant0meow/dsh-meow-memory": "Cross-session project memory: layered SQLite storage with keyword/semantic retrieval, per-message hit injection and windowed consolidation.",
+ "xmanrui/dsh-im": "One settings entry to connect Feishu/WeChat/DingTalk/WeCom/QQ/Slack/Telegram/Discord/WhatsApp bots via QR scan, App Manifest or credentials.",
+ "polaris-smart/dph-fleet": "Decentralized multi-device fleet: mDNS discovery + key pairing + SSH cross-network control; any device can dispatch or accept tasks (zero npm dependencies)."
 }
