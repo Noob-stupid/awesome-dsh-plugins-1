@@ -14,15 +14,15 @@
 - [dsh-kb-sieve](https://github.com/omdsh-dev/dsh-kb-sieve) — 从 md/txt/docx/pdf 构建可审计知识库包（SQLite FTS5） ⭐2 · `dsh plugin add @dsh-external/dsh-kb-sieve`
 - [dsh-llm-wiki](https://github.com/detpecca/dsh-llm-wiki) — 从 agent 管理 LLM-Wiki 知识库（wiki_search/read/stats/ingest 等） ⭐4 · `dsh plugin add @detpecca/dsh-llm-wiki`
 - [dsh-continual-evolve](https://github.com/ZK-Andy/dsh-continual-evolve) — 持续自进化：版本化、可审计、可回滚的 harness 状态（提示词/记忆/技能/子代理规格）沉淀自会话轨迹，带审查门禁与技能热加载 ⭐14 · `dsh plugin add dsh-continual-evolve`
-- [dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) — 跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理 ⭐17 · `dsh plugin add github:Phant0Meow/dsh-meow-memory`
+- [dsh-meow-memory](https://github.com/Phant0Meow/dsh-meow-memory) — 跨会话项目记忆：SQLite 分层存储 + 关键词/语义检索，逐消息命中注入与窗口期整理 ⭐20 · `dsh plugin add github:Phant0Meow/dsh-meow-memory`
 
 ## 上下文审计 / 压缩 / 蒸馏
 
 - [dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) — 上下文注入审计：统计指令链/技能目录/工具 schema 的 token 成本，检测重复冲突 ⭐15 · `dsh plugin add dsh-context-doctor`
 - [context-vista](https://github.com/GooodWei/context-vista) — `/context` 命令 + 环形图实时展示上下文 token 用量与费用 ⭐10 · `dsh plugin add context-vista`
-- [distill](https://github.com/LoserFox/distill) — 自动对话蒸馏：后台 subagent 反省 + 技能 create/update ⭐19 · `dsh plugin add @loserfox/distill`
+- [distill](https://github.com/LoserFox/distill) — 自动对话蒸馏：后台 subagent 反省 + 技能 create/update ⭐20 · `dsh plugin add @loserfox/distill`
 - [dsh-auto-compact](https://github.com/wangxiang0605qvq/dsh-auto-compact) — compact_now 工具，回合结束自动压缩上下文
-- [dsh-context](https://github.com/bowenliang123/dsh-context) — 上下文洞察面板：展示模型上下文窗口的构成与演化 ⭐484 · `dsh plugin add dsh-context`
+- [dsh-context](https://github.com/bowenliang123/dsh-context) — 上下文洞察面板：展示模型上下文窗口的构成与演化 ⭐486 · `dsh plugin add dsh-context`
 
 ## 会话控制 / 回退
 
@@ -32,7 +32,7 @@
 - [dsh-sidechain](https://github.com/omdsh-dev/dsh-sidechain) — `/side` 持续性侧会话与 `/btw` 一次性侧问，在临时 fork 中运行 ⭐10 · `dsh plugin add @dsh-external/dsh-sidechain`
 - [dsh-message-edit](https://github.com/Moeblack/dsh-message-edit) — 基于分支的消息编辑、reroll、重试与版本时间线 ⭐33 · `dsh plugin add dsh-message-edit`
 - [dsh-session-search](https://github.com/Tieboyh/dsh-session-search) — 跨 dsh/Codex/Claude/pi/OpenCode 会话的无索引全文搜索 ⭐2
-- [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话 ⭐76 · `dsh plugin add dsh-chat-import`
+- [dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) — 13 源全保真导入（Claude Code/Codex/ChatGPT/Cursor/Gemini/Reasonix/opencode/ZCode/Grok Build/OpenClaw/Pi/Hermes/Kimi）历史会话为可续聊 DSH 会话 ⭐78 · `dsh plugin add dsh-chat-import`
 - [dsh-claude-move](https://github.com/PerryLink/dsh-claude-move) — 迁移 Claude Code 会话/记忆/技能/CLAUDE.md 到 DSH ⭐6 · `dsh plugin add dsh-claude-move`
 
 <!-- nav:start -->
