@@ -59,6 +59,7 @@ Top community plugins by GitHub stars:
 | 8 | [dsh-TUI](https://github.com/ccch1mneyyy/dsh-TUI) | Claude Code-style full-screen terminal UI: pixel-whale header, live status line, and streaming thought expansion. | 2140 |
 | 9 | [deepseek-pp](https://github.com/zhu1090093659/deepseek-pp) | Browser-extension AI agent workspace with built-in MCP and memory | 1638 |
 | 10 | [dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | Whale-girl skin series for the DSH Web UI (maid-atelier). | 1486 |
+| 11 | [dsh-plugin-hub](https://github.com/Noob-stupid/dsh-plugin-hub) | DSH plugin manager & marketplace: one-click enable/disable, multi-source market, static index (500+ plugins / 300 skills), skill install/disable, suite assembly, framework upgrade adapter | 62 |
 
 <!-- hot:end -->
 
